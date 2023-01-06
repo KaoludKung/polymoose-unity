@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!28 &-8298083777099827254
+--- !u!28 &-1977366905896685736
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,11 +60,11 @@ MonoBehaviour:
   m_Name: Prompt-Regular SDF
   m_EditorClassIdentifier: 
   hashCode: 1586182658
-  material: {fileID: 1222353059018260123}
+  material: {fileID: 1948629927660884351}
   materialHashCode: -429630110
   m_Version: 1.1.0
-  m_SourceFontFileGUID: f3a729cb5d3d93a4faca60380886ade0
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: f3a729cb5d3d93a4faca60380886ade0, type: 3}
+  m_SourceFontFileGUID: 9e4e3622e8a70fe49870e64172280fb4
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 9e4e3622e8a70fe49870e64172280fb4, type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -1837,7 +1837,7 @@ MonoBehaviour:
     m_GlyphIndex: 551
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: -8298083777099827254}
+  - {fileID: -1977366905896685736}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 0
@@ -2555,7 +2555,7 @@ MonoBehaviour:
   m_FallbackFontAssetTable: []
   m_CreationSettings:
     sourceFontFileName: 
-    sourceFontFileGUID: f3a729cb5d3d93a4faca60380886ade0
+    sourceFontFileGUID: 9e4e3622e8a70fe49870e64172280fb4
     pointSizeSamplingMode: 0
     pointSize: 72
     padding: 5
@@ -2598,7 +2598,7 @@ MonoBehaviour:
   boldSpacing: 7
   italicStyle: 35
   tabSize: 10
---- !u!21 &1222353059018260123
+--- !u!21 &1948629927660884351
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -2631,7 +2631,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: -8298083777099827254}
+        m_Texture: {fileID: -1977366905896685736}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
