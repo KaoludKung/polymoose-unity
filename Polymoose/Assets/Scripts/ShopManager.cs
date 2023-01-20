@@ -11,6 +11,10 @@ public class ShopManager : MonoBehaviour
     [SerializeField] private Button itemButton2;
     [SerializeField] private Button itemButton3;
 
+    /// 0 ??? ?????????????, 1 ??? ?????????????????
+    [SerializeField] private AudioSource itemSource;
+    [SerializeField] private AudioClip[] itemClip;
+
     private int coinCount;
     private int hintCount;
     private int freezeCount;
@@ -23,6 +27,11 @@ public class ShopManager : MonoBehaviour
         hintCount = PlayerPrefs.GetInt("Hints", hintCount);
         freezeCount = PlayerPrefs.GetInt("Freezes", freezeCount);
         extraCount = PlayerPrefs.GetInt("Extratimes", extraCount);
+
+        if(coinCount > 9999)
+        {
+            coinCount = 9999;
+        }
 
         coinText.text = coinCount.ToString();
         Debug.Log("Coin : " + coinCount);
@@ -43,6 +52,8 @@ public class ShopManager : MonoBehaviour
         {
             coinCount -= 50;
             hintCount++;
+            itemSource.clip = itemClip[0];
+            itemSource.Play();
 
             PlayerPrefs.SetInt("Coins", coinCount);
             PlayerPrefs.SetInt("Hints", hintCount);
@@ -51,6 +62,8 @@ public class ShopManager : MonoBehaviour
         }
         else
         {
+            itemSource.clip = itemClip[1];
+            itemSource.Play();
             Debug.Log("Not enough coins");
         }
     }
@@ -61,6 +74,8 @@ public class ShopManager : MonoBehaviour
         {
             coinCount -= 30;
             freezeCount++;
+            itemSource.clip = itemClip[0];
+            itemSource.Play();
 
             PlayerPrefs.SetInt("Coins", coinCount);
             PlayerPrefs.SetInt("Freezes", freezeCount);
@@ -69,6 +84,8 @@ public class ShopManager : MonoBehaviour
         }
         else
         {
+            itemSource.clip = itemClip[1];
+            itemSource.Play();
             Debug.Log("Not enough coins");
         }
     }
@@ -79,6 +96,8 @@ public class ShopManager : MonoBehaviour
         {
             coinCount -= 40;
             extraCount++;
+            itemSource.clip = itemClip[0];
+            itemSource.Play();
 
             PlayerPrefs.SetInt("Coins", coinCount);
             PlayerPrefs.SetInt("Extratimes", extraCount);
@@ -87,6 +106,8 @@ public class ShopManager : MonoBehaviour
         }
         else
         {
+            itemSource.clip = itemClip[1];
+            itemSource.Play();
             Debug.Log("Not enough coins");
         }
     }

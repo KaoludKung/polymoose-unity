@@ -12,6 +12,12 @@ public class LoadCoin : MonoBehaviour
     void Start()
     {
         coinCount = PlayerPrefs.GetInt("Coins", coinCount);
+
+        if (coinCount > 9999)
+        {
+            coinCount = 9999;
+        }
+
         coinText.GetComponent<TextMeshProUGUI>().text = coinCount.ToString();
     }
 

@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.EventSystems;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class SideScroller : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class SideScroller : MonoBehaviour
     private bool facingRight = true;
 
     public bool isInteract = false;
+    public int scene;
 
     // Update is called once per frame
     void Update()
@@ -34,6 +36,7 @@ public class SideScroller : MonoBehaviour
                 if (isInteract)
                 {
                     Debug.Log("This is interact object");
+                    StartCoroutine(ChangeScene(scene));
                 }
             }
             else
@@ -114,6 +117,13 @@ public class SideScroller : MonoBehaviour
         }
 
     }
+
+    IEnumerator ChangeScene(int sceneID)
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(sceneID);
+    }
+
     private bool IsPointerOverUIObject()
     {
         PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);

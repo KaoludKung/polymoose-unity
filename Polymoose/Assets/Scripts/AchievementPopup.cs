@@ -16,74 +16,50 @@ public class AchievementPopup : MonoBehaviour
     [SerializeField] private Sprite[] achievementSprite;
     [SerializeField] private AudioSource achievementSound;
 
+    [SerializeField] private int[] achievement;
+    [SerializeField] private int[] condition;
     [SerializeField] private int[] achievementCode;
-    [SerializeField] private int[] totalStar;
     [SerializeField] private float timer1;
     [SerializeField] private float timer2;
-
-    private int firstclear;
-    private int fullStack;
-    private int totalCoin;
     
     // Start is called before the first frame update
     void Start()
     {
-        for(int i = 0; i < totalStar.Length; i++)
-        {
-            totalStar[i] = PlayerPrefs.GetInt("Stars" + (1 + (3 * i))) + PlayerPrefs.GetInt("Stars" + (2 + (3 * i))) + PlayerPrefs.GetInt("Stars" + (3 + (3 * i)));
-        }
+        achievement[0] = PlayerPrefs.GetInt("Firstclear");
+        achievement[1] = PlayerPrefs.GetInt("Level");
 
-        firstclear = PlayerPrefs.GetInt("Firstclear");
-        fullStack = PlayerPrefs.GetInt("Fullstack");
-        totalCoin = PlayerPrefs.GetInt("Totalcoin");
-        
-        for(int i = 0; i < achievementCode.Length; i++)
+        for (int i = 1; i < 6; i++)
+        {
+            achievement[2] += PlayerPrefs.GetInt("Stars" + i);
+        }
+        Debug.Log(achievement[2]);
+
+
+        achievement[3] = PlayerPrefs.GetInt("Fullstack");
+        achievement[4] = PlayerPrefs.GetInt("Totalcoin");
+
+        for (int i = 0; i < achievementCode.Length; i++)
         {
             achievementCode[i] = PlayerPrefs.GetInt("Acheivement" + i);
         }
+
+        CheckAchievement();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (totalStar[0] == 9 && achievementCode[0] != 12345)
-        {
-            StartCoroutine(TriggerAchievement(0));
-        }
+        
+    }
 
-        if (totalStar[1] == 9 && achievementCode[1] != 12345)
+    void CheckAchievement()
+    {
+        for (int i = 0; i < achievement.Length; i++)
         {
-            StartCoroutine(TriggerAchievement(1));
-        }
-
-        if (totalStar[2] == 9 && achievementCode[2] != 12345)
-        {
-            StartCoroutine(TriggerAchievement(2));
-        }
-
-        if (totalStar[3] == 9 && achievementCode[3] != 12345)
-        {
-            StartCoroutine(TriggerAchievement(3));
-        }
-
-        if (totalStar[4] == 9 && achievementCode[4] != 12345)
-        {
-            StartCoroutine(TriggerAchievement(4));
-        }
-
-        if (firstclear == 1 && achievementCode[5] != 12345)
-        {
-            StartCoroutine(TriggerAchievement(5));
-        }
-
-        if(fullStack == 1 && achievementCode[6] != 12345)
-        {
-            StartCoroutine(TriggerAchievement(6));
-        }
-
-        if(totalCoin >= 2000 && achievementCode[7] != 12345)
-        {
-            StartCoroutine(TriggerAchievement(7));
+            if (achievement[i] >= condition[i] && achievementCode[i] != 12345)
+            {
+                StartCoroutine(TriggerAchievement(i));
+            }
         }
     }
 
@@ -157,51 +133,6 @@ public class AchievementPopup : MonoBehaviour
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[4];
                 achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[4];
                 achievementImage.GetComponent<Image>().sprite = achievementSprite[4];
-
-                yield return new WaitForSeconds(timer1);
-                achievementPanel.SetActive(true);
-                achievementSound.Play();
-
-                yield return new WaitForSeconds(timer2);
-                achievementPanel.SetActive(false);
-                break;
-
-            case 5:
-                achievementCode[5] = 12345;
-                PlayerPrefs.SetInt("Acheivement" + 5, achievementCode[5]);
-                achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[5];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[5];
-                achievementImage.GetComponent<Image>().sprite = achievementSprite[5];
-
-                yield return new WaitForSeconds(timer1);
-                achievementPanel.SetActive(true);
-                achievementSound.Play();
-
-                yield return new WaitForSeconds(timer2);
-                achievementPanel.SetActive(false);
-                break;
-
-            case 6:
-                achievementCode[6] = 12345;
-                PlayerPrefs.SetInt("Acheivement" + 6, achievementCode[6]);
-                achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[6];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[6];
-                achievementImage.GetComponent<Image>().sprite = achievementSprite[6];
-
-                yield return new WaitForSeconds(timer1);
-                achievementPanel.SetActive(true);
-                achievementSound.Play();
-
-                yield return new WaitForSeconds(timer2);
-                achievementPanel.SetActive(false);
-                break;
-
-            case 7:
-                achievementCode[7] = 12345;
-                PlayerPrefs.SetInt("Acheivement" + 7, achievementCode[7]);
-                achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[7];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[7];
-                achievementImage.GetComponent<Image>().sprite = achievementSprite[7];
 
                 yield return new WaitForSeconds(timer1);
                 achievementPanel.SetActive(true);

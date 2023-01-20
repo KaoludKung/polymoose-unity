@@ -6,76 +6,81 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-
 public class QuizManager : MonoBehaviour
 {
     [SerializeField] private QuizUI quizUI;
-    [SerializeField] private SummaryManager summaryManager;
     [SerializeField] private List<Question> questions;
     [SerializeField] private Question selectedQuestion;
+
+    [SerializeField] private int level;
     [SerializeField] private int questionNum;
-
-    [SerializeField] private GameObject hints;
-    [SerializeField] private Button hintsButton;
-    [SerializeField] private Button freezeButton;
-    [SerializeField] private Button extraButton;
-
-    [SerializeField] private Transform fillBar;
-    [SerializeField] private float delay;
-    [SerializeField] private float timeBouns;
+    [SerializeField] private bool firstQuestion;
+ 
+    [SerializeField] private GameObject hintsText;
+    [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
 
     [SerializeField] private TextMeshProUGUI hintCountText;
     [SerializeField] private TextMeshProUGUI freezeCountText;
     [SerializeField] private TextMeshProUGUI extraCountText;
 
+    [SerializeField] private Button hintsButton;
+    [SerializeField] private Button freezeButton;
+    [SerializeField] private Button extraButton;
+
+    [SerializeField] private GameObject[] items;
+    [SerializeField] private AudioSource itemSource;
+    [SerializeField] private AudioClip[] itemClip;
+
+    private float currentTime;
+    private int index = 0;
+    private int score;
+    private int combo;
+    private int totalCorrect;
+
     private int hintCount;
     private int freezeCount;
     private int extraCount;
 
-    private float currentTime;
-    private int index = 0;
-    
-    private int gameScore;
-    private int corretStack = 0;
-    private int resultStack = 0;
-    private int coinStack = 1;
-    
     private bool isRunning = false;
     private bool isUsing = false;
+    public bool timeOver = true;
 
-    public int level;
-    private int coinCount;
-    private int totalCoin;
-    private int stars;
-    private int currentStars;
-    
-    private int highScore;
-    private int percent;
-    private float result;
+    public GameObject currentObject;
+    public GameObject nextObject;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        SelectQuestion();
-        hints.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
+        if (firstQuestion)
+        {
+            PlayerPrefs.SetInt("Score" + level, 0);
+            PlayerPrefs.SetInt("Combo" + level, 0);
+            PlayerPrefs.SetInt("Totalcorrect" + level, 1);
+        }
+
+        combo = PlayerPrefs.GetInt("Combo" + level, combo);
+        score = PlayerPrefs.GetInt("Score" + level, score);
+        totalCorrect = PlayerPrefs.GetInt("Totalcorrect" + level, totalCorrect);
+        scoreText.text = "Score : " + score.ToString();
 
         hintCount = PlayerPrefs.GetInt("Hints", hintCount);
         freezeCount = PlayerPrefs.GetInt("Freezes", freezeCount);
         extraCount = PlayerPrefs.GetInt("Extratimes", extraCount);
 
+        hintsText.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
         hintCountText.text = hintCount.ToString();
         freezeCountText.text = freezeCount.ToString();
         extraCountText.text = extraCount.ToString();
+    }
 
-        hintsButton.onClick.AddListener(ShowHints);
-        freezeButton.onClick.AddListener(StopTime);
-        extraButton.onClick.AddListener(ExtraTime);
+    // Start is called before the first frame update
+    void Start()
+    {
+        SelectQuestion();
 
-        highScore = PlayerPrefs.GetInt("Highscore" + level, highScore);
-        stars = PlayerPrefs.GetInt("Stars" + level, stars);
-        coinCount = PlayerPrefs.GetInt("Coins", coinCount);
-        totalCoin = PlayerPrefs.GetInt("Totalcoin", totalCoin);
+        hintsButton.onClick.AddListener(() => UseItem(1));
+        freezeButton.onClick.AddListener(() => UseItem(2));
+        extraButton.onClick.AddListener(() => UseItem(3));
     }
 
     // Update is called once per frame
@@ -84,37 +89,65 @@ public class QuizManager : MonoBehaviour
         hintCountText.text = hintCount.ToString();
         freezeCountText.text = freezeCount.ToString();
         extraCountText.text = extraCount.ToString();
+    }
 
+    private void FixedUpdate()
+    {
         if (isRunning)
         {
-            currentTime -= delay * Time.deltaTime;
-            fillBar.GetComponent<Image>().fillAmount = currentTime;
-            hints.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
+            hintsText.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
 
-            if (currentTime < 0)
+            if (currentTime > 0)
+            {
+                currentTime -= Time.deltaTime;
+                timerText.text = currentTime.ToString("###0");
+            }
+            else
             {
                 isRunning = false;
-                Invoke("SelectQuestion", 1.0f);
+                timeOver = true;
+                itemSource.clip = itemClip[4];
+                itemSource.Play();
+                Invoke("SelectQuestion", 3.0f);
             }
         }
     }
 
     void SelectQuestion()
     {
-        if(index < questionNum)
+        if(index < questions.Count)
         {
-            currentTime = 1;
-            int val = UnityEngine.Random.Range(0, questions.Count);
-            selectedQuestion = questions[val];
+            currentTime = 30.0f;
+            timeOver = false;
+            selectedQuestion = questions[index];
+
             quizUI.SetQuestion(selectedQuestion);
+
+            for (int i = 0; i < items.Length; i++)
+            {
+                items[i].SetActive(true);
+            }
+
             isRunning = true;
-            questions.RemoveAt(val);
             index += 1;
         }
         else
         {
-            EndGame();
+            Invoke("EndQuiz", 1.5f);
         }
+    }
+
+    void EndQuiz()
+    {
+        Destroy(currentObject);
+
+        for (int i = 0; i < items.Length; i++)
+        {
+            items[i].SetActive(false);
+        }
+
+        nextObject.SetActive(true);
+        Debug.Log("Next Object");
     }
 
     public bool Answer(string answered)
@@ -124,238 +157,136 @@ public class QuizManager : MonoBehaviour
         if(answered == selectedQuestion.correctAnswer)
         {
             correctAnswer = true;
-            corretStack++;
-            resultStack++;
-            coinStack++;
-            gameScore += 500;
+            score += 500;
+            combo++;
+            totalCorrect++;
             
-            if(corretStack > 0)
+            if(combo > 0)
             {
-                gameScore += 50 * corretStack;
+                score += 50 * combo;
             }
 
-            scoreText.text = "Score : " + gameScore;
+            scoreText.text = "Score : " + score;
         }
         else
         {
-            corretStack = 0;
+            combo = 0;
         }
 
         isRunning = false;
-        Invoke("SelectQuestion", 2.5f);
+        PlayerPrefs.SetInt("Score" + level, score);
+        PlayerPrefs.SetInt("Combo" + level, combo);
+        PlayerPrefs.SetInt("Totalcorrect" + level, totalCorrect);
+        Invoke("SelectQuestion", 3.0f);
         return correctAnswer;
     }
 
-    void ShowHints()
+    private void UseItem(int id)
     {
-        StartCoroutine(Hints());
-    }
-
-    void StopTime()
-    {
-        StartCoroutine(TimeStop());
-    }
-
-    void ExtraTime()
-    {
-        StartCoroutine(AddTime());
+        switch (id)
+        {
+            case 1:
+                StartCoroutine(Hints());
+                break;
+            
+            case 2:
+                StartCoroutine(TimeStop());
+                break;
+            
+            case 3:
+                StartCoroutine(AddTime());
+                break;
+        }
+        
     }
 
     IEnumerator Hints()
     {
-        if(hintCount > 0 && isRunning)
+        if (hintCount > 0 && isRunning)
         {
             if (!isUsing)
             {
                 isUsing = true;
-                yield return new WaitForSeconds(1f);
-                hints.SetActive(true);
+                itemSource.clip = itemClip[1];
+                itemSource.Play();
+                yield return new WaitForSeconds(0.5f);
+                hintsText.SetActive(true);
 
                 hintCount--;
                 PlayerPrefs.SetInt("Hints", hintCount);
                 PlayerPrefs.Save();
 
-                yield return new WaitForSeconds(5f);
-                hints.SetActive(false);
+                yield return new WaitForSeconds(1.5f);
+                hintsText.SetActive(false);
                 isUsing = false;
             }
         }
         else
         {
+            itemSource.clip = itemClip[0];
+            itemSource.Play();
             Debug.Log("Can't use item!");
         }
-        
+
     }
 
     IEnumerator TimeStop()
     {
-        if(freezeCount > 0 && isRunning)
+        if (freezeCount > 0 && isRunning)
         {
             if (!isUsing)
             {
                 isUsing = true;
-                yield return new WaitForSeconds(1.0f);
+                itemSource.clip = itemClip[2];
+                itemSource.Play();
+                yield return new WaitForSeconds(0.5f);
                 isRunning = false;
 
                 freezeCount--;
                 PlayerPrefs.SetInt("Freezes", freezeCount);
                 PlayerPrefs.Save();
 
-                yield return new WaitForSeconds(10.0f);
+                yield return new WaitForSeconds(15.0f);
                 isRunning = true;
                 isUsing = false;
             }
         }
         else
         {
+            itemSource.clip = itemClip[0];
+            itemSource.Play();
             Debug.Log("Can't use item!");
         }
     }
 
     IEnumerator AddTime()
     {
-        if(extraCount > 0 && isRunning)
+        if (extraCount > 0 && isRunning)
         {
             if (!isUsing)
             {
                 isUsing = true;
-                yield return new WaitForSeconds(1.0f);
-                currentTime += timeBouns;
+                itemSource.clip = itemClip[3];
+                itemSource.Play();
+                yield return new WaitForSeconds(0.5f);
+                currentTime += 5;
 
                 extraCount--;
                 PlayerPrefs.SetInt("Extratimes", extraCount);
                 PlayerPrefs.Save();
-
-                if (currentTime > 1)
-                {
-                    currentTime = 1;
-                }
 
                 isUsing = false;
             }
         }
         else
         {
+            itemSource.clip = itemClip[0];
+            itemSource.Play();
             Debug.Log("Can't use item!");
         }
     }
 
-    void EndGame()
-    {
-        CalculateScore();
-        UpdateData();
-        
-        if (percent >= 30)
-        {
-            summaryManager.summaryText.text = "LEVEL CLEAR!";
 
-            if (PlayerPrefs.GetInt("Level") == 0)
-            {
-                PlayerPrefs.SetInt("Level", 1);
-            }
-
-            if (level >= PlayerPrefs.GetInt("Level"))
-            {
-                PlayerPrefs.SetInt("Level", level + 1);
-            }
-
-            PlayerPrefs.SetInt("Firstclear", 1);
-            PlayerPrefs.Save();
-
-            OpenCanvas();   
-        }
-        else
-        {
-            summaryManager.summaryText.text = "LEVEL FAILED!";
-            OpenCanvas();
-        }
-
-        Debug.Log("End");
-    }
-
-    void OpenCanvas()
-    {
-        int coinResult = 10 * coinStack;
-
-        summaryManager.finalScoreText.text = gameScore.ToString();
-        summaryManager.coinText.text = coinResult.ToString();
-        ChangeStar();
-
-        summaryManager.currentCanvas.SetActive(false);
-        summaryManager.summaryCanvas.SetActive(true);
-    }
-
-    void ChangeStar()
-    {
-        if(currentStars == 1)
-        {
-            summaryManager.star2.GetComponent<Image>().color = new Color32(192, 192, 192, 100);
-            summaryManager.star3.GetComponent<Image>().color = new Color32(192, 192, 192, 100);
-            Debug.Log("1 Star");
-        }
-        else if(currentStars == 2)
-        {
-            summaryManager.star3.GetComponent<Image>().color = new Color32(192, 192, 192, 100);
-            Debug.Log("2 Star");
-        }
-        else if(currentStars == 3)
-        {
-            Debug.Log("3 Star");
-        }
-        else
-        {
-            summaryManager.star1.GetComponent<Image>().color = new Color32(192, 192, 192, 100);
-            summaryManager.star2.GetComponent<Image>().color = new Color32(192, 192, 192, 100);
-            summaryManager.star3.GetComponent<Image>().color = new Color32(192, 192, 192, 100);
-            Debug.Log("No Star");
-        }
-    }
-
-    void CalculateScore()
-    {
-        result = (gameScore/3250f) * 100f;
-        percent = (int)Math.Round(result);
-
-        if(percent >= 80)
-        {
-            currentStars = 3;
-        }
-        else if(percent >= 60)
-        {
-            currentStars = 2;
-        }
-        else if(percent >= 30)
-        {
-           currentStars = 1;
-        }
-    }
-
-    void UpdateData()
-    {
-        PlayerPrefs.SetInt("Coins", coinCount + (10 * coinStack));
-        PlayerPrefs.SetInt("Totalcoin", totalCoin + (10 * coinStack));
-        PlayerPrefs.Save();
-
-        if (gameScore > PlayerPrefs.GetInt("Highscore" + level))
-        {
-            highScore = gameScore;
-            PlayerPrefs.SetInt("Highscore" + level, highScore);
-            PlayerPrefs.Save();
-        }
-
-        if(currentStars > PlayerPrefs.GetInt("Stars" + level))
-        {
-            stars = currentStars;
-            PlayerPrefs.SetInt("Stars" + level, stars);
-            PlayerPrefs.Save();
-        }
-
-        if(resultStack == questionNum)
-        {
-            PlayerPrefs.SetInt("Fullstack", 1);
-            PlayerPrefs.Save();
-        }
-    }
 }
 
 [System.Serializable]
