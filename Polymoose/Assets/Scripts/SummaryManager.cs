@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,23 +8,47 @@ using TMPro;
 
 public class SummaryManager : MonoBehaviour
 {
-    public GameObject summaryCanvas;
-    public GameObject currentCanvas;
+    [SerializeField] GameObject[] starImage;
+    [SerializeField] GameObject summaryCanvas;
+    [SerializeField] GameObject highscoreText;
+    [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] TextMeshProUGUI summaryText;
+    [SerializeField] TextMeshProUGUI coinText;
 
-    public GameObject star1;
-    public GameObject star2;
-    public GameObject star3;
-
-    public TextMeshProUGUI summaryText;
-    public TextMeshProUGUI finalScoreText;
-    public TextMeshProUGUI coinText;
+    /// 0 ??? ????????????, 1 ??? ???????????????
+    [SerializeField] private AudioSource levelSource;
+    [SerializeField] private AudioClip[] levelClip;
 
     [SerializeField] private Button retryButton;
     [SerializeField] private Button menuButton;
 
+    public int level;
+    public int quizCount;
+    public float maxScore;
+    
+    private int percent;
+    private int highScore;
+    private int score;
+    private int combo;
+    private int totalCorrect;
+    
+    private int coinCount;
+    private int totalCoin;
+    private int stars;
+    private int currentStars;
+
+    private bool isHighscore = false;
+
     // Start is called before the first frame update
     void Start()
     {
+        score = PlayerPrefs.GetInt("Score" + level, score);
+        combo = PlayerPrefs.GetInt("Combo" + level, combo);
+        totalCorrect = PlayerPrefs.GetInt("Totalcorrect" + level, totalCorrect);
+        coinCount = PlayerPrefs.GetInt("Coins", coinCount);
+        totalCoin = PlayerPrefs.GetInt("Totalcoin", totalCoin);
+
+        EndLevel();
         retryButton.onClick.AddListener(Retry);
         menuButton.onClick.AddListener(Menu);
     }
@@ -36,5 +61,126 @@ public class SummaryManager : MonoBehaviour
     void Menu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    void EndLevel()
+    {
+        CalculateScore();
+        UpdateData();
+
+        if (percent >= 30)
+        {
+            summaryText.text = "LEVEL CLEAR!";
+
+            if (PlayerPrefs.GetInt("Level") == 0)
+            {
+                PlayerPrefs.SetInt("Level", 1);
+            }
+
+            if (level >= PlayerPrefs.GetInt("Level"))
+            {
+                PlayerPrefs.SetInt("Level", level + 1);
+            }
+
+            PlayerPrefs.SetInt("Firstclear", 1);
+            PlayerPrefs.Save();
+
+            OpenCanvas();
+            levelSource.clip = levelClip[0];
+            levelSource.Play();
+        }
+        else
+        {
+            summaryText.text = "LEVEL FAILED!";
+            OpenCanvas();
+            levelSource.clip = levelClip[1];
+            levelSource.Play();
+        }
+
+        Debug.Log("End");
+    }
+
+    void OpenCanvas()
+    {
+        scoreText.text = score.ToString();
+        coinText.text = (10 * totalCorrect).ToString();
+        ChangeStar();
+        summaryCanvas.SetActive(true);
+
+        if (isHighscore)
+        {
+            highscoreText.SetActive(true);
+            isHighscore = false;
+        }
+    }
+
+    void ChangeStar()
+    {
+        if (currentStars == 1)
+        {
+            starImage[1].GetComponent<Image>().color = new Color(0.5f, 0.5f, 0.5f, 1f);
+            starImage[2].GetComponent<Image>().color = new Color(0.5f, 0.5f, 0.5f, 1f);
+            Debug.Log("1 Star");
+        }
+        else if (currentStars == 2)
+        {
+            starImage[2].GetComponent<Image>().color = new Color(0.5f, 0.5f, 0.5f, 1f);
+            Debug.Log("2 Star");
+        }
+        else if (currentStars == 3)
+        {
+            Debug.Log("3 Star");
+        }
+        else
+        {
+            for(int i = 0; i < starImage.Length; i++)
+            {
+                starImage[i].GetComponent<Image>().color = new Color(0.5f, 0.5f, 0.5f, 1f);
+            }
+            Debug.Log("Failed");
+        }
+    }
+
+    void CalculateScore()
+    {
+        percent = (int)Math.Round((score / maxScore) * 100f);
+        Debug.Log("Percent: " + percent);
+
+        if (percent >= 80)
+        {
+            currentStars = 3;
+        }
+        else if (percent >= 60)
+        {
+            currentStars = 2;
+        }
+        else if (percent >= 30)
+        {
+            currentStars = 1;
+        }
+    }
+
+    void UpdateData()
+    {
+        PlayerPrefs.SetInt("Coins", coinCount + (10 * totalCorrect));
+        PlayerPrefs.SetInt("Totalcoin", totalCoin + (10 * totalCorrect));
+       
+        if (score > PlayerPrefs.GetInt("Highscore" + level))
+        {
+            highScore = score;
+            isHighscore = true;
+            PlayerPrefs.SetInt("Highscore" + level, highScore);
+        }
+
+        if (currentStars > PlayerPrefs.GetInt("Stars" + level))
+        {
+            stars = currentStars;
+            PlayerPrefs.SetInt("Stars" + level, stars);
+        }
+
+        if (combo == quizCount)
+        {
+            PlayerPrefs.SetInt("Fullstack", 1);
+        }
     }
 }

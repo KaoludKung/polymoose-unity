@@ -30,12 +30,6 @@ public class QuizUI : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SetQuestion(Question question)
     {
         this.question = question;
@@ -81,7 +75,6 @@ public class QuizUI : MonoBehaviour
         }
     }
 
-    ///?????????///
     IEnumerator PlayAudio()
     {
         if(question.questionType == QuestionType.AUDIO)
@@ -107,7 +100,7 @@ public class QuizUI : MonoBehaviour
 
     private void OnClicK(Button btn)
     {
-        if (!answered)
+        if (!answered && !quizManager.timeOver)
         {
             answered = true;
             bool val = quizManager.Answer(btn.name);

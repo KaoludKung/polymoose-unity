@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField] private GameObject currentSet;
     [SerializeField] private GameObject nameNpc;
     [SerializeField] private TextMeshProUGUI textComponent;
+    [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject nextSet;
 
     [SerializeField] private string[] sentences;
@@ -19,7 +20,7 @@ public class DialogueManager : MonoBehaviour
     
     private int index;
     private bool isTalking;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +34,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if(textComponent.text == sentences[index])
+            if (textComponent.text == sentences[index] && nextButton.activeSelf)
             {
                 NextLine();
             }
@@ -41,8 +42,10 @@ public class DialogueManager : MonoBehaviour
             {
                 StopAllCoroutines();
                 textComponent.text = sentences[index];
+                nextButton.SetActive(true);
             }
         }
+
     }
 
     void StartDialogue()
@@ -66,6 +69,9 @@ public class DialogueManager : MonoBehaviour
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
+
+        yield return new WaitForSeconds(0.5f);
+        nextButton.SetActive(true);
     }
 
     IEnumerator PlaySound()
@@ -80,6 +86,7 @@ public class DialogueManager : MonoBehaviour
         if(index < sentences.Length - 1)
         {
             index++;
+            nextButton.SetActive(false);
             textComponent.text = string.Empty;
             StartCoroutine(PlaySound());
             StartCoroutine(TypeLine());
@@ -87,7 +94,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             isTalking = false;
-            currentSet.SetActive(false);
+            Destroy(gameObject);
             nextSet.SetActive(true);
         }
     }
