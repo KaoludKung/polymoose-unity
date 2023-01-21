@@ -9,10 +9,10 @@ public class AchievementPopup : MonoBehaviour
     [SerializeField] private GameObject achievementPanel;
     [SerializeField] private GameObject achievementImage;
     [SerializeField] private GameObject achievementTitle;
-    [SerializeField] private GameObject achievementDetail;
+    [SerializeField] private GameObject achievementName;
 
     [SerializeField] private string[] titleText;
-    [SerializeField] private string[] detailText;
+    [SerializeField] private string[] nameText;
     [SerializeField] private Sprite[] achievementSprite;
     [SerializeField] private AudioSource achievementSound;
 
@@ -46,12 +46,6 @@ public class AchievementPopup : MonoBehaviour
         CheckAchievement();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void CheckAchievement()
     {
         for (int i = 0; i < achievement.Length; i++)
@@ -71,7 +65,7 @@ public class AchievementPopup : MonoBehaviour
                 achievementCode[0] = 12345;
                 PlayerPrefs.SetInt("Acheivement" + 0, achievementCode[0]);
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[0];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[0];
+                achievementName.GetComponent<TextMeshProUGUI>().text = nameText[0];
                 achievementImage.GetComponent<Image>().sprite = achievementSprite[0];
 
                 yield return new WaitForSeconds(timer1);
@@ -86,7 +80,7 @@ public class AchievementPopup : MonoBehaviour
                 achievementCode[1] = 12345;
                 PlayerPrefs.SetInt("Acheivement" + 1, achievementCode[1]);
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[1];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[1];
+                achievementName.GetComponent<TextMeshProUGUI>().text = nameText[1];
                 achievementImage.GetComponent<Image>().sprite = achievementSprite[1];
 
                 yield return new WaitForSeconds(timer1);
@@ -101,7 +95,7 @@ public class AchievementPopup : MonoBehaviour
                 achievementCode[2] = 12345;
                 PlayerPrefs.SetInt("Acheivement" + 2, achievementCode[2]);
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[2];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[2];
+                achievementName.GetComponent<TextMeshProUGUI>().text = nameText[2];
                 achievementImage.GetComponent<Image>().sprite = achievementSprite[2];
 
                 yield return new WaitForSeconds(timer1);
@@ -116,7 +110,7 @@ public class AchievementPopup : MonoBehaviour
                 achievementCode[3] = 12345;
                 PlayerPrefs.SetInt("Acheivement" + 3, achievementCode[3]);
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[3];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[3];
+                achievementName.GetComponent<TextMeshProUGUI>().text = nameText[3];
                 achievementImage.GetComponent<Image>().sprite = achievementSprite[3];
 
                 yield return new WaitForSeconds(timer1);
@@ -131,7 +125,7 @@ public class AchievementPopup : MonoBehaviour
                 achievementCode[3] = 12345;
                 PlayerPrefs.SetInt("Acheivement" + 4, achievementCode[4]);
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[4];
-                achievementDetail.GetComponent<TextMeshProUGUI>().text = detailText[4];
+                achievementName.GetComponent<TextMeshProUGUI>().text = nameText[4];
                 achievementImage.GetComponent<Image>().sprite = achievementSprite[4];
 
                 yield return new WaitForSeconds(timer1);
