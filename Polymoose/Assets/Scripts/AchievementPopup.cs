@@ -32,7 +32,7 @@ public class AchievementPopup : MonoBehaviour
         {
             achievement[2] += PlayerPrefs.GetInt("Stars" + i);
         }
-        Debug.Log(achievement[2]);
+        //Debug.Log(achievement[2]);
 
 
         achievement[3] = PlayerPrefs.GetInt("Fullstack");

@@ -17,7 +17,7 @@ public class LoadTotalStars : MonoBehaviour
         }
         
         starText.GetComponent<TextMeshProUGUI>().text = totalStars.ToString() + "/15";
-        Debug.Log("TotalStar :" + totalStars);
+        Debug.Log("TotalStar: " + totalStars);
     }
    
 }
