@@ -5,8 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-    public void ChangeScene(int sceneID)
+    [SerializeField] float time;
+    public void ChangeScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneID);
+        StartCoroutine(DelayScene(sceneName));
     }
+
+    IEnumerator DelayScene(string sceneName)
+    {
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(sceneName);
+    }
+
 }
