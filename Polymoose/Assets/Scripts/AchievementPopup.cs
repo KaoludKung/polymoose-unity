@@ -25,8 +25,8 @@ public class AchievementPopup : MonoBehaviour
 
     private void Awake()
     {
-        PlayerPrefs.SetInt("Acheivement" + 3, 0);
-        PlayerPrefs.SetInt("Fullstack", 1);
+        //PlayerPrefs.SetInt("Acheivement" + 0, 0);
+        //PlayerPrefs.SetInt("Firstclear", 0);
     }
 
     // Start is called before the first frame update
