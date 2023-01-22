@@ -746,7 +746,7 @@ RectTransform:
   - {fileID: 957698823}
   - {fileID: 128419438}
   m_Father: {fileID: 1594062960}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -1970,7 +1970,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4c9e882468f43304794528a2dd942a0c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.8
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2078,22 +2078,22 @@ MonoBehaviour:
   - Badge Unlocked!
   - Badge Unlocked!
   detailText:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Nice Try
+  - The End
+  - Super Star
+  - Full Combo
+  - Gem Collector
   achievementSprite:
-  - {fileID: 21300000, guid: ee871218f324cc4419eb6015583a2e25, type: 3}
-  - {fileID: 21300000, guid: ee871218f324cc4419eb6015583a2e25, type: 3}
-  - {fileID: 21300000, guid: ee871218f324cc4419eb6015583a2e25, type: 3}
-  - {fileID: 21300000, guid: ee871218f324cc4419eb6015583a2e25, type: 3}
-  - {fileID: 21300000, guid: ee871218f324cc4419eb6015583a2e25, type: 3}
+  - {fileID: 21300000, guid: 239fbf4d52d02304d9c3bda161c9484e, type: 3}
+  - {fileID: 21300000, guid: ab9cfbab60b6ed5488d2c79490dce3bd, type: 3}
+  - {fileID: 21300000, guid: 8adc99b402a93ee4fa80c893de66c586, type: 3}
+  - {fileID: 21300000, guid: cd968ef64a992624cb370b11bf55db6f, type: 3}
+  - {fileID: 21300000, guid: 72d1071c40092724cad4e2e4d28c217d, type: 3}
   achievementSound: {fileID: 646495220}
   achievement: 0000000000000000000000000000000000000000
   condition: 01000000050000000f00000001000000d0070000
   achievementCode: 0000000000000000000000000000000000000000
-  timer1: 0.5
+  timer1: 1.5
   timer2: 5.5
 --- !u!4 &646495222
 Transform:
@@ -3292,7 +3292,7 @@ RectTransform:
   - {fileID: 508550716}
   - {fileID: 1359202229}
   m_Father: {fileID: 1594062960}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -4842,9 +4842,9 @@ RectTransform:
   - {fileID: 2120221031}
   - {fileID: 818890140}
   - {fileID: 1931944845}
-  - {fileID: 1682167788}
   - {fileID: 273622859}
   - {fileID: 1032642505}
+  - {fileID: 1682167788}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5105,7 +5105,7 @@ RectTransform:
   - {fileID: 845973809}
   - {fileID: 508183604}
   m_Father: {fileID: 1594062960}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
