@@ -1029,7 +1029,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: -18}
+  m_AnchoredPosition: {x: 35, y: -21.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508183605
@@ -1052,10 +1052,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Badge Unloked
+  m_text: Badge Unlocked
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 93bdff716418ae943a732de01d8972ac, type: 2}
-  m_sharedMaterial: {fileID: 1948629927660884351, guid: 93bdff716418ae943a732de01d8972ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
+  m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1118,7 +1118,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -35.44394, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &508183606
@@ -2072,11 +2072,11 @@ MonoBehaviour:
   achievementTitle: {fileID: 845973810}
   achievementName: {fileID: 508183605}
   titleText:
-  - Badge Unlocked!
-  - Badge Unlocked!
-  - Badge Unlocked!
-  - Badge Unlocked!
-  - Badge Unlocked!
+  - Badge Unlocked
+  - Badge Unlocked
+  - Badge Unlocked
+  - Badge Unlocked
+  - Badge Unlocked
   detailText:
   - Nice Try
   - The End
@@ -2910,7 +2910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: 7}
+  m_AnchoredPosition: {x: 35.00001, y: 3.399994}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845973810
@@ -2933,7 +2933,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Badge Unloked
+  m_text: Badge Unlocked
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d8f406aa063941b4088e18aaeedf6813, type: 2}
   m_sharedMaterial: {fileID: 8445050108436729607, guid: d8f406aa063941b4088e18aaeedf6813, type: 2}
@@ -5125,14 +5125,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14150941, g: 0.113029525, b: 0.113029525, a: 1}
+  m_Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7ebbe28948856f3469340a93e66309d0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5898,8 +5898,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: -111, y: 0}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126099287
 MonoBehaviour:
