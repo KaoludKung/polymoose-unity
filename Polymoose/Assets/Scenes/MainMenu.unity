@@ -2066,22 +2066,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 914b3f06049dc514ebb7ecb9c0f11b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  achievementPanel: {fileID: 1682167787}
-  achievementImage: {fileID: 2126099285}
-  achievementTitle: {fileID: 845973808}
-  achievementName: {fileID: 508183603}
+  achievementPopup: {fileID: 1682167787}
+  achievementPanel: {fileID: 1682167789}
+  achievementImage: {fileID: 2126099287}
+  achievementTitle: {fileID: 845973810}
+  achievementName: {fileID: 508183605}
   titleText:
   - Badge Unlocked!
   - Badge Unlocked!
   - Badge Unlocked!
   - Badge Unlocked!
   - Badge Unlocked!
-  nameText:
-  - Nice Try
-  - A Good Student
-  - Super Star
-  - Full Combo
-  - Gem Collector
+  detailText:
+  - 
+  - 
+  - 
+  - 
+  - 
   achievementSprite:
   - {fileID: 21300000, guid: ee871218f324cc4419eb6015583a2e25, type: 3}
   - {fileID: 21300000, guid: ee871218f324cc4419eb6015583a2e25, type: 3}
@@ -2093,7 +2094,7 @@ MonoBehaviour:
   condition: 01000000050000000f00000001000000d0070000
   achievementCode: 0000000000000000000000000000000000000000
   timer1: 0.5
-  timer2: 3
+  timer2: 5.5
 --- !u!4 &646495222
 Transform:
   m_ObjectHideFlags: 0
