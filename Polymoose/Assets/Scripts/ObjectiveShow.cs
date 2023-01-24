@@ -5,6 +5,7 @@ using TMPro;
 
 public class ObjectiveShow : MonoBehaviour
 {
+    [SerializeField] GameObject Objective;
     [SerializeField] TextMeshProUGUI objectiveText;
     [SerializeField] string message;
 
@@ -29,6 +30,8 @@ public class ObjectiveShow : MonoBehaviour
     
     IEnumerator FadeAnimation()
     {
+        yield return new WaitForSeconds(1.5f);
+        Objective.SetActive(true);
         objectiveText.CrossFadeAlpha(1.0f, 3.0f, false);
         yield return new WaitForSeconds(4.0f);
         objectiveText.CrossFadeAlpha(0.0f, 3.5f, false);
