@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
                    StartCoroutine(ChangeScene(scene));
                 }
             }
-            else if((hit.collider.tag == "background"))
+            else if(hit.collider.tag == "background")
             {
                 target = new Vector2(CurrentPosition.x, transform.position.y);
                 isMoving = true;
