@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class SideScroller : MonoBehaviour
+public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private AudioSource footStep;
@@ -27,29 +27,25 @@ public class SideScroller : MonoBehaviour
     {
         Vector2 CurrentPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        //&& !IsPointerOverUIObject()
-
         if (Input.GetMouseButtonUp(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-
+            
             if (hit.collider.tag == "interact")
             {
                 if (isInteract)
                 {
-                    Debug.Log("This is interact object");
-                    StartCoroutine(ChangeScene(scene));
+                   StartCoroutine(ChangeScene(scene));
                 }
             }
-            else
+            else if((hit.collider.tag == "background"))
             {
                 target = new Vector2(CurrentPosition.x, transform.position.y);
                 isMoving = true;
                 isRotating = true;
             }
-            
         }
-        
+
         if (isMoving)
         {
             transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
@@ -82,7 +78,7 @@ public class SideScroller : MonoBehaviour
     }
 
     void FlipCharacter()
-    {   
+    {
         facingRight = !facingRight;
         transform.Rotate(0f, 180f, 0f);
     }
@@ -106,7 +102,7 @@ public class SideScroller : MonoBehaviour
             if (target.x > transform.position.x && !facingRight)
             {
                 FlipCharacter();
-            } 
+            }
             else if (target.x < transform.position.x && facingRight)
             {
                 FlipCharacter();
@@ -134,5 +130,4 @@ public class SideScroller : MonoBehaviour
         EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
         return results.Count > 0;
     }
-
 }

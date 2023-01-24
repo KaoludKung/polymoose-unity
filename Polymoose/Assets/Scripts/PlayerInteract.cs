@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
-    [SerializeField] private SideScroller sideScroller;
+    [SerializeField] private Player player;
     [SerializeField] private GameObject icon;
     private GameObject currentObject = null;
     
@@ -15,7 +15,7 @@ public class PlayerInteract : MonoBehaviour
         {
             currentObject = collision.gameObject;
             icon.SetActive(true);
-            sideScroller.isInteract = true;
+            player.isInteract = true;
             Debug.Log(collision.name);
         }
     }
@@ -27,7 +27,7 @@ public class PlayerInteract : MonoBehaviour
            if(collision.gameObject == currentObject)
             {
                 icon.SetActive(false);
-                sideScroller.isInteract = false;
+                player.isInteract = false;
                 currentObject = null;
             }
         }
