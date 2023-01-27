@@ -10,8 +10,6 @@ public class ShopManager : MonoBehaviour
     [SerializeField] private Button itemButton1;
     [SerializeField] private Button itemButton2;
     [SerializeField] private Button itemButton3;
-
-    /// 0 ??? ?????????????, 1 ??? ?????????????????
     [SerializeField] private AudioSource itemSource;
     [SerializeField] private AudioClip[] itemClip;
 
@@ -36,9 +34,9 @@ public class ShopManager : MonoBehaviour
         coinText.text = coinCount.ToString();
         Debug.Log("Coin : " + coinCount);
 
-        itemButton1.onClick.AddListener(BuyHint);
+        itemButton1.onClick.AddListener(BuyExtraTime);
         itemButton2.onClick.AddListener(BuyFreeze);
-        itemButton3.onClick.AddListener(BuyExtraTime);
+        itemButton3.onClick.AddListener(BuyHint);
     }
 
     // Update is called once per frame
@@ -48,9 +46,9 @@ public class ShopManager : MonoBehaviour
     }
     void BuyHint()
     {
-        if (coinCount >= 50)
+        if (coinCount >= 200)
         {
-            coinCount -= 50;
+            coinCount -= 200;
             hintCount++;
             itemSource.clip = itemClip[0];
             itemSource.Play();
@@ -70,9 +68,9 @@ public class ShopManager : MonoBehaviour
 
     void BuyFreeze()
     {
-        if(coinCount >= 30)
+        if(coinCount >= 100)
         {
-            coinCount -= 30;
+            coinCount -= 100;
             freezeCount++;
             itemSource.clip = itemClip[0];
             itemSource.Play();
@@ -92,9 +90,9 @@ public class ShopManager : MonoBehaviour
 
     void BuyExtraTime()
     {
-        if (coinCount >= 40)
+        if (coinCount >= 80)
         {
-            coinCount -= 40;
+            coinCount -= 80;
             extraCount++;
             itemSource.clip = itemClip[0];
             itemSource.Play();

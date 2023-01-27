@@ -14,14 +14,9 @@ public class SummaryManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] TextMeshProUGUI summaryText;
     [SerializeField] TextMeshProUGUI coinText;
-
-    /// 0 ??? ????????????, 1 ??? ???????????????
     [SerializeField] private AudioSource levelSource;
     [SerializeField] private AudioClip[] levelClip;
-
-    [SerializeField] private Button retryButton;
-    [SerializeField] private Button menuButton;
-
+  
     public int level;
     public int quizCount;
     public float maxScore;
@@ -36,7 +31,6 @@ public class SummaryManager : MonoBehaviour
     private int totalCoin;
     private int stars;
     private int currentStars;
-
     private bool isHighscore = false;
 
     // Start is called before the first frame update
@@ -49,18 +43,6 @@ public class SummaryManager : MonoBehaviour
         totalCoin = PlayerPrefs.GetInt("Totalcoin", totalCoin);
 
         EndLevel();
-        retryButton.onClick.AddListener(Retry);
-        menuButton.onClick.AddListener(Menu);
-    }
-
-    void Retry()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    void Menu()
-    {
-        SceneManager.LoadScene(0);
     }
 
     void EndLevel()
