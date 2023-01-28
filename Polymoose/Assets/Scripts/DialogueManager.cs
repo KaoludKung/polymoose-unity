@@ -20,13 +20,18 @@ public class DialogueManager : MonoBehaviour
     
     private int index;
     private bool isTalking;
-    
+
+    private void Awake()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         textComponent.text = string.Empty;
         nameNpc.GetComponent<TextMeshProUGUI>().text = Name;
-        StartDialogue();
+        Invoke("StartDialogue", 0.3f);
     }
 
     // Update is called once per frame
@@ -56,7 +61,7 @@ public class DialogueManager : MonoBehaviour
         {
             index = 0;
             nameNpc.SetActive(true);
-            StartCoroutine(PlaySound());
+            PlaySound();
             StartCoroutine(TypeLine());
         }
         
@@ -74,9 +79,8 @@ public class DialogueManager : MonoBehaviour
         nextButton.SetActive(true);
     }
 
-    IEnumerator PlaySound()
+    void PlaySound()
     {
-        yield return new WaitForSeconds(0.5f);
         talkSource.clip = talkClip[index];
         talkSource.Play();
     }
@@ -88,7 +92,7 @@ public class DialogueManager : MonoBehaviour
             index++;
             nextButton.SetActive(false);
             textComponent.text = string.Empty;
-            StartCoroutine(PlaySound());
+            PlaySound();
             StartCoroutine(TypeLine());
         }
         else

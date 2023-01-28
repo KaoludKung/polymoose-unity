@@ -13,7 +13,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Question selectedQuestion;
 
     [SerializeField] private int level;
-    [SerializeField] private int questionNum;
+    //[SerializeField] private int questionNum;
     [SerializeField] private bool firstQuestion;
  
     [SerializeField] private GameObject hintsText;

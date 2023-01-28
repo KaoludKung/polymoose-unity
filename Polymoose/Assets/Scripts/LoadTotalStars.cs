@@ -13,7 +13,7 @@ public class LoadTotalStars : MonoBehaviour
     {
         for (int i = 1; i < 6; i++)
         {
-            totalStars = PlayerPrefs.GetInt("Stars" + i);
+            totalStars += PlayerPrefs.GetInt("Stars" + i);
         }
         
         starText.GetComponent<TextMeshProUGUI>().text = totalStars.ToString() + "/15";

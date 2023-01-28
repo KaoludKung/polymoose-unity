@@ -10,8 +10,8 @@ public class DetroyObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(currentObject);
         nextObject.SetActive(true);
+        currentObject.SetActive(false);
     }
 
 }
