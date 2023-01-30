@@ -42,10 +42,10 @@ public class SummaryManager : MonoBehaviour
         coinCount = PlayerPrefs.GetInt("Coins", coinCount);
         totalCoin = PlayerPrefs.GetInt("Totalcoin", totalCoin);
 
-        EndLevel();
+        StartCoroutine(EndLevel());
     }
 
-    void EndLevel()
+    IEnumerator EndLevel()
     {
         CalculateScore();
         UpdateData();
@@ -68,6 +68,7 @@ public class SummaryManager : MonoBehaviour
             PlayerPrefs.Save();
 
             OpenCanvas();
+            yield return new WaitForSeconds(0.8f);
             levelSource.clip = levelClip[0];
             levelSource.Play();
         }
@@ -75,6 +76,7 @@ public class SummaryManager : MonoBehaviour
         {
             summaryText.text = "LEVEL FAILED!";
             OpenCanvas();
+            yield return new WaitForSeconds(0.8f);
             levelSource.clip = levelClip[1];
             levelSource.Play();
         }

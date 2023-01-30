@@ -19,6 +19,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private GameObject hintsText;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI countText;
 
     [SerializeField] private TextMeshProUGUI hintCountText;
     [SerializeField] private TextMeshProUGUI freezeCountText;
@@ -36,6 +37,7 @@ public class QuizManager : MonoBehaviour
     private int index = 0;
     private int score;
     private int combo;
+    private int count;
     private int totalCorrect;
 
     private int hintCount;
@@ -55,13 +57,17 @@ public class QuizManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Score" + level, 0);
             PlayerPrefs.SetInt("Combo" + level, 0);
+            PlayerPrefs.SetInt("Count" + level, 0);
             PlayerPrefs.SetInt("Totalcorrect" + level, 1);
         }
-
+        
         combo = PlayerPrefs.GetInt("Combo" + level, combo);
         score = PlayerPrefs.GetInt("Score" + level, score);
+        count = PlayerPrefs.GetInt("Count" + level, count);
         totalCorrect = PlayerPrefs.GetInt("Totalcorrect" + level, totalCorrect);
+        
         scoreText.text = "Score : " + score.ToString();
+        countText.text = "Question " + (count++) + " of 5";
 
         hintCount = PlayerPrefs.GetInt("Hints", hintCount);
         freezeCount = PlayerPrefs.GetInt("Freezes", freezeCount);
@@ -77,6 +83,10 @@ public class QuizManager : MonoBehaviour
     void Start()
     {
         SelectQuestion();
+
+        Debug.Log(count);
+        Debug.Log(score);
+        Debug.Log(combo);
 
         hintsButton.onClick.AddListener(() => UseItem(1));
         freezeButton.onClick.AddListener(() => UseItem(2));
@@ -95,6 +105,7 @@ public class QuizManager : MonoBehaviour
     {
         if (isRunning)
         {
+            countText.text = "Question " + count + " of 5";
             hintsText.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
 
             if (currentTime > 0)
@@ -108,6 +119,7 @@ public class QuizManager : MonoBehaviour
                 timeOver = true;
                 itemSource.clip = itemClip[4];
                 itemSource.Play();
+                PlayerPrefs.SetInt("Count" + level, count++);
                 Invoke("SelectQuestion", 3.0f);
             }
         }
@@ -117,10 +129,9 @@ public class QuizManager : MonoBehaviour
     {
         if(index < questions.Count)
         {
-            currentTime = 30.0f;
+            currentTime = 15.0f;
             timeOver = false;
             selectedQuestion = questions[index];
-
             quizUI.SetQuestion(selectedQuestion);
 
             for (int i = 0; i < items.Length; i++)
@@ -129,7 +140,7 @@ public class QuizManager : MonoBehaviour
             }
 
             isRunning = true;
-            index += 1;
+            index++;
         }
         else
         {
@@ -176,6 +187,7 @@ public class QuizManager : MonoBehaviour
         isRunning = false;
         PlayerPrefs.SetInt("Score" + level, score);
         PlayerPrefs.SetInt("Combo" + level, combo);
+        PlayerPrefs.SetInt("Count" + level, count++);
         PlayerPrefs.SetInt("Totalcorrect" + level, totalCorrect);
         Invoke("SelectQuestion", 3.0f);
         return correctAnswer;
@@ -246,7 +258,7 @@ public class QuizManager : MonoBehaviour
                 PlayerPrefs.SetInt("Freezes", freezeCount);
                 PlayerPrefs.Save();
 
-                yield return new WaitForSeconds(15.0f);
+                yield return new WaitForSeconds(10.0f);
                 isRunning = true;
                 isUsing = false;
             }
