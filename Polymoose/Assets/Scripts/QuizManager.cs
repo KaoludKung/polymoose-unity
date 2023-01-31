@@ -13,7 +13,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Question selectedQuestion;
 
     [SerializeField] private int level;
-    //[SerializeField] private int questionNum;
+    [SerializeField] private int questionNum;
     [SerializeField] private bool firstQuestion;
  
     [SerializeField] private GameObject hintsText;
@@ -127,11 +127,12 @@ public class QuizManager : MonoBehaviour
 
     void SelectQuestion()
     {
-        if(index < questions.Count)
+        if(index < questionNum)
         {
+            int val = UnityEngine.Random.Range(0, questions.Count);
             currentTime = 15.0f;
             timeOver = false;
-            selectedQuestion = questions[index];
+            selectedQuestion = questions[val];
             quizUI.SetQuestion(selectedQuestion);
 
             for (int i = 0; i < items.Length; i++)
@@ -141,6 +142,7 @@ public class QuizManager : MonoBehaviour
 
             isRunning = true;
             index++;
+            questions.RemoveAt(val);
         }
         else
         {

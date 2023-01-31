@@ -42,6 +42,7 @@ public class QuizUI : MonoBehaviour
                 break;
             case QuestionType.IMAGE:
                 ImageHolder();
+                questionText.transform.parent.gameObject.SetActive(false);
                 questionImage.transform.gameObject.SetActive(true);
                 questionImage.sprite = question.questionImage;
                 break;
