@@ -37,6 +37,7 @@ public class QuizUI : MonoBehaviour
         switch (question.questionType)
         {
             case QuestionType.TEXT:
+                questionText.transform.parent.gameObject.SetActive(true);
                 questionImage.transform.parent.gameObject.SetActive(false);
                 audioButton.transform.gameObject.SetActive(false);
                 break;

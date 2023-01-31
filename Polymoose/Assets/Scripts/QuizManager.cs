@@ -230,7 +230,7 @@ public class QuizManager : MonoBehaviour
                 PlayerPrefs.SetInt("Hints", hintCount);
                 PlayerPrefs.Save();
 
-                yield return new WaitForSeconds(1.5f);
+                yield return new WaitForSeconds(2.5f);
                 hintsText.SetActive(false);
                 isUsing = false;
             }
