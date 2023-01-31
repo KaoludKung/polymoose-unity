@@ -2443,82 +2443,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254574088}
   m_CullTransparentMesh: 1
---- !u!1 &261336240
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 261336241}
-  - component: {fileID: 261336243}
-  - component: {fileID: 261336242}
-  m_Layer: 5
-  m_Name: image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &261336241
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261336240}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 378073968}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 550, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &261336242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261336240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &261336243
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 261336240}
-  m_CullTransparentMesh: 1
 --- !u!1 &284680282
 GameObject:
   m_ObjectHideFlags: 0
@@ -3026,16 +2950,16 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 261336241}
+  - {fileID: 1989787075}
   m_Father: {fileID: 472478535}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 43.041}
+  m_SizeDelta: {x: 545, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &419775544
 GameObject:
@@ -3526,7 +3450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizManager: {fileID: 1736881828}
   questionText: {fileID: 1309267751}
-  questionImage: {fileID: 261336242}
+  questionImage: {fileID: 1989787073}
   questionAudio: {fileID: 1108778310}
   audioButton: {fileID: 419775546}
   options:
@@ -7515,17 +7439,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizUI: {fileID: 636850374}
   questions:
-  - questionInfo: How do you ask when somebody will be available?
-    questionType: 0
-    questionImage: {fileID: 0}
+  - questionInfo: 'Norah: Hello, I would like to speak to Mr.Macaw. Inky: __________________________________
+      Norah : It''s Norah. The senior clothing designer of Lapiz. '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: d4a8927d010f4574285201b65e3856ca, type: 3}
     questionClip: {fileID: 0}
     audioButton: {fileID: 0}
     options:
-    - When is he/she going to be back?
-    - And can I leave her message?
-    - Does he have your number?
-    - "Could you please tell me who\u2019s speaking?"
-    correctAnswer: When is he/she going to be back?
+    - "Could you please tell me who\u2019s speaking? "
+    - 'May I speak to the receptionist? '
+    - 'Does she have your number? '
+    - 'Could you please ask him to call me back? '
+    correctAnswer: "Could you please tell me who\u2019s speaking? "
   - questionInfo: Which question is used to identify the caller?
     questionType: 0
     questionImage: {fileID: 0}
@@ -7537,17 +7462,17 @@ MonoBehaviour:
     - Could I ask who's telephoning?
     - Anything else?
     correctAnswer: Could I ask who's telephoning?
-  - questionInfo: Which phrase is not for giving a reason for calling?
-    questionType: 1
-    questionImage: {fileID: 21300000, guid: 19a50f74b9572344bb57a0edbf475aba, type: 3}
+  - questionInfo: How do you ask when somebody will be available?
+    questionType: 0
+    questionImage: {fileID: 0}
     questionClip: {fileID: 0}
     audioButton: {fileID: 0}
     options:
-    - "They\u2019ll be back \u2026"
-    - "I\u2019m calling to clarify\u2026"
-    - "I just wanted to ask\u2026"
-    - "Could you tell me\u2026?"
-    correctAnswer: "Could you tell me\u2026?"
+    - When is he/she going to be back?
+    - And can I leave her message?
+    - Does he have your number?
+    - "Could you please tell me who\u2019s speaking?"
+    correctAnswer: When is he/she going to be back?
   - questionInfo: Which phrase is not for giving a reason for calling?
     questionType: 0
     questionImage: {fileID: 0}
@@ -8664,6 +8589,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982269022}
   m_CullTransparentMesh: 1
+--- !u!1 &1989787072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1989787075}
+  - component: {fileID: 1989787074}
+  - component: {fileID: 1989787073}
+  m_Layer: 5
+  m_Name: quiz_Image_UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1989787073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989787072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1989787074
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989787072}
+  m_CullTransparentMesh: 1
+--- !u!224 &1989787075
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989787072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 378073968}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2002022033
 GameObject:
   m_ObjectHideFlags: 0
