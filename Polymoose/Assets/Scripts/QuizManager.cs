@@ -19,7 +19,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private GameObject hintsText;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
-    [SerializeField] private TextMeshProUGUI countText;
+    [SerializeField] private Image processbar;
 
     [SerializeField] private TextMeshProUGUI hintCountText;
     [SerializeField] private TextMeshProUGUI freezeCountText;
@@ -67,7 +67,7 @@ public class QuizManager : MonoBehaviour
         totalCorrect = PlayerPrefs.GetInt("Totalcorrect" + level, totalCorrect);
         
         scoreText.text = "Score : " + score.ToString();
-        countText.text = "Question " + (count++) + " of 5";
+        processbar.fillAmount = (count++) / 5f;
 
         hintCount = PlayerPrefs.GetInt("Hints", hintCount);
         freezeCount = PlayerPrefs.GetInt("Freezes", freezeCount);
@@ -105,7 +105,7 @@ public class QuizManager : MonoBehaviour
     {
         if (isRunning)
         {
-            countText.text = "Question " + count + " of 5";
+            processbar.fillAmount = count / 5f;
             hintsText.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
 
             if (currentTime > 0)

@@ -5,6 +5,7 @@ using UnityEngine;
 public class SetActive : MonoBehaviour
 {
     [SerializeField] GameObject target;
+    [SerializeField] private float time;
 
     // Start is called before the first frame update
     void Start()
@@ -14,7 +15,7 @@ public class SetActive : MonoBehaviour
 
     IEnumerator Active()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(time);
         target.SetActive(true);
     }
 }
