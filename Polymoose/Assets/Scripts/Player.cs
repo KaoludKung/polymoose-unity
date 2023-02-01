@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private AudioSource footStep;
+    private Animator animator;
     private Vector2 target;
 
     private bool isMoving;
@@ -16,6 +17,12 @@ public class Player : MonoBehaviour
 
     public bool isInteract = false;
     public string scene;
+
+    // Start is called before the first frame update
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -50,7 +57,7 @@ public class Player : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
             footStep.enabled = true;
-            //animator.SetBool("IsMoving", true);
+            animator.SetBool("ISWALK", true);
 
             if (transform.position.x == target.x)
             {
@@ -61,7 +68,7 @@ public class Player : MonoBehaviour
         else
         {
             footStep.enabled = false;
-            //animator.SetBool("IsMoving", false);
+            animator.SetBool("ISWALK", false);
         }
 
         if (isRotating)
