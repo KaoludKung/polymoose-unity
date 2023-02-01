@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 174079476}
   - component: {fileID: 174079481}
   - component: {fileID: 174079474}
+  - component: {fileID: 174079482}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -356,7 +357,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.81, y: 3.74}
+    oldSize: {x: 10, y: 10}
     newSize: {x: 3.81, y: 3.74}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -427,7 +428,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1c6f7b86a60563042b43f58ab6488051, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 42c9123888cc7c342946a44d2b08a615, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -448,7 +449,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.2199707, y: -2.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -469,6 +470,26 @@ MonoBehaviour:
   footStep: {fileID: 174079476}
   isInteract: 0
   scene: Title
+--- !u!95 &174079482
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174079473}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 049407ce0e8f9da458fcd2b7a70905d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &600102889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1234,7 @@ SpriteRenderer:
   m_SortingLayerID: -1830641241
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 781e0846924b17a4c96b7879a6ccd3c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a77882bc7fb5b6944b3d991aa392bf65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1233,7 +1254,7 @@ Transform:
   m_GameObject: {fileID: 1851304754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
