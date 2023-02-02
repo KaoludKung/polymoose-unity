@@ -5,14 +5,17 @@ using TMPro;
 
 public class ObjectiveShow : MonoBehaviour
 {
+    [SerializeField] Player player;
     [SerializeField] GameObject Objective;
     [SerializeField] TextMeshProUGUI objectiveText;
+    [SerializeField] TextMeshProUGUI tapText;
     [SerializeField] string message;
 
     private void Awake()
     {
         objectiveText.text = message;
         objectiveText.canvasRenderer.SetAlpha(0.0f);
+        tapText.canvasRenderer.SetAlpha(0.0f);
     }
 
     // Start is called before the first frame update
@@ -21,19 +24,16 @@ public class ObjectiveShow : MonoBehaviour
         StartCoroutine(FadeAnimation());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    
     IEnumerator FadeAnimation()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.5f);
         Objective.SetActive(true);
-        objectiveText.CrossFadeAlpha(1.0f, 3.0f, false);
-        yield return new WaitForSeconds(4.0f);
-        objectiveText.CrossFadeAlpha(0.0f, 3.5f, false);
+        objectiveText.CrossFadeAlpha(1.0f, 2.0f, false);
+        tapText.CrossFadeAlpha(1.0f, 2.0f, false);
+
+        yield return new WaitForSeconds(2.5f);
+        objectiveText.CrossFadeAlpha(0.0f, 2.5f, false);
+        tapText.CrossFadeAlpha(0.0f, 2.5f, false);
+        player.enabled = true;
     }
 }

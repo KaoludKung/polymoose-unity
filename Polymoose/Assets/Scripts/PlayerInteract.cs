@@ -14,7 +14,7 @@ public class PlayerInteract : MonoBehaviour
         if (collision.CompareTag("interact"))
         {
             currentObject = collision.gameObject;
-            icon.SetActive(true);
+            StartCoroutine(FadeIcon());
             player.isInteract = true;
             Debug.Log(collision.name);
         }
@@ -26,10 +26,20 @@ public class PlayerInteract : MonoBehaviour
         {
            if(collision.gameObject == currentObject)
             {
+                StopAllCoroutines();
                 icon.SetActive(false);
                 player.isInteract = false;
                 currentObject = null;
             }
         }
+    }
+
+    IEnumerator FadeIcon()
+    {
+        yield return new WaitForSeconds(1.2f);
+        icon.SetActive(true);
+        yield return new WaitForSeconds(1.2f);
+        icon.SetActive(false);
+        StartCoroutine(FadeIcon());
     }
 }
