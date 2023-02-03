@@ -28,6 +28,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Button hintsButton;
     [SerializeField] private Button freezeButton;
     [SerializeField] private Button extraButton;
+    [SerializeField] private GameObject freezeBackground;
 
     [SerializeField] private GameObject[] items;
     [SerializeField] private AudioSource itemSource;
@@ -134,6 +135,7 @@ public class QuizManager : MonoBehaviour
             timeOver = false;
             selectedQuestion = questions[val];
             quizUI.SetQuestion(selectedQuestion);
+            freezeBackground.SetActive(false);
 
             for (int i = 0; i < items.Length; i++)
             {
@@ -230,7 +232,7 @@ public class QuizManager : MonoBehaviour
                 PlayerPrefs.SetInt("Hints", hintCount);
                 PlayerPrefs.Save();
 
-                yield return new WaitForSeconds(2.5f);
+                yield return new WaitForSeconds(2.8f);
                 hintsText.SetActive(false);
                 isUsing = false;
             }
@@ -253,16 +255,18 @@ public class QuizManager : MonoBehaviour
                 isUsing = true;
                 itemSource.clip = itemClip[2];
                 itemSource.Play();
-                yield return new WaitForSeconds(0.5f);
                 isRunning = false;
+                freezeBackground.SetActive(true);
 
                 freezeCount--;
                 PlayerPrefs.SetInt("Freezes", freezeCount);
                 PlayerPrefs.Save();
 
-                yield return new WaitForSeconds(10.0f);
+                yield return new WaitForSeconds(12.0f);
                 isRunning = true;
                 isUsing = false;
+                freezeBackground.SetActive(false);
+
             }
         }
         else
@@ -282,13 +286,13 @@ public class QuizManager : MonoBehaviour
                 isUsing = true;
                 itemSource.clip = itemClip[3];
                 itemSource.Play();
-                yield return new WaitForSeconds(0.5f);
                 currentTime += 5;
 
                 extraCount--;
                 PlayerPrefs.SetInt("Extratimes", extraCount);
                 PlayerPrefs.Save();
 
+                yield return new WaitForSeconds(0.3f);
                 isUsing = false;
             }
         }
