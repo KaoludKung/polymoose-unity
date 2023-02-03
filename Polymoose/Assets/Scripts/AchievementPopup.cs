@@ -141,7 +141,7 @@ public class AchievementPopup : MonoBehaviour
                 break;
 
             case 4:
-                achievementCode[3] = 12345;
+                achievementCode[4] = 12345;
                 PlayerPrefs.SetInt("Acheivement" + 4, achievementCode[4]);
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[4];
                 achievementName.GetComponent<TextMeshProUGUI>().text = detailText[4];
