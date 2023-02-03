@@ -71,9 +71,9 @@ public class ShopManager : MonoBehaviour
 
     void BuyFreeze()
     {
-        if(coinCount >= 100)
+        if(coinCount >= 120)
         {
-            coinCount -= 100;
+            coinCount -= 120;
             freezeCount++;
             itemSource.clip = itemClip[0];
             itemSource.Play();

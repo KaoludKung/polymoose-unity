@@ -87,7 +87,7 @@ public class SummaryManager : MonoBehaviour
     void OpenCanvas()
     {
         scoreText.text = score.ToString();
-        coinText.text = (10 * totalCorrect).ToString();
+        coinText.text = (20 * totalCorrect).ToString();
         ChangeStar();
         summaryCanvas.SetActive(true);
 
@@ -146,8 +146,8 @@ public class SummaryManager : MonoBehaviour
 
     void UpdateData()
     {
-        PlayerPrefs.SetInt("Coins", coinCount + (10 * totalCorrect));
-        PlayerPrefs.SetInt("Totalcoin", totalCoin + (10 * totalCorrect));
+        PlayerPrefs.SetInt("Coins", coinCount + (20 * totalCorrect));
+        PlayerPrefs.SetInt("Totalcoin", totalCoin + (20 * totalCorrect));
        
         if (score > PlayerPrefs.GetInt("Highscore" + level))
         {
