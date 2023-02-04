@@ -258,12 +258,12 @@ MonoBehaviour:
   sentences:
   - I would like to speak to norah.
   - Could you tell me
-  Name: AMT
-  textSpeed: 0.05
-  talkSource: {fileID: 1805864993}
   talkClip:
   - {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
   - {fileID: 8300000, guid: 68f0486b7c4fae94c83e4c02b929115e, type: 3}
+  talkSource: {fileID: 1805864993}
+  Name: AMT
+  textSpeed: 0.05
 --- !u!1 &256745500
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 240615295}
-  time: 0
+  time: 0.3
 --- !u!1 &398411145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1074,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1292356294
 GameObject:
@@ -1337,7 +1337,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1873927551
 GameObject:
@@ -1429,7 +1429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalPosition.x
