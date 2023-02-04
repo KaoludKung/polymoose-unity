@@ -12,11 +12,13 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject nextSet;
 
     [SerializeField] private string[] sentences;
+    [SerializeField] private AudioClip[] talkClip;
+    [SerializeField] private AudioSource talkSource;
+    
     [SerializeField] private string Name;
     [SerializeField] private float textSpeed;
 
-    [SerializeField] private AudioSource talkSource;
-    [SerializeField] private AudioClip[] talkClip;
+    
     
     private int index;
     private bool isTalking;
