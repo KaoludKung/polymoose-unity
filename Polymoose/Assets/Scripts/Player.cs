@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TouchMovement();
+        ToMove();
     }
 
     void TouchMovement()
@@ -97,13 +97,28 @@ public class Player : MonoBehaviour
 
             Touch touch = Input.GetTouch(0);
             Vector2 CurrentPosition = Camera.main.ScreenToWorldPoint(touch.position);
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-            if (!IsPointerOverUIObject())
+            if (hit.collider.tag == "interact")
+            {
+                if (isInteract)
+                {
+                    StartCoroutine(ChangeScene(scene));
+                }
+            }
+            else if (hit.collider.tag == "background")
+            {
+                target = new Vector2(CurrentPosition.x, transform.position.y);
+                isMoving = true;
+                isRotating = true;
+            }
+
+            if (isMoving)
             {
                 target = new Vector2(CurrentPosition.x, transform.position.y);
                 transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
                 footStep.enabled = true;
-                //animator.SetBool("IsMoving", true);
+                animator.SetBool("ISWALK", true);
             }
 
             if (target.x > transform.position.x && !facingRight)
@@ -118,7 +133,7 @@ public class Player : MonoBehaviour
         else
         {
             footStep.enabled = false;
-            //animator.SetBool("IsMoving", false);
+            animator.SetBool("ISWALK", false);
         }
 
     }
