@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
             
-            if (hit.collider.tag == "interact")
+            if (hit.collider.tag == "object")
             {
                 if (isInteract)
                 {
@@ -100,7 +100,7 @@ public class Player : MonoBehaviour
 
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-            if (hit.collider.tag == "interact")
+            if (hit.collider.tag == "object")
             {
                 if (isInteract)
                 {
