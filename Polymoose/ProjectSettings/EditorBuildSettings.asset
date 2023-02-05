@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CH_4/Walk4.unity
     guid: efda48b8fe9bb4749ab3626a3dcdb32f
+  - enabled: 1
+    path: Assets/Scenes/CH_4/Visual4.unity
+    guid: 2aba8db6be0083e4fba917cd70a62311
   m_configObjects: {}

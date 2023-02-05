@@ -94,14 +94,15 @@ public class Player : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-
             Touch touch = Input.GetTouch(0);
             Vector2 CurrentPosition = Camera.main.ScreenToWorldPoint(touch.position);
 
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(touch.position), Vector2.zero);
 
             if (hit.collider.tag == "object")
             {
+                isMoving = false;
+
                 if (isInteract)
                 {
                     StartCoroutine(ChangeScene(scene));
@@ -142,7 +143,7 @@ public class Player : MonoBehaviour
 
     IEnumerator ChangeScene(string sceneID)
     {
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(sceneID);
     }
 

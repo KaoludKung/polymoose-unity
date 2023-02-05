@@ -7,7 +7,6 @@ TagManager:
   - interact
   - background
   - object
-  - another
   layers:
   - Default
   - TransparentFX
