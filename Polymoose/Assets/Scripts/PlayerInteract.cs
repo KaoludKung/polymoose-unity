@@ -36,9 +36,9 @@ public class PlayerInteract : MonoBehaviour
 
     IEnumerator FadeIcon()
     {
-        yield return new WaitForSeconds(1.2f);
+        yield return new WaitForSeconds(1.0f);
         icon.SetActive(true);
-        yield return new WaitForSeconds(1.2f);
+        yield return new WaitForSeconds(1.0f);
         icon.SetActive(false);
         StartCoroutine(FadeIcon());
     }
