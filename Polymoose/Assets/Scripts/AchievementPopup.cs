@@ -54,12 +54,6 @@ public class AchievementPopup : MonoBehaviour
         CheckAchievement();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void CheckAchievement()
     {
         for (int i = 0; i < achievement.Length; i++)
