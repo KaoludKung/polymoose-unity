@@ -858,7 +858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &350534597
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2596,7 +2596,7 @@ MonoBehaviour:
   nameNpc: {fileID: 733799302}
   textComponent: {fileID: 87545053}
   nextButton: {fileID: 1724253637}
-  nextSet: {fileID: 398411145}
+  nextSet: {fileID: 1390482299}
   sentences:
   - She's not available at the moment.
   talkClip:
@@ -3780,14 +3780,13 @@ GameObject:
   - component: {fileID: 1482131574}
   - component: {fileID: 1482131577}
   - component: {fileID: 1482131576}
-  - component: {fileID: 1482131575}
   m_Layer: 5
   m_Name: video_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1482131574
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3808,20 +3807,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1482131575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482131573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e85415ce1b278d48b1f96e81dc46f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1958233819}
-  time: 0.5
 --- !u!114 &1482131576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3842,7 +3827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 8400000, guid: ba19bdace78049949bcb44d6a1dc712e, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
