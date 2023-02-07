@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 14499346}
   - component: {fileID: 14499345}
   m_Layer: 5
-  m_Name: Image
+  m_Name: image_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,13 +333,11 @@ MonoBehaviour:
   nextButton: {fileID: 935146983}
   nextSet: {fileID: 398411145}
   sentences:
-  - I would like to speak to norah.
-  - Could you tell me
+  - Good afternoon, Lapiz company, How may I help you?
   talkClip:
   - {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
-  - {fileID: 8300000, guid: 68f0486b7c4fae94c83e4c02b929115e, type: 3}
   talkSource: {fileID: 1805864993}
-  Name: AMT
+  Name: Moose
   textSpeed: 0.05
 --- !u!1 &256745500
 GameObject:
@@ -571,7 +569,7 @@ GameObject:
   - component: {fileID: 350534597}
   - component: {fileID: 350534598}
   m_Layer: 5
-  m_Name: start
+  m_Name: opening
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -905,7 +903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &935146984
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1965,6 +1963,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.3253
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1345.605
       objectReference: {fileID: 0}
@@ -1978,31 +1980,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.636721
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.27271265
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.5124884
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.50751334
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 369.957
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -430.673
       objectReference: {fileID: 0}
     - target: {fileID: 8568203485151679710, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 1510.047
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 537be42e4b532be4cacce18a1ec8900f, type: 3}
