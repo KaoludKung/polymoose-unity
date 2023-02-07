@@ -1,21 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
-public class DialogueManager : MonoBehaviour
+public class IntroDialogueManager : MonoBehaviour
 {
-    [SerializeField] private GameObject nameNpc;
     [SerializeField] private TextMeshProUGUI textComponent;
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject nextSet;
-
     [SerializeField] private string[] sentences;
     [SerializeField] private AudioClip[] talkClip;
     [SerializeField] private AudioSource talkSource;
-    
-    [SerializeField] private string Name;
     [SerializeField] private float textSpeed;
 
     private int index;
@@ -26,7 +21,6 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         textComponent.text = string.Empty;
-        nameNpc.GetComponent<TextMeshProUGUI>().text = Name;
         Invoke("StartDialogue", 0.3f);
     }
 
@@ -56,11 +50,10 @@ public class DialogueManager : MonoBehaviour
         if (isTalking)
         {
             index = 0;
-            nameNpc.SetActive(true);
             PlaySound();
             StartCoroutine(TypeLine());
         }
-        
+
     }
 
     IEnumerator TypeLine()
@@ -83,7 +76,7 @@ public class DialogueManager : MonoBehaviour
 
     void NextLine()
     {
-        if(index < sentences.Length - 1)
+        if (index < sentences.Length - 1)
         {
             index++;
             nextButton.SetActive(false);
