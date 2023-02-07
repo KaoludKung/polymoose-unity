@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class IntroDialogueManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textComponent;
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject nextSet;
+    
     [SerializeField] private string[] sentences;
     [SerializeField] private AudioClip[] talkClip;
     [SerializeField] private AudioSource talkSource;
