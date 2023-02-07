@@ -3441,8 +3441,8 @@ RectTransform:
   - {fileID: 1132492394}
   - {fileID: 1958233820}
   - {fileID: 1622477168}
-  - {fileID: 1660593592}
   - {fileID: 1177067903}
+  - {fileID: 1660593592}
   - {fileID: 1390482300}
   - {fileID: 1482131574}
   - {fileID: 794146984}
@@ -5625,7 +5625,7 @@ GameObject:
   - component: {fileID: 1177067903}
   - component: {fileID: 1177067904}
   m_Layer: 5
-  m_Name: dialogue_set (6)
+  m_Name: dialogue_set (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5647,7 +5647,7 @@ RectTransform:
   - {fileID: 1296873316}
   - {fileID: 1724253638}
   m_Father: {fileID: 754417366}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -8036,7 +8036,7 @@ MonoBehaviour:
   nameNpc: {fileID: 1291126848}
   textComponent: {fileID: 1644541199}
   nextButton: {fileID: 1130628263}
-  nextSet: {fileID: 1660593591}
+  nextSet: {fileID: 1177067902}
   sentences:
   - Yes of course. I met Ms.Nyx at the front company last week and she asked me to
     call her.
@@ -8480,7 +8480,7 @@ GameObject:
   - component: {fileID: 1660593592}
   - component: {fileID: 1660593593}
   m_Layer: 5
-  m_Name: dialogue_set (5)
+  m_Name: dialogue_set (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8502,7 +8502,7 @@ RectTransform:
   - {fileID: 1315830366}
   - {fileID: 1853350264}
   m_Father: {fileID: 754417366}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -8524,7 +8524,7 @@ MonoBehaviour:
   nameNpc: {fileID: 1305313727}
   textComponent: {fileID: 572235758}
   nextButton: {fileID: 1853350263}
-  nextSet: {fileID: 1177067902}
+  nextSet: {fileID: 1390482299}
   sentences:
   - Do you know when she'll be available, please?
   talkClip:
