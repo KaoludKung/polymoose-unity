@@ -4115,7 +4115,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5178046
+  m_Size: 0.52141243
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8346,8 +8346,8 @@ RectTransform:
   m_GameObject: {fileID: 1160097203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 738153370}
   m_RootOrder: 3
@@ -8355,7 +8355,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -50, y: 32}
-  m_SizeDelta: {x: 60, y: 30}
+  m_SizeDelta: {x: 230, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160097205
 MonoBehaviour:
