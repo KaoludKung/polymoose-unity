@@ -7,7 +7,6 @@ public class HighscoreFade : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI highscore;
    
-
     private void Awake()
     {
         highscore.canvasRenderer.SetAlpha(0.0f);

@@ -134,7 +134,7 @@ public class SummaryManager : MonoBehaviour
         {
             currentStars = 3;
         }
-        else if (percent >= 60)
+        else if (percent >= 50)
         {
             currentStars = 2;
         }
