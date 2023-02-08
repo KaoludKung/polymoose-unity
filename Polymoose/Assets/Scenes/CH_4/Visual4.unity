@@ -5932,7 +5932,7 @@ MonoBehaviour:
   nameNpc: {fileID: 733799302}
   textComponent: {fileID: 87545053}
   nextButton: {fileID: 1724253637}
-  nextSet: {fileID: 1390482299}
+  nextSet: {fileID: 1660593591}
   sentences:
   - She's not available at the moment.
   talkClip:
