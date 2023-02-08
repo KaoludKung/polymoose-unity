@@ -4081,9 +4081,6 @@ MonoBehaviour:
   nextSet: {fileID: 847640228}
   sentences:
   - Moose is Tilting his head upward, Looking at a clock.
-  talkClip:
-  - {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
-  talkSource: {fileID: 1805864993}
   textSpeed: 0.08
 --- !u!1 &802651205
 GameObject:
@@ -9170,10 +9167,6 @@ MonoBehaviour:
   - While Moose is dealing with his daily work. The ringing sound starts to resonate
     from the next room.
   - It causes him to go to the next room and answer the call immediately.
-  talkClip:
-  - {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
-  - {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
-  talkSource: {fileID: 1805864993}
   textSpeed: 0.05
 --- !u!1 &1805864992
 GameObject:

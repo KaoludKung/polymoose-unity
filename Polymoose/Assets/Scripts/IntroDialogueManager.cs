@@ -11,8 +11,8 @@ public class IntroDialogueManager : MonoBehaviour
     [SerializeField] private GameObject nextSet;
     
     [SerializeField] private string[] sentences;
-    [SerializeField] private AudioClip[] talkClip;
-    [SerializeField] private AudioSource talkSource;
+    //[SerializeField] private AudioClip[] talkClip;
+    //[SerializeField] private AudioSource talkSource;
     [SerializeField] private float textSpeed;
 
     private int index;
@@ -52,7 +52,7 @@ public class IntroDialogueManager : MonoBehaviour
         if (isTalking)
         {
             index = 0;
-            PlaySound();
+            //PlaySound();
             StartCoroutine(TypeLine());
         }
 
@@ -72,8 +72,8 @@ public class IntroDialogueManager : MonoBehaviour
 
     void PlaySound()
     {
-        talkSource.clip = talkClip[index];
-        talkSource.Play();
+        //talkSource.clip = talkClip[index];
+        //talkSource.Play();
     }
 
     void NextLine()
