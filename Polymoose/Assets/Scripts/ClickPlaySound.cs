@@ -9,13 +9,23 @@ public class ClickPlaySound : MonoBehaviour
     [SerializeField] AudioSource speechSource;
     [SerializeField] AudioClip speechClip;
     [SerializeField] private string[] sentences;
+    [SerializeField] private bool isTyping;
+
+    private bool isEnd = false;
     private int index = 0;
 
     public void StartSpeech()
     {
-        textComponent.text = string.Empty;
-        PlaySound();
-        StartCoroutine(TypeLine());
+        if (!isEnd)
+        {
+            if (isTyping)
+            {
+                textComponent.text = string.Empty;
+                StartCoroutine(TypeLine());
+            }
+            PlaySound();
+        }
+        
     }
 
     private void PlaySound()
@@ -26,13 +36,16 @@ public class ClickPlaySound : MonoBehaviour
 
     IEnumerator TypeLine()
     {
+        isEnd = true;
+
         foreach (char c in sentences[index].ToCharArray())
         {
             textComponent.text += c;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.06f);
         }
 
         yield return new WaitForSeconds(0.5f);
+        isEnd = false;
     }
     
 }
