@@ -36,6 +36,14 @@ public class ClickPlaySound : MonoBehaviour
                 PlaySound();
             }
         }
+        else
+        {
+            StopAllCoroutines();
+            speechSource.Stop();
+            textComponent.text = sentences[index];
+            textComponent.color = new Color32(255, 255, 255, 255);
+            isEnd = false;
+        }
         
     }
 
@@ -52,10 +60,10 @@ public class ClickPlaySound : MonoBehaviour
         foreach (char c in sentences[index].ToCharArray())
         {
             textComponent.text += c;
-            yield return new WaitForSeconds(0.06f);
+            yield return new WaitForSeconds(0.05f);
         }
 
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(1.5f);
         textComponent.color = new Color32(255, 255, 255, 255);
         isEnd = false;
     }

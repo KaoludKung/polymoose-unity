@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ButtonTest : MonoBehaviour
 {
-    [SerializeField] private int number;
+    [SerializeField] private AudioSource speechSource;
 
-    public void ShowText()
+    public void StopSound()
     {
-        Debug.Log("Level" + number);
+        speechSource.Stop();
     }
 }
