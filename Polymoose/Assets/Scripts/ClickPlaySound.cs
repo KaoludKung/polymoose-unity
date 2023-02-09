@@ -10,6 +10,7 @@ public class ClickPlaySound : MonoBehaviour
     [SerializeField] AudioClip speechClip;
     [SerializeField] private string[] sentences;
     [SerializeField] private bool isTyping;
+    [SerializeField] private bool isVocab;
 
     private bool isEnd = false;
     private int index = 0;
@@ -21,9 +22,19 @@ public class ClickPlaySound : MonoBehaviour
             if (isTyping)
             {
                 textComponent.text = string.Empty;
+                textComponent.color = new Color32(84, 194, 60, 255);
                 StartCoroutine(TypeLine());
+                PlaySound();
             }
-            PlaySound();
+            else
+            {
+                if (isVocab)
+                {
+                    StartCoroutine(VocabColor());
+                }
+
+                PlaySound();
+            }
         }
         
     }
@@ -44,8 +55,19 @@ public class ClickPlaySound : MonoBehaviour
             yield return new WaitForSeconds(0.06f);
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.8f);
+        textComponent.color = new Color32(255, 255, 255, 255);
         isEnd = false;
+    }
+
+    IEnumerator VocabColor()
+    {
+        textComponent.color = new Color32(84, 194, 60, 255);
+        speechSource.clip = speechClip;
+        speechSource.Play();
+        
+        yield return new WaitForSeconds(speechClip.length);
+        textComponent.color = new Color32(255, 255, 255, 255);
     }
     
 }
