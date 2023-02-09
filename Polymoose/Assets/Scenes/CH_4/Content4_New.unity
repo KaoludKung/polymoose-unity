@@ -6362,7 +6362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 904316413}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
+  speechClip: {fileID: 8300000, guid: 4da60281305e145439633103ed642dfd, type: 3}
   sentences:
   - AAA
   isTyping: 0
@@ -7540,7 +7540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1035658531}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
+  speechClip: {fileID: 8300000, guid: 91e80c6a39c7b1a4c8bcc0fe830efd07, type: 3}
   sentences:
   - In this lesson, we look at vocabulary and useful phrases for handling business
     calling situations.
@@ -9072,7 +9072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1289100971}
   speechSource: {fileID: 1160097208}
-  speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
+  speechClip: {fileID: 8300000, guid: 7e01854e710d00a4ba0c14dfc7236348, type: 3}
   sentences:
   - Imagine a scenario. When someone calls for a business purpose. How would you
     handle this situation?
