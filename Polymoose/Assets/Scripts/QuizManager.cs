@@ -19,7 +19,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private GameObject hintsText;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
-    [SerializeField] private Image processbar;
+    //[SerializeField] private Image processbar;
 
     [SerializeField] private TextMeshProUGUI hintCountText;
     [SerializeField] private TextMeshProUGUI freezeCountText;
@@ -38,7 +38,7 @@ public class QuizManager : MonoBehaviour
     private int index = 0;
     private int score;
     private int combo;
-    private int count;
+    //private int count;
     private int totalCorrect;
 
     private int hintCount;
@@ -64,11 +64,11 @@ public class QuizManager : MonoBehaviour
         
         combo = PlayerPrefs.GetInt("Combo" + level, combo);
         score = PlayerPrefs.GetInt("Score" + level, score);
-        count = PlayerPrefs.GetInt("Count" + level, count);
+        //count = PlayerPrefs.GetInt("Count" + level, count);
         totalCorrect = PlayerPrefs.GetInt("Totalcorrect" + level, totalCorrect);
         
         scoreText.text = "Score : " + score.ToString();
-        processbar.fillAmount = (count++) / 5f;
+        //processbar.fillAmount = (count++) / 5f;
 
         hintCount = PlayerPrefs.GetInt("Hints", hintCount);
         freezeCount = PlayerPrefs.GetInt("Freezes", freezeCount);
@@ -87,7 +87,7 @@ public class QuizManager : MonoBehaviour
     {
         SelectQuestion();
 
-        Debug.Log(count);
+        //Debug.Log(count);
         Debug.Log(score);
         Debug.Log(combo);
 
@@ -108,7 +108,7 @@ public class QuizManager : MonoBehaviour
     {
         if (isRunning)
         {
-            processbar.fillAmount = count / 5f;
+            //processbar.fillAmount = count / 5f;
             hintsText.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
 
             if (currentTime > 0)
@@ -122,7 +122,7 @@ public class QuizManager : MonoBehaviour
                 timeOver = true;
                 itemSource.clip = itemClip[4];
                 itemSource.Play();
-                PlayerPrefs.SetInt("Count" + level, count++);
+                //PlayerPrefs.SetInt("Count" + level, count++);
                 Invoke("SelectQuestion", 3.0f);
             }
         }
@@ -193,7 +193,7 @@ public class QuizManager : MonoBehaviour
         isRunning = false;
         PlayerPrefs.SetInt("Score" + level, score);
         PlayerPrefs.SetInt("Combo" + level, combo);
-        PlayerPrefs.SetInt("Count" + level, count++);
+        //PlayerPrefs.SetInt("Count" + level, count++);
         PlayerPrefs.SetInt("Totalcorrect" + level, totalCorrect);
         Invoke("SelectQuestion", 3.0f);
         return correctAnswer;
