@@ -1397,7 +1397,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Content1
+          m_StringArgument: VisualQuiz4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &591917253
@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 921748910}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.614035
+  m_Size: 0.61403507
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
