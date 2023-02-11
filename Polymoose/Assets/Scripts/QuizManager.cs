@@ -78,8 +78,6 @@ public class QuizManager : MonoBehaviour
         hintCountText.text = hintCount.ToString();
         freezeCountText.text = freezeCount.ToString();
         extraCountText.text = extraCount.ToString();
-
-        MusicPlay.instance.GetComponent<AudioSource>().Pause();
     }
 
     // Start is called before the first frame update

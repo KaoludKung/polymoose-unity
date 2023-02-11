@@ -43,6 +43,7 @@ public class DialogueManager : MonoBehaviour
             {
                 StopAllCoroutines();
                 textComponent.text = sentences[index];
+                talkSource.Stop();
                 nextButton.SetActive(true);
             }
         }

@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class EndVisual : MonoBehaviour
 {
-    [SerializeField] string scene;
+    [SerializeField] AudioSource backgroundSound;
+    [SerializeField] GameObject summaryCanvas;
 
     // Start is called before the first frame update
     void Start()
@@ -17,8 +18,8 @@ public class EndVisual : MonoBehaviour
 
     IEnumerator EndScene()
     {
-        yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(scene);
-        MusicPlay.instance.GetComponent<AudioSource>().Play();
+        yield return new WaitForSeconds(2.0f);
+        backgroundSound.Stop();
+        summaryCanvas.SetActive(true);
     }
 }
