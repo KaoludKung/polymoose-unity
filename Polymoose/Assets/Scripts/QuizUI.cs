@@ -63,7 +63,7 @@ public class QuizUI : MonoBehaviour
         {
             options[i].GetComponentInChildren<TextMeshProUGUI>().text = answerList[i];
             options[i].name = answerList[i];
-            options[i].image.color = Color.white;
+            options[i].image.color = new Color32(0,0,0,128);
         }
         answered = false;  
     }
@@ -109,13 +109,13 @@ public class QuizUI : MonoBehaviour
 
             if (val)
             {
-                btn.image.color = Color.green;
+                btn.image.color = new Color32(124,252,0,255);
                 correctClip.Play();
                 Debug.Log("Corret!");
             }
             else
             {
-                btn.image.color = Color.red;
+                btn.image.color = new Color32(255,0,0,255);
                 wrongClip.Play();
                 Debug.Log("Wrong!");
             }
