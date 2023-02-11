@@ -178,7 +178,8 @@ public class QuizManager : MonoBehaviour
             
             if(combo > 0)
             {
-                score += 50 * combo;
+                //score += 50 * combo;
+                score += 1000;
             }
 
             scoreText.text = "Score : " + score;

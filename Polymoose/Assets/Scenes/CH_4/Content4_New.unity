@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CanI leave a message?, May I leave a message?
+  m_text: Can I leave a message?, May I leave a message?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -6266,7 +6266,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: e747e40d420c6e74eb9b73c041fd81d9, type: 3}
   sentences:
-  - CanI leave a message?, May I leave a message?
+  - Can I leave a message?, May I leave a message?
   isTyping: 1
   isVocab: 0
 --- !u!1 &887799485

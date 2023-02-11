@@ -130,15 +130,15 @@ public class SummaryManager : MonoBehaviour
         percent = (int)Math.Round((score / maxScore) * 100f);
         Debug.Log("Percent: " + percent);
 
-        if (percent >= 80)
+        if (percent >= 85)
         {
             currentStars = 3;
         }
-        else if (percent >= 50)
+        else if (percent >= 55)
         {
             currentStars = 2;
         }
-        else if (percent >= 30)
+        else if (percent >= 25)
         {
             currentStars = 1;
         }
