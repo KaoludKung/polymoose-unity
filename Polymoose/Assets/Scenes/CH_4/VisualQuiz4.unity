@@ -483,11 +483,11 @@ MonoBehaviour:
     questionClip: {fileID: 0}
     audioButton: {fileID: 0}
     options:
-    - "Could you please tell me who\u2019s speaking"
+    - "Could you please tell me who\u2019s speaking?"
     - Could you please take a message?
     - Can I speak to Norah?
     - Anything else?
-    correctAnswer: "Could you please tell me who\u2019s speaking"
+    correctAnswer: "Could you please tell me who\u2019s speaking?"
   - questionInfo: Which phrase should the Moose use to identify the caller?
     questionType: 0
     questionImage: {fileID: 0}
@@ -8912,7 +8912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &830282539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10040,7 +10040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -48.80005, y: 56.700012}
+  m_AnchoredPosition: {x: -48.80005, y: 52}
   m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987802686
