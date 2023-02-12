@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tap the screen to walk
+  m_text: Tap and hold the screen to move
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0c2d1299ce8b8224f8871f3296562920, type: 2}
   m_sharedMaterial: {fileID: 3547485665759390835, guid: 0c2d1299ce8b8224f8871f3296562920, type: 2}

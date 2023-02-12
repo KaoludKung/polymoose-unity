@@ -31,9 +31,9 @@ public class ObjectiveShow : MonoBehaviour
         objectiveText.CrossFadeAlpha(1.0f, 2.0f, false);
         tapText.CrossFadeAlpha(1.0f, 2.0f, false);
 
-        yield return new WaitForSeconds(2.5f);
-        objectiveText.CrossFadeAlpha(0.0f, 2.5f, false);
-        tapText.CrossFadeAlpha(0.0f, 2.5f, false);
+        yield return new WaitForSeconds(3.0f);
+        objectiveText.CrossFadeAlpha(0.0f, 3.0f, false);
+        tapText.CrossFadeAlpha(0.0f, 3.0f, false);
         player.enabled = true;
     }
 }
