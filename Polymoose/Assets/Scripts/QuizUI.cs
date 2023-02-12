@@ -109,13 +109,13 @@ public class QuizUI : MonoBehaviour
 
             if (val)
             {
-                btn.image.color = new Color32(124,252,0,255);
+                btn.image.color = new Color32(70,202,78,255);
                 correctClip.Play();
                 Debug.Log("Corret!");
             }
             else
             {
-                btn.image.color = new Color32(255,0,0,255);
+                btn.image.color = new Color32(255,51,51,255);
                 wrongClip.Play();
                 Debug.Log("Wrong!");
             }
