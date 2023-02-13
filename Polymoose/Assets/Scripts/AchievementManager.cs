@@ -37,12 +37,6 @@ public class AchievementManager : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void UpdateStatus(int id)
     {
         for(int i = 0; i < achievement.Length; i++)
