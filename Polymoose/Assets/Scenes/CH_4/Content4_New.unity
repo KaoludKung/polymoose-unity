@@ -3913,7 +3913,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.52141243
+  m_Size: 0.52012646
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9407,7 +9407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1289100971}
-  speechSource: {fileID: 1160097208}
+  speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 7e01854e710d00a4ba0c14dfc7236348, type: 3}
   sentences:
   - Imagine a scenario. When someone calls for a business purpose. How would you
