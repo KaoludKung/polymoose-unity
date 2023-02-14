@@ -6565,7 +6565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Business Calling
+  m_text: Business calling
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}

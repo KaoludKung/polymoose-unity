@@ -1701,8 +1701,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 921748911}
   m_HandleRect: {fileID: 921748910}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.61403507
+  m_Value: 1.000001
+  m_Size: 0.6140318
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3447,7 +3447,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Business
 
-    Meal'
+    meal'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
@@ -4563,7 +4563,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Business
 
-    Calling'
+    calling'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
@@ -4949,7 +4949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517578, y: 159}
+  m_AnchoredPosition: {x: -440.0003, y: 159}
   m_SizeDelta: {x: 0, y: 283}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1640385840
@@ -5522,7 +5522,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Dealing with
 
-    angry customers'
+    an angry customer'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
@@ -5585,7 +5585,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 50.421707, w: -22.391968}
+  m_margin: {x: 11.013008, y: 0, z: 64.83093, w: -22.391968}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

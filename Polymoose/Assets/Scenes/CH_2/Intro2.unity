@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &117319416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1059.9904
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 532.2866
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.3139143
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296759091207222618, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: m_Name
+      value: background_sound
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
 --- !u!1 &799566176
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chapterText: {fileID: 1625350625}
-  scene: Walk4
+  scene: Walk2
 --- !u!4 &799566178
 Transform:
   m_ObjectHideFlags: 0
@@ -402,9 +459,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Chapter 4
+  m_text: 'Chapter 2
 
-    Business calling '
+    Talking after work'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0c2d1299ce8b8224f8871f3296562920, type: 2}
   m_sharedMaterial: {fileID: 3547485665759390835, guid: 0c2d1299ce8b8224f8871f3296562920, type: 2}
