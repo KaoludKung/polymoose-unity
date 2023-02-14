@@ -27,9 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CH_4/Content4_New.unity
     guid: 549804e9a235c544ab540cdf4217b81a
   - enabled: 1
-    path: Assets/Scenes/CH_4/GameMode4.unity
-    guid: 2e96ae49d03901a48bb5f3e2a1aff651
-  - enabled: 1
     path: Assets/Scenes/CH_4/Intro4.unity
     guid: d2ef95b43f5959b4d81d7aa9dea2f562
   - enabled: 1

@@ -959,7 +959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ASAP (As Soon As Possible) (slang) as quickly, much, soon, etc. as you
+  m_text: ASAP (as soon as possible) (slang) as quickly, much, soon, etc. as you
     can.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}

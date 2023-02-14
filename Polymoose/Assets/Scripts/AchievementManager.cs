@@ -28,9 +28,10 @@ public class AchievementManager : MonoBehaviour
         
         achievement[3] = PlayerPrefs.GetInt("Fullstack");
         achievement[4] = PlayerPrefs.GetInt("Totalcoin");
+        achievement[5] = PlayerPrefs.GetInt("TotalAchievement");
 
 
-        for(int i = 0; i < achievement.Length; i++)
+        for (int i = 0; i < achievement.Length; i++)
         {
             UpdateStatus(i);
         }

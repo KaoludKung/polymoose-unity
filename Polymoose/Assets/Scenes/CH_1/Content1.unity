@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Can/May I leave a message?\r"
+  m_text: Can I leave a message?, May I leave a message?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -659,18 +659,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338868268}
+      objectReference: {fileID: 338868272}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -789,18 +789,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2120845620}
+      objectReference: {fileID: 2120845624}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -959,7 +959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ASAP (As Soon As Possible)  (slang) as quickly, much, soon, etc. as you
+  m_text: ASAP (as soon as possible) (slang) as quickly, much, soon, etc. as you
     can.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -1202,7 +1202,6 @@ RectTransform:
   m_Children:
   - {fileID: 1926191857}
   - {fileID: 70597105}
-  - {fileID: 1202619490}
   m_Father: {fileID: 1895511413}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1211,79 +1210,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &198422836
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 198422837}
-  - component: {fileID: 198422839}
-  - component: {fileID: 198422838}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &198422837
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198422836}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2057937748}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &198422838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198422836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 9dc81d5beeac069409477afb685187f7, type: 2}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &198422839
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198422836}
-  m_CullTransparentMesh: 1
 --- !u!1 &205180907 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -1481,18 +1407,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1838111851}
+      objectReference: {fileID: 1838111855}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1789,18 +1715,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1435499873}
+      objectReference: {fileID: 1435499877}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1995,18 +1921,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1941634300}
+      objectReference: {fileID: 1941634304}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2118,6 +2044,8 @@ GameObject:
   - component: {fileID: 325284045}
   - component: {fileID: 325284047}
   - component: {fileID: 325284046}
+  - component: {fileID: 325284049}
+  - component: {fileID: 325284048}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -2242,6 +2170,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325284044}
   m_CullTransparentMesh: 1
+--- !u!114 &325284048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325284044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 325284046}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: be8508062bc6a6448b1bbd36469b6ddc, type: 3}
+  sentences:
+  - Asking when somebody will be available
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &325284049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325284044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 325284046}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 325284048}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &328923341 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -2392,7 +2395,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 145486040}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &338868268
+--- !u!114 &338868272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2401,11 +2404,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 338868264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 08e28af3e4e1f1340915da76dd059578, type: 3}
+  textComponent: {fileID: 767766677}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 08e28af3e4e1f1340915da76dd059578, type: 3}
+  sentences:
+  - "He\u2019s not at the desk."
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &351938109
 GameObject:
   m_ObjectHideFlags: 0
@@ -3135,7 +3143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4059326922877290030, guid: a579f55bbf3da74438578e33e37e86b8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 47.815308
+      value: 47.81543
       objectReference: {fileID: 0}
     - target: {fileID: 4059326922877290030, guid: a579f55bbf3da74438578e33e37e86b8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3164,6 +3172,103 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4059326922877290030, guid: a579f55bbf3da74438578e33e37e86b8, type: 3}
   m_PrefabInstance: {fileID: 525154307}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &525264514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 525264515}
+  - component: {fileID: 525264518}
+  - component: {fileID: 525264517}
+  - component: {fileID: 525264516}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &525264515
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525264514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2057937748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &525264516
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525264514}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b3a4baecf05bc3940a5da89ec0ed896a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &525264517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525264514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &525264518
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525264514}
+  m_CullTransparentMesh: 1
 --- !u!1 &535597970
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,18 +3371,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 564339993}
+      objectReference: {fileID: 564339997}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -3378,7 +3483,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 564339988}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &564339993
+--- !u!114 &564339997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3387,11 +3492,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 280221748}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 4c6a3d369b74b0d498a2605c69dc72c8, type: 3}
+  textComponent: {fileID: 1180179646}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 4c6a3d369b74b0d498a2605c69dc72c8, type: 3}
+  sentences:
+  - "Could you please tell me who\u2019s speaking, Could  you please tell me who\u2019s
+    calling? "
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &574479111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -3484,6 +3595,7 @@ GameObject:
   - component: {fileID: 585476501}
   - component: {fileID: 585476503}
   - component: {fileID: 585476502}
+  - component: {fileID: 585476504}
   m_Layer: 5
   m_Name: background_image
   m_TagString: Untagged
@@ -3507,7 +3619,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3549,6 +3661,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585476500}
   m_CullTransparentMesh: 1
+--- !u!114 &585476504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585476500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 4
+  m_AspectRatio: 2
 --- !u!1 &607943452 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -3572,18 +3698,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 613384719}
+      objectReference: {fileID: 613384723}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -3684,7 +3810,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 613384714}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &613384719
+--- !u!114 &613384723
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3693,11 +3819,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 124615721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 35f37ea670efa044688c1b2e92dcb5b1, type: 3}
+  textComponent: {fileID: 1387742969}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 35f37ea670efa044688c1b2e92dcb5b1, type: 3}
+  sentences:
+  - May I speak to Macaw?
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &617353932
 GameObject:
   m_ObjectHideFlags: 0
@@ -3971,6 +4102,8 @@ GameObject:
   - component: {fileID: 639905507}
   - component: {fileID: 639905509}
   - component: {fileID: 639905508}
+  - component: {fileID: 639905511}
+  - component: {fileID: 639905510}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -4081,7 +4214,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 267.30984, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4095,6 +4228,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639905506}
   m_CullTransparentMesh: 1
+--- !u!114 &639905510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639905506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 639905508}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 7d6643ff8e486f5439b366111e3d12d5, type: 3}
+  sentences:
+  - Giving reasons for calling
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &639905511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639905506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 639905508}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 639905510}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &655323604
 GameObject:
   m_ObjectHideFlags: 0
@@ -4227,18 +4435,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1470355653}
+      objectReference: {fileID: 1470355657}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4598,18 +4806,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1512053627}
+      objectReference: {fileID: 1512053631}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4716,6 +4924,8 @@ GameObject:
   - component: {fileID: 751020621}
   - component: {fileID: 751020623}
   - component: {fileID: 751020622}
+  - component: {fileID: 751020625}
+  - component: {fileID: 751020624}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -4826,7 +5036,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 277.03015, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4840,6 +5050,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751020620}
   m_CullTransparentMesh: 1
+--- !u!114 &751020624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751020620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 751020622}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: fb4b5b8762b65f8438cec71cebe9a8a4, type: 3}
+  sentences: []
+  isTyping: 0
+  isVocab: 0
+--- !u!114 &751020625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751020620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 751020622}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 751020624}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &767766675
 GameObject:
   m_ObjectHideFlags: 0
@@ -5444,7 +5728,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1372733545}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &831436115
+--- !u!114 &831436119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5453,11 +5737,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 831436111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 83d4fa953091b924b9fe06ea7515b639, type: 3}
+  textComponent: {fileID: 416521680}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 83d4fa953091b924b9fe06ea7515b639, type: 3}
+  sentences:
+  - "I\u2019d like to leave him a message. Please let her/him know that\u2026"
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &842059105
 GameObject:
   m_ObjectHideFlags: 0
@@ -5516,7 +5805,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "I\u2019m sorry, she\u2019s not here today"
+  m_text: "I\u2019m sorry, she\u2019s not here today."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -5849,18 +6138,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 864631080}
+      objectReference: {fileID: 864631084}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5961,7 +6250,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 864631075}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &864631080
+--- !u!114 &864631084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5970,11 +6259,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 205180907}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: e747e40d420c6e74eb9b73c041fd81d9, type: 3}
+  textComponent: {fileID: 61110134}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: e747e40d420c6e74eb9b73c041fd81d9, type: 3}
+  sentences:
+  - Can I leave a message?, May I leave a message?
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &887799485
 GameObject:
   m_ObjectHideFlags: 0
@@ -6099,18 +6393,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1226295625}
+      objectReference: {fileID: 1226295629}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -6222,6 +6516,8 @@ GameObject:
   - component: {fileID: 904316412}
   - component: {fileID: 904316414}
   - component: {fileID: 904316413}
+  - component: {fileID: 904316416}
+  - component: {fileID: 904316415}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6332,7 +6628,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -66.95381, w: 0}
+  m_margin: {x: 0, y: 0, z: 173.90453, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6346,6 +6642,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904316411}
   m_CullTransparentMesh: 1
+--- !u!114 &904316415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904316411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 904316413}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 4da60281305e145439633103ed642dfd, type: 3}
+  sentences:
+  - AAA
+  isTyping: 0
+  isVocab: 0
+--- !u!114 &904316416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904316411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 904316413}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 904316415}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &905921455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -6740,18 +7111,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 959137334}
+      objectReference: {fileID: 959137338}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -6852,7 +7223,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 959137329}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &959137334
+--- !u!114 &959137338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6861,11 +7232,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 457416078}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 3816355e6ad00aa4695d02b7ca75177e, type: 3}
+  textComponent: {fileID: 842059107}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 3816355e6ad00aa4695d02b7ca75177e, type: 3}
+  sentences:
+  - "I\u2019m sorry, she\u2019s not here today."
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &998465171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -6889,18 +7265,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1355779657}
+      objectReference: {fileID: 1355779661}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -7059,7 +7435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Available (of a person)  (adj) free to see or talk to people.
+  m_text: Available (of a person) (adj) free to see or talk to people.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7171,7 +7547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 0}
+  m_AnchoredPosition: {x: 350, y: 13}
   m_SizeDelta: {x: 470, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1020241314
@@ -7194,7 +7570,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "I\u2019m calling to ask about/discuss/clarify\u2026\r\n"
+  m_text: "I\u2019m calling to ask about, I\u2019m calling to dicuss, I\u2019m calling
+    to clarify\u2026\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7322,6 +7699,8 @@ GameObject:
   - component: {fileID: 1035658530}
   - component: {fileID: 1035658532}
   - component: {fileID: 1035658531}
+  - component: {fileID: 1035658534}
+  - component: {fileID: 1035658533}
   m_Layer: 5
   m_Name: imagine (1)
   m_TagString: Untagged
@@ -7447,6 +7826,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035658529}
   m_CullTransparentMesh: 1
+--- !u!114 &1035658533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035658529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1035658531}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 91e80c6a39c7b1a4c8bcc0fe830efd07, type: 3}
+  sentences:
+  - In this lesson, we look at vocabulary and useful phrases for handling business
+    calling situations.
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &1035658534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035658529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1035658531}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1035658533}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1060608047
 GameObject:
   m_ObjectHideFlags: 0
@@ -7611,8 +8066,8 @@ GameObject:
   - component: {fileID: 1160097207}
   - component: {fileID: 1160097206}
   - component: {fileID: 1160097205}
-  - component: {fileID: 1160097209}
   - component: {fileID: 1160097208}
+  - component: {fileID: 1160097209}
   m_Layer: 5
   m_Name: play_button
   m_TagString: Untagged
@@ -7705,7 +8160,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Title
+          m_StringArgument: Intro4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1160097206
@@ -7911,18 +8366,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1173812605}
+      objectReference: {fileID: 1173812609}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8023,7 +8478,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1173812603}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1173812605
+--- !u!114 &1173812609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8032,11 +8487,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 334232207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 3ccafc7698bc9584787b66faeb1f7d30, type: 3}
+  textComponent: {fileID: 946810117}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 3ccafc7698bc9584787b66faeb1f7d30, type: 3}
+  sentences: []
+  isTyping: 0
+  isVocab: 1
 --- !u!1 &1180179644
 GameObject:
   m_ObjectHideFlags: 0
@@ -8072,7 +8531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 0}
+  m_AnchoredPosition: {x: 350, y: 9}
   m_SizeDelta: {x: 470, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1180179646
@@ -8095,7 +8554,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Could you please tell me who\u2019s speaking/calling?\r\n"
+  m_text: "Could you please tell me who\u2019s speaking, Could  you please tell me
+    who\u2019s calling?\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -8202,12 +8662,12 @@ RectTransform:
   m_Children:
   - {fileID: 1598474447}
   - {fileID: 233985601}
-  m_Father: {fileID: 187603692}
+  m_Father: {fileID: 1895511413}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -104.99999}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1210462711
@@ -8281,7 +8741,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 892639745}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1226295625
+--- !u!114 &1226295629
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8290,11 +8750,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1226295624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 71d17bdc80d1eb947a56dabaa0d8c3b5, type: 3}
+  textComponent: {fileID: 1006768958}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 71d17bdc80d1eb947a56dabaa0d8c3b5, type: 3}
+  sentences: []
+  isTyping: 0
+  isVocab: 1
 --- !u!1001 &1230621468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8311,19 +8775,31 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1230621470}
+      objectReference: {fileID: 1230621474}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ClickPlaySound, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: PlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -8425,7 +8901,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1230621468}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1230621470
+--- !u!114 &1230621474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8434,11 +8910,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 473706690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  textComponent: {fileID: 151355723}
+  speechSource: {fileID: 1160097208}
+  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  sentences: []
+  isTyping: 0
+  isVocab: 1
 --- !u!1001 &1249663544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8457,18 +8937,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1249663549}
+      objectReference: {fileID: 1249663553}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8569,7 +9049,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1249663544}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1249663549
+--- !u!114 &1249663553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8578,11 +9058,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 905921455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 8940b9f61f55fc14c8c0881baf5b5598, type: 3}
+  textComponent: {fileID: 1020241314}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 8940b9f61f55fc14c8c0881baf5b5598, type: 3}
+  sentences:
+  - "I\u2019m calling to ask about, I\u2019m calling to dicuss, I\u2019m calling
+    to clarify\u2026 "
+  isTyping: 1
+  isVocab: 0
 --- !u!1001 &1269580610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8601,18 +9087,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1269580615}
+      objectReference: {fileID: 1269580619}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8713,7 +9199,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1269580610}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1269580615
+--- !u!114 &1269580619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8722,11 +9208,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 810278885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: e8f4b8c252af86240ba8dd4ea8c7017f, type: 3}
+  textComponent: {fileID: 802882844}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: e8f4b8c252af86240ba8dd4ea8c7017f, type: 3}
+  sentences:
+  - "She\u2019s engaged."
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1275825467
 GameObject:
   m_ObjectHideFlags: 0
@@ -8776,6 +9267,8 @@ GameObject:
   - component: {fileID: 1289100970}
   - component: {fileID: 1289100972}
   - component: {fileID: 1289100971}
+  - component: {fileID: 1289100974}
+  - component: {fileID: 1289100973}
   m_Layer: 5
   m_Name: imagine
   m_TagString: Untagged
@@ -8901,6 +9394,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289100969}
   m_CullTransparentMesh: 1
+--- !u!114 &1289100973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289100969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1289100971}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 7e01854e710d00a4ba0c14dfc7236348, type: 3}
+  sentences:
+  - Imagine a scenario. When someone calls for a business purpose. How would you
+    handle this situation?
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &1289100974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289100969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1289100971}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1289100973}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1306935021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8919,18 +9488,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1306935026}
+      objectReference: {fileID: 1306935030}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -9031,7 +9600,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1306935021}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1306935026
+--- !u!114 &1306935030
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9040,11 +9609,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 607943452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
+  textComponent: {fileID: 184555056}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
+  sentences:
+  - I would like to speak to Norah.
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1312488008
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,7 +9738,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1006019169}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1355779657
+--- !u!114 &1355779661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9173,11 +9747,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1355779656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
+  textComponent: {fileID: 715963203}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
+  sentences: []
+  isTyping: 0
+  isVocab: 1
 --- !u!1 &1363670571
 GameObject:
   m_ObjectHideFlags: 0
@@ -9261,18 +9839,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 831436115}
+      objectReference: {fileID: 831436119}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -9584,7 +10162,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 301036175}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1435499873
+--- !u!114 &1435499877
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9593,11 +10171,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1435499869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 425da3a58e6a2514cb3f79a88c43f21d, type: 3}
+  textComponent: {fileID: 1652675099}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 425da3a58e6a2514cb3f79a88c43f21d, type: 3}
+  sentences:
+  - Thanks for calling.
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1466603522 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -9608,7 +10191,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 708552381}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1470355653
+--- !u!114 &1470355657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9617,11 +10200,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1470355649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: be019a32ec6e2e64fb14c9977858919d, type: 3}
+  textComponent: {fileID: 854627280}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: be019a32ec6e2e64fb14c9977858919d, type: 3}
+  sentences:
+  - Thank you very much for your help.
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1494426593
 GameObject:
   m_ObjectHideFlags: 0
@@ -9633,6 +10221,8 @@ GameObject:
   - component: {fileID: 1494426594}
   - component: {fileID: 1494426596}
   - component: {fileID: 1494426595}
+  - component: {fileID: 1494426598}
+  - component: {fileID: 1494426597}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -9743,7 +10333,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 258.85675, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9757,6 +10347,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494426593}
   m_CullTransparentMesh: 1
+--- !u!114 &1494426597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494426593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1494426595}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 7c24773411162af4da45e501fda70a36, type: 3}
+  sentences:
+  - "Asking the caller\u2019s identity."
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &1494426598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494426593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1494426595}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1494426597}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1511230116
 GameObject:
   m_ObjectHideFlags: 0
@@ -9897,7 +10562,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 746318577}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1512053627
+--- !u!114 &1512053631
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9906,11 +10571,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 457295471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: eecd40235fe00954ea8a2681bdd8f112, type: 3}
+  textComponent: {fileID: 1771084902}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: eecd40235fe00954ea8a2681bdd8f112, type: 3}
+  sentences:
+  - "Could you please take a message? Please tell her that\u2026 "
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1543230417
 GameObject:
   m_ObjectHideFlags: 0
@@ -9922,6 +10592,8 @@ GameObject:
   - component: {fileID: 1543230418}
   - component: {fileID: 1543230420}
   - component: {fileID: 1543230419}
+  - component: {fileID: 1543230421}
+  - component: {fileID: 1543230422}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -10048,6 +10720,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543230417}
   m_CullTransparentMesh: 1
+--- !u!114 &1543230421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543230417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1543230419}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 0a1b747377c1000459f3bd57335cd914, type: 3}
+  sentences:
+  - 'Ending the call '
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &1543230422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543230417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1543230419}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1543230421}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1545045295
 GameObject:
   m_ObjectHideFlags: 0
@@ -10059,6 +10806,8 @@ GameObject:
   - component: {fileID: 1545045296}
   - component: {fileID: 1545045298}
   - component: {fileID: 1545045297}
+  - component: {fileID: 1545045300}
+  - component: {fileID: 1545045299}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -10183,6 +10932,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545045295}
   m_CullTransparentMesh: 1
+--- !u!114 &1545045299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545045295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1545045297}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: cc2c6489bfa561a429a31220e9971b97, type: 3}
+  sentences:
+  - 'How to leave messages '
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &1545045300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545045295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1545045297}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1545045299}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1562876575
 GameObject:
   m_ObjectHideFlags: 0
@@ -10194,6 +11018,7 @@ GameObject:
   - component: {fileID: 1562876576}
   - component: {fileID: 1562876578}
   - component: {fileID: 1562876577}
+  - component: {fileID: 1562876579}
   m_Layer: 5
   m_Name: Soild_Color_BG
   m_TagString: Untagged
@@ -10217,7 +11042,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10259,6 +11084,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562876575}
   m_CullTransparentMesh: 1
+--- !u!114 &1562876579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562876575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 4
+  m_AspectRatio: 2
 --- !u!1001 &1598474446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10277,18 +11116,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2132516145}
+      objectReference: {fileID: 2132516149}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -10738,6 +11577,8 @@ GameObject:
   - component: {fileID: 1658834950}
   - component: {fileID: 1658834952}
   - component: {fileID: 1658834951}
+  - component: {fileID: 1658834954}
+  - component: {fileID: 1658834953}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -10785,8 +11626,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "We use I would like to speak to/with \u2026or May I speak to \u2026? to
-    ask for someone.\r"
+  m_text: "We use I would like to speak to .../ I would like to speak with ..., or
+    May I speak to \u2026? to ask for someone.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -10863,6 +11704,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658834949}
   m_CullTransparentMesh: 1
+--- !u!114 &1658834953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658834949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1658834951}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 42b92dd4d23ceb241be6ef9a055a4e92, type: 3}
+  sentences:
+  - "We use I would like to speak to ..., I would like to speak with ..., or May
+    I speak to \u2026? to ask for someone. "
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &1658834954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658834949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1658834951}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1658834953}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1666356890
 GameObject:
   m_ObjectHideFlags: 0
@@ -11016,18 +11933,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1685382662}
+      objectReference: {fileID: 1685382666}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -11128,7 +12045,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1685382657}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1685382662
+--- !u!114 &1685382666
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11137,11 +12054,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 928650129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 20e19f8b0b3b7114190c07f291b58f7a, type: 3}
+  textComponent: {fileID: 620355716}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 20e19f8b0b3b7114190c07f291b58f7a, type: 3}
+  sentences:
+  - When is she going to be back?
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1692674127
 GameObject:
   m_ObjectHideFlags: 0
@@ -11238,18 +12160,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1765263652}
+      objectReference: {fileID: 1765263656}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -11350,7 +12272,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1765263647}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1765263652
+--- !u!114 &1765263656
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11359,11 +12281,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1466603522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 02085000ecfe7514da21f760b179f036, type: 3}
+  textComponent: {fileID: 475071862}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 02085000ecfe7514da21f760b179f036, type: 3}
+  sentences:
+  - "She\u2019s in the meeting."
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1771084900
 GameObject:
   m_ObjectHideFlags: 0
@@ -11690,6 +12617,8 @@ GameObject:
   - component: {fileID: 1811440813}
   - component: {fileID: 1811440815}
   - component: {fileID: 1811440814}
+  - component: {fileID: 1811440817}
+  - component: {fileID: 1811440816}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -11800,7 +12729,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -66.95381, w: 0}
+  m_margin: {x: 0, y: 0, z: 122.593185, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11814,6 +12743,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811440812}
   m_CullTransparentMesh: 1
+--- !u!114 &1811440816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811440812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1811440814}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 36a9c032206a7cf4a9fd4bd76e02304c, type: 3}
+  sentences: []
+  isTyping: 0
+  isVocab: 0
+--- !u!114 &1811440817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811440812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1811440814}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1811440816}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1821941892
 GameObject:
   m_ObjectHideFlags: 0
@@ -11871,6 +12874,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 937142582}
   clip: {fileID: 8300000, guid: a385437c11b16274585f4764610ced5d, type: 3}
+--- !u!114 &1838111855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838111847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 273911622}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: a385437c11b16274585f4764610ced5d, type: 3}
+  sentences:
+  - Thank you for your time.
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1839416136
 GameObject:
   m_ObjectHideFlags: 0
@@ -11955,18 +12977,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1844693609}
+      objectReference: {fileID: 1844693613}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -12067,7 +13089,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1844693607}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1844693609
+--- !u!114 &1844693613
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12076,11 +13098,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640994836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 5205fa990a6394145ac1ba1de310e4a8, type: 3}
+  textComponent: {fileID: 779998794}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 5205fa990a6394145ac1ba1de310e4a8, type: 3}
+  sentences: []
+  isTyping: 0
+  isVocab: 1
 --- !u!1 &1895511412
 GameObject:
   m_ObjectHideFlags: 0
@@ -12112,13 +13138,14 @@ RectTransform:
   m_Children:
   - {fileID: 268246947}
   - {fileID: 187603692}
+  - {fileID: 1202619490}
   m_Father: {fileID: 2066792847}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -123}
-  m_SizeDelta: {x: 100, y: 147.07}
+  m_AnchoredPosition: {x: 50, y: -154.82338}
+  m_SizeDelta: {x: 100, y: 210.7166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1895511414
 MonoBehaviour:
@@ -12202,18 +13229,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1926191861}
+      objectReference: {fileID: 1926191865}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -12314,7 +13341,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1926191856}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1926191861
+--- !u!114 &1926191865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12323,11 +13350,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 998465171}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: fb1d07d76c4e6af488b732e9e6279e16, type: 3}
+  textComponent: {fileID: 70597106}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: fb1d07d76c4e6af488b732e9e6279e16, type: 3}
+  sentences:
+  - "I just wanted to ask\u2026"
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &1940831287
 GameObject:
   m_ObjectHideFlags: 0
@@ -12339,6 +13371,8 @@ GameObject:
   - component: {fileID: 1940831288}
   - component: {fileID: 1940831290}
   - component: {fileID: 1940831289}
+  - component: {fileID: 1940831292}
+  - component: {fileID: 1940831291}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -12463,6 +13497,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940831287}
   m_CullTransparentMesh: 1
+--- !u!114 &1940831291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940831287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1940831289}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 88f920bee9ffa434aab1ffeb4649d841, type: 3}
+  sentences:
+  - How to respond when the person the caller asks for is unavailable
+  isTyping: 1
+  isVocab: 0
+--- !u!114 &1940831292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940831287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1940831289}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1940831291}
+        m_TargetAssemblyTypeName: ClickPlaySound, Assembly-CSharp
+        m_MethodName: StartSpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1941634296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
@@ -12482,6 +13591,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 937142582}
   clip: {fileID: 8300000, guid: d7f95975ba268ef4c9cc93dfc583e1fb, type: 3}
+--- !u!114 &1941634304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941634296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1666356892}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: d7f95975ba268ef4c9cc93dfc583e1fb, type: 3}
+  sentences:
+  - Do you know when he'll be available, please?
+  isTyping: 1
+  isVocab: 0
 --- !u!1001 &1988847083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12500,18 +13628,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1988847088}
+      objectReference: {fileID: 1988847092}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -12612,7 +13740,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1988847083}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1988847088
+--- !u!114 &1988847092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12621,17 +13749,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 328923341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 03d5c2142d6081142928ef4a02e6e827, type: 3}
+  textComponent: {fileID: 331567671}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 03d5c2142d6081142928ef4a02e6e827, type: 3}
+  sentences:
+  - "He\u2019s not available at the moment."
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &2023888495 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 8887193551841270766}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2023888499
+--- !u!114 &2023888503
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12640,11 +13773,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2023888495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 4de008441a667c748b38f97e44d1beb2, type: 3}
+  textComponent: {fileID: 416390645}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 4de008441a667c748b38f97e44d1beb2, type: 3}
+  sentences:
+  - Would you like to leave a message?
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &2054495158
 GameObject:
   m_ObjectHideFlags: 0
@@ -12742,7 +13880,7 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 198422837}
+  - {fileID: 525264515}
   m_Father: {fileID: 1020950584}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12924,7 +14062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 0}
+  m_AnchoredPosition: {x: 350, y: 12}
   m_SizeDelta: {x: 470, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087916551
@@ -12947,7 +14085,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Could I ask who''s calling?/telephoning?
+  m_text: 'Could I ask who''s calling?, Could I ask who''s telephoning?
 
 '
   m_isRightToLeft: 0
@@ -13069,7 +14207,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 146588721}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2120845620
+--- !u!114 &2120845624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13078,11 +14216,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2120845616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 6611dd118f09c214fac2736b5a8acade, type: 3}
+  textComponent: {fileID: 2087916551}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 6611dd118f09c214fac2736b5a8acade, type: 3}
+  sentences:
+  - 'Could I ask who''s calling?, Could I ask who''s telephoning? '
+  isTyping: 1
+  isVocab: 0
 --- !u!1001 &2123073109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13101,18 +14244,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2123073114}
+      objectReference: {fileID: 2123073118}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -13213,7 +14356,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8887193551768405285, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 2123073109}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2123073114
+--- !u!114 &2123073118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13222,11 +14365,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 574479111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: f87b19620e50c014c97e2d855b74badb, type: 3}
+  textComponent: {fileID: 1511230118}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: f87b19620e50c014c97e2d855b74badb, type: 3}
+  sentences:
+  - When is a good time to call?
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &2129748970
 GameObject:
   m_ObjectHideFlags: 0
@@ -13266,7 +14414,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -2021.7771}
-  m_SizeDelta: {x: -180, y: 3983.5537}
+  m_SizeDelta: {x: -160, y: 3983.5537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2129748972
 MonoBehaviour:
@@ -13341,7 +14489,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8887193551768405284, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
   m_PrefabInstance: {fileID: 1598474446}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2132516145
+--- !u!114 &2132516149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13350,11 +14498,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2132516141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62803e827bc97694c9a04be6748e6de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f0d1816a135864bb7cacf69ae048b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 937142582}
-  clip: {fileID: 8300000, guid: 68f0486b7c4fae94c83e4c02b929115e, type: 3}
+  textComponent: {fileID: 233985602}
+  speechSource: {fileID: 937142582}
+  speechClip: {fileID: 8300000, guid: 68f0486b7c4fae94c83e4c02b929115e, type: 3}
+  sentences:
+  - "Could you tell me\u2026?"
+  isTyping: 1
+  isVocab: 0
 --- !u!1 &2146546720
 GameObject:
   m_ObjectHideFlags: 0
@@ -13410,18 +14563,18 @@ PrefabInstance:
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2023888499}
+      objectReference: {fileID: 2023888503}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayVoice
+      value: StartSpeech
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlaySound, Assembly-CSharp
+      value: ClickPlaySound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8887193551768405282, guid: 660e3040c6b82364b83c862a3f7b243e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

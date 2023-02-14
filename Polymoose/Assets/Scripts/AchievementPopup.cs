@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Threading;
 
 public class AchievementPopup : MonoBehaviour
 {
@@ -23,10 +24,13 @@ public class AchievementPopup : MonoBehaviour
     [SerializeField] private float timer1;
     [SerializeField] private float timer2;
 
+    [SerializeField] private int totalAchivement = 0;
+
     private void Awake()
     {
-        //PlayerPrefs.SetInt("Acheivement" + 0, 0);
-        //PlayerPrefs.SetInt("Firstclear", 0);
+        //PlayerPrefs.SetInt("TotalAchievement", 4);
+        //PlayerPrefs.SetInt("Acheivement" + 4, 0);
+
     }
 
     // Start is called before the first frame update
@@ -44,6 +48,7 @@ public class AchievementPopup : MonoBehaviour
 
         achievement[3] = PlayerPrefs.GetInt("Fullstack");
         achievement[4] = PlayerPrefs.GetInt("Totalcoin");
+        achievement[5] = PlayerPrefs.GetInt("TotalAchievement");
 
         for (int i = 0; i < achievementCode.Length; i++)
         {
@@ -51,18 +56,21 @@ public class AchievementPopup : MonoBehaviour
         }
 
         SetAlpha();
-        CheckAchievement();
+        StartCoroutine(CheckAchievement());
     }
 
-    void CheckAchievement()
+    IEnumerator CheckAchievement()
     {
         for (int i = 0; i < achievement.Length; i++)
         {
             if (achievement[i] >= condition[i] && achievementCode[i] != 12345)
             {
                 StartCoroutine(TriggerAchievement(i));
+                PlayerPrefs.SetInt("TotalAchievement", achievement[5] += 1);
                 SetAlpha();
+                yield return new WaitForSeconds(8);
             }
+            
         }
     }
 
@@ -140,6 +148,22 @@ public class AchievementPopup : MonoBehaviour
                 achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[4];
                 achievementName.GetComponent<TextMeshProUGUI>().text = detailText[4];
                 achievementImage.GetComponent<Image>().sprite = achievementSprite[4];
+
+                yield return new WaitForSeconds(timer1);
+                achievementPopup.SetActive(true);
+                StartCoroutine(FadeAnimation());
+                achievementSound.Play();
+
+                yield return new WaitForSeconds(timer2);
+                achievementPopup.SetActive(false);
+                break;
+
+            case 5:
+                achievementCode[5] = 12345;
+                PlayerPrefs.SetInt("Acheivement" + 5, achievementCode[5]);
+                achievementTitle.GetComponent<TextMeshProUGUI>().text = titleText[5];
+                achievementName.GetComponent<TextMeshProUGUI>().text = detailText[5];
+                achievementImage.GetComponent<Image>().sprite = achievementSprite[5];
 
                 yield return new WaitForSeconds(timer1);
                 achievementPopup.SetActive(true);
