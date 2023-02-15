@@ -70,12 +70,14 @@ public class ClickPlaySound : MonoBehaviour
 
     IEnumerator VocabColor()
     {
-        textComponent.color = new Color32(84, 194, 60, 255);
+        textComponent.text = "<color=#54C23C>" + sentences[0] + "</color>" + " " +
+                             "<color=#FFFFFF>" + sentences[1] + "</color>";
         speechSource.clip = speechClip;
         speechSource.Play();
         
         yield return new WaitForSeconds(speechClip.length);
-        textComponent.color = new Color32(255, 255, 255, 255);
+        textComponent.text = "<color=#FFFFFF>" + sentences[0] + "</color>" + " " +
+                             "<color=#FFFFFF>" + sentences[1] + "</color>";
     }
     
 }

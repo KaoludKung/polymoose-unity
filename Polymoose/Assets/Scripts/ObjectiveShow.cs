@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class ObjectiveShow : MonoBehaviour
@@ -9,6 +10,7 @@ public class ObjectiveShow : MonoBehaviour
     [SerializeField] GameObject Objective;
     [SerializeField] TextMeshProUGUI objectiveText;
     [SerializeField] TextMeshProUGUI tapText;
+    [SerializeField] GameObject[] arrow;
     [SerializeField] string message;
 
     private void Awake()
@@ -26,14 +28,29 @@ public class ObjectiveShow : MonoBehaviour
 
     IEnumerator FadeAnimation()
     {
-        yield return new WaitForSeconds(0.5f);
         Objective.SetActive(true);
         objectiveText.CrossFadeAlpha(1.0f, 2.0f, false);
         tapText.CrossFadeAlpha(1.0f, 2.0f, false);
 
-        yield return new WaitForSeconds(3.0f);
-        objectiveText.CrossFadeAlpha(0.0f, 3.0f, false);
-        tapText.CrossFadeAlpha(0.0f, 3.0f, false);
+        yield return new WaitForSeconds(3.5f);
+        objectiveText.CrossFadeAlpha(0.0f, 2.0f, false);
+        tapText.CrossFadeAlpha(0.0f, 2.0f, false);
+        
+        yield return new WaitForSeconds(2.0f);
+        StartCoroutine(ArrowAlert());
         player.enabled = true;
+    }
+
+    IEnumerator ArrowAlert()
+    {
+        for(int i =0; i < 2; i++)
+        {
+            arrow[0].SetActive(true);
+            arrow[1].SetActive(true);
+            yield return new WaitForSeconds(1.0f);
+            arrow[0].SetActive(false);
+            arrow[1].SetActive(false);
+            yield return new WaitForSeconds(1.0f);
+        }
     }
 }

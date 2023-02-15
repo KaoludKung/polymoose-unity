@@ -56,14 +56,14 @@ public class QuizUI : MonoBehaviour
                 break;
         }
 
-        questionText.text = question.questionInfo;
+        questionText.text = "<color=#3BF831>Question: </color>" + question.questionInfo;
         List<string> answerList = ShuffleList.ShuffleListItems<string>(question.options);
 
         for(int i = 0; i <options.Count; i++)
         {
             options[i].GetComponentInChildren<TextMeshProUGUI>().text = answerList[i];
             options[i].name = answerList[i];
-            options[i].image.color = new Color32(0,0,0,128);
+            options[i].image.color = new Color32(0,0,0,180);
         }
         answered = false;  
     }

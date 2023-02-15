@@ -8493,7 +8493,9 @@ MonoBehaviour:
   textComponent: {fileID: 946810117}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 3ccafc7698bc9584787b66faeb1f7d30, type: 3}
-  sentences: []
+  sentences:
+  - Of course
+  - (adv) used to emphasize that what you are saying is true or correct.
   isTyping: 0
   isVocab: 1
 --- !u!1 &1180179644
@@ -8756,7 +8758,9 @@ MonoBehaviour:
   textComponent: {fileID: 1006768958}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 71d17bdc80d1eb947a56dabaa0d8c3b5, type: 3}
-  sentences: []
+  sentences:
+  - Available
+  - (of a person) (adj) free to see or talk to people.
   isTyping: 0
   isVocab: 1
 --- !u!1001 &1230621468
@@ -8916,7 +8920,9 @@ MonoBehaviour:
   textComponent: {fileID: 151355723}
   speechSource: {fileID: 1160097208}
   speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
-  sentences: []
+  sentences:
+  - ASAP (as soon as possible)
+  - (slang) as quickly, much, soon, etc. as you can.
   isTyping: 0
   isVocab: 1
 --- !u!1001 &1249663544
@@ -9753,7 +9759,10 @@ MonoBehaviour:
   textComponent: {fileID: 715963203}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
-  sentences: []
+  sentences:
+  - Purpose
+  - (n) the intention, aim or function of something; the thing that something is
+    supposed to achieve.
   isTyping: 0
   isVocab: 1
 --- !u!1 &1363670571
@@ -13104,7 +13113,9 @@ MonoBehaviour:
   textComponent: {fileID: 779998794}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 5205fa990a6394145ac1ba1de310e4a8, type: 3}
-  sentences: []
+  sentences:
+  - Leave a message
+  - (v) to leave information for someone you haven't been able to meet or talk to.
   isTyping: 0
   isVocab: 1
 --- !u!1 &1895511412
