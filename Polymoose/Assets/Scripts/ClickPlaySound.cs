@@ -57,6 +57,7 @@ public class ClickPlaySound : MonoBehaviour
             speechSource.Stop();
             textComponent.text = sentences[index];
             textComponent.color = new Color32(255, 255, 255, 255);
+            icon.color = new Color32(255, 255, 255, 255);
             isEnd = false;
         }
         
