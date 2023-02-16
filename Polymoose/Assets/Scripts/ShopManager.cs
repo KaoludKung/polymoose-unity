@@ -31,8 +31,8 @@ public class ShopManager : MonoBehaviour
             coinCount = 9999;
         }
 
-        //coinCount = 9999;
-        //PlayerPrefs.SetInt("Coins", coinCount);
+        /*coinCount = 9999;
+        PlayerPrefs.SetInt("Coins", coinCount);*/
 
         coinText.text = coinCount.ToString();
         Debug.Log("Coin : " + coinCount);

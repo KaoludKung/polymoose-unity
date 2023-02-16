@@ -7931,7 +7931,7 @@ RectTransform:
   - {fileID: 2111193226}
   - {fileID: 1120880513}
   - {fileID: 830282539}
-  - {fileID: 987802685}
+  - {fileID: 2134363648}
   - {fileID: 415755629}
   - {fileID: 1299024557}
   - {fileID: 63467771}
@@ -10231,7 +10231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &987802685
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10241,17 +10241,16 @@ RectTransform:
   m_GameObject: {fileID: 987802684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2134363648}
-  m_Father: {fileID: 754417366}
-  m_RootOrder: 32
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 2134363648}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -48.80005, y: 52}
-  m_SizeDelta: {x: 200, y: 30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 8.499878, y: -49.999863}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987802686
 MonoBehaviour:
@@ -10300,8 +10299,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 19
+  m_fontSizeBase: 19
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14215,8 +14214,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288560843
-  m_fontColor: {r: 0.7960785, g: 0.24313727, b: 0.61960787, a: 1}
+    rgba: 4290390271
+  m_fontColor: {r: 1, g: 0.15599996, b: 0.7306382, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -22641,14 +22640,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.36555114, g: 0.9528302, b: 0.932718, a: 0.41568628}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ab9d314c9e98eb54999ab3bccd0f922d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23545,12 +23544,12 @@ GameObject:
   - component: {fileID: 2134363650}
   - component: {fileID: 2134363649}
   m_Layer: 5
-  m_Name: Image
+  m_Name: timer Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2134363648
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23558,18 +23557,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134363647}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.11999999, y: 0.11999999, z: 0.11999999}
   m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 987802685}
-  m_RootOrder: 0
+  m_Children:
+  - {fileID: 987802685}
+  m_Father: {fileID: 754417366}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.8, y: 5}
-  m_SizeDelta: {x: 483, y: 564}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -49.600006, y: 56.532455}
+  m_SizeDelta: {x: 480.27, y: 564}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134363649
 MonoBehaviour:
@@ -23591,9 +23591,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eec651b248536934bbcce86567ecc882, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8582487eced7d59469143086c8d1f7fc, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
