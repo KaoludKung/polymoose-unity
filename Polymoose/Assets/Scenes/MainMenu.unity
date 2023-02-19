@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 921748910}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.614035
+  m_Size: 0.61403507
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2162,7 +2162,7 @@ MonoBehaviour:
   - Super Star
   - Full Combo
   - Gem Collector
-  - Patchadol
+  - A Badge Hunter
   achievementSprite:
   - {fileID: 21300000, guid: 239fbf4d52d02304d9c3bda161c9484e, type: 3}
   - {fileID: 21300000, guid: ab9cfbab60b6ed5488d2c79490dce3bd, type: 3}
