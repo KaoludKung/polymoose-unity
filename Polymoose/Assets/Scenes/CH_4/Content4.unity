@@ -948,11 +948,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 158801073}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - Purpose
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &158801072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1256,11 +1259,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 184555056}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
   sentences:
   - I would like to speak to Norah.
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &184555059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4152,7 +4158,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.52459073
+  m_Size: 0.5220713
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4480,11 +4486,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 639905508}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - AAA
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &639905511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5048,11 +5057,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 715963203}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - Purpose
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &715963206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5162,11 +5174,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 728241207}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
   sentences:
   - I would like to speak to Norah.
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &728241206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5702,11 +5717,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 751020622}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - Language Focus
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &751020625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5776,10 +5794,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 0}
+  icon: {fileID: 0}
   speechSource: {fileID: 0}
   speechClip: {fileID: 0}
   sentences: []
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!1 &753458959
 GameObject:
   m_ObjectHideFlags: 0
@@ -7374,11 +7395,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 904316413}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - Business Calling
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!1 &914403102
 GameObject:
   m_ObjectHideFlags: 0
@@ -8084,12 +8108,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1035658531}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - In this lesson, we look at vocabulary and useful phrases for handling business
     calling situations.
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1035658534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9189,12 +9216,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1289100971}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 35f37ea670efa044688c1b2e92dcb5b1, type: 3}
   sentences:
   - Imagine a scenario. When someone calls for a business purpose. How would you
     handle this situation?
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1289100974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9781,11 +9811,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1387742969}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 35f37ea670efa044688c1b2e92dcb5b1, type: 3}
   sentences:
   - May I speak to Mr. Macaw?
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1387742972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9933,11 +9966,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1396304425}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 3ccafc7698bc9584787b66faeb1f7d30, type: 3}
   sentences:
   - Purpose
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1396304424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11011,11 +11047,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1576482205}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 71d17bdc80d1eb947a56dabaa0d8c3b5, type: 3}
   sentences:
   - Purpose
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1576482204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11596,12 +11635,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1658834951}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - "We use I would like to speak to/with \u2026or May I speak to \u2026? to ask
     for someone. "
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1658834954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12775,11 +12817,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1811440814}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - Vocabulary
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1811440817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13155,11 +13200,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1934795443}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 5205fa990a6394145ac1ba1de310e4a8, type: 3}
   sentences:
   - Purpose
   isTyping: 0
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1934795442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13523,12 +13571,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1975278898}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
   - "We use I would like to speak to/with \u2026or May I speak to \u2026? to ask
     for someone. "
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &1975278897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13924,6 +13975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2057937748}
   - component: {fileID: 2057937749}
+  - component: {fileID: 2057937750}
   m_Layer: 5
   m_Name: Video Player
   m_TagString: Untagged
@@ -13960,7 +14012,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057937747}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 262485cb651f45d4391b2587e596580f, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -13987,6 +14039,21 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &2057937750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057937747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b6f75548f54b64681c174599b977ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 198422838}
+  videoToPlay: {fileID: 32900000, guid: 262485cb651f45d4391b2587e596580f, type: 3}
+  videoPlayer: {fileID: 2057937749}
 --- !u!1 &2062943088
 GameObject:
   m_ObjectHideFlags: 0
@@ -14040,11 +14107,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 2062943092}
+  icon: {fileID: 0}
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 35f37ea670efa044688c1b2e92dcb5b1, type: 3}
   sentences:
   - May I speak to Mr. Macaw?
   isTyping: 1
+  hasIcon: 0
+  isVocab: 0
 --- !u!114 &2062943091
 MonoBehaviour:
   m_ObjectHideFlags: 0
