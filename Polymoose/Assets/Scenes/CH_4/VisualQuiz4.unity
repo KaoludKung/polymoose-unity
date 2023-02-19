@@ -466,7 +466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizUI: {fileID: 2076229340}
   questions:
-  - questionInfo: What sentence should the Moose use to identify the caller?
+  - questionInfo: What sentence should Moose use to identify the caller?
     questionType: 0
     questionImage: {fileID: 0}
     questionClip: {fileID: 0}
@@ -477,7 +477,7 @@ MonoBehaviour:
     - May I speak to Macaw?
     - Anything else?
     correctAnswer: 'Could I ask who''s telephoning? '
-  - questionInfo: What sentence should the Moose use to identify the caller?
+  - questionInfo: What sentence should Moose use to identify the caller?
     questionType: 0
     questionImage: {fileID: 0}
     questionClip: {fileID: 0}
@@ -488,7 +488,7 @@ MonoBehaviour:
     - Can I speak to Norah?
     - Anything else?
     correctAnswer: "Could you please tell me who\u2019s speaking?"
-  - questionInfo: What sentence should the Moose use to identify the caller?
+  - questionInfo: What sentence should Moose use to identify the caller?
     questionType: 0
     questionImage: {fileID: 0}
     questionClip: {fileID: 0}
@@ -3651,7 +3651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizUI: {fileID: 981509956}
   questions:
-  - questionInfo: What sentence should he use when asking when Ms. Nyx is available?
+  - questionInfo: What sentence should Mr. Hypnos use to ask when Ms. Nyx is available?
     questionType: 0
     questionImage: {fileID: 0}
     questionClip: {fileID: 0}
@@ -3662,7 +3662,7 @@ MonoBehaviour:
     - Do you know when she'll be available, please?
     - Would you like to leave a message?
     correctAnswer: Do you know when she'll be available, please?
-  - questionInfo: What sentence should he use when asking when Ms. Nyx is available?
+  - questionInfo: What sentence should Mr. Hypnos use to ask when Ms. Nyx is available?
     questionType: 0
     questionImage: {fileID: 0}
     questionClip: {fileID: 0}
@@ -3670,7 +3670,7 @@ MonoBehaviour:
     options:
     - When is she going to be back?
     - Thank you for your time.
-    - When is he going to be back?
+    - She is engaged.
     - May I leave a message?
     correctAnswer: When is she going to be back?
   selectedQuestion:
@@ -15934,7 +15934,7 @@ MonoBehaviour:
   nextButton: {fileID: 678526111}
   nextSet: {fileID: 313617193}
   sentences:
-  - 'Mr. Hypnos now knows that Ms. Nyx can''t answer calls. '
+  - 'Mr. Hypnos now knows that Ms. Nyx can''t answer the call. '
   textSpeed: 0.05
 --- !u!1 &1473696793
 GameObject:
