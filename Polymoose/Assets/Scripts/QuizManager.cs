@@ -15,7 +15,8 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private int level;
     [SerializeField] private int questionNum;
     [SerializeField] private bool firstQuestion;
- 
+    public bool fillBlank;
+
     [SerializeField] private GameObject hintsText;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;

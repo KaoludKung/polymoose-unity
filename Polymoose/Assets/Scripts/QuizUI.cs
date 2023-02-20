@@ -15,6 +15,7 @@ public class QuizUI : MonoBehaviour
 
     [SerializeField] private AudioSource correctClip;
     [SerializeField] private AudioSource wrongClip;
+    [SerializeField] private bool fillBlank;
 
     private Question question;
     private bool answered;
@@ -56,7 +57,15 @@ public class QuizUI : MonoBehaviour
                 break;
         }
 
-        questionText.text = "<color=#3BF831>Question: </color>" + question.questionInfo;
+        if (quizManager.fillBlank)
+        {
+            questionText.text = "<color=#3BF831>Fill the blank: </color>" + question.questionInfo;
+        }
+        else
+        {
+            questionText.text = "<color=#3BF831>Question: </color>" + question.questionInfo;
+        }
+
         List<string> answerList = ShuffleList.ShuffleListItems<string>(question.options);
 
         for(int i = 0; i <options.Count; i++)
