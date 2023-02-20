@@ -4392,7 +4392,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.52141243
+  m_Size: 0.51890826
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4995,7 +4995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ASAP (as soon as possible) (slang) as quickly, much, soon, etc. as you
+  m_text: ASAP (as soon as possible) (idiom) as quickly, much, soon, etc. as you
     can.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -5506,7 +5506,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Of course (adv) used to emphasize that what you are saying is true or correct.
+  m_text: Of course (idiom) used to emphasize that what you are saying is true or
+    correct.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -10692,7 +10693,7 @@ MonoBehaviour:
   speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - ASAP (as soon as possible)
-  - (slang) as quickly, much, soon, etc. as you can.
+  - (idiom) as quickly, much, soon, etc. as you can.
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -13864,7 +13865,7 @@ MonoBehaviour:
   speechClip: {fileID: 8300000, guid: 3ccafc7698bc9584787b66faeb1f7d30, type: 3}
   sentences:
   - Of course
-  - (adv) used to emphasize that what you are saying is true or correct.
+  - (idiom) used to emphasize that what you are saying is true or correct.
   isTyping: 0
   hasIcon: 0
   isVocab: 1

@@ -38,7 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CH_3/Walk3.unity
     guid: 953ba720fe61ac241a9c78c8239c6873
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CH_4/Content4.unity
     guid: 5f4904cf97ac2d848b6e8498f2a0b01d
   - enabled: 1
