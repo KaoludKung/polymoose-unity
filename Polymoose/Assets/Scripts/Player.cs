@@ -143,7 +143,7 @@ public class Player : MonoBehaviour
 
     IEnumerator ChangeScene(string sceneID)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0f);
         SceneManager.LoadScene(sceneID);
     }
 
