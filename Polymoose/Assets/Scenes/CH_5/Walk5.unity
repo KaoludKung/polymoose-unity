@@ -385,7 +385,7 @@ MonoBehaviour:
   moveSpeed: 3.5
   footStep: {fileID: 174079476}
   isInteract: 0
-  scene: VisualQuiz4
+  levelID: 5
 --- !u!95 &174079482
 Animator:
   serializedVersion: 4

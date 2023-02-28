@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     private bool facingRight = true;
 
     public bool isInteract = false;
-    public string scene;
+    public int levelID;
 
     // Start is called before the first frame update
     private void Start()
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
             {
                 if (isInteract)
                 {
-                   StartCoroutine(ChangeScene(scene));
+                   StartCoroutine(ChangeScene("Loading"));
                 }
             }
             else if(hit.collider.tag == "background")
@@ -105,7 +105,8 @@ public class Player : MonoBehaviour
 
                 if (isInteract)
                 {
-                    StartCoroutine(ChangeScene(scene));
+                    PlayerPrefs.SetInt("Loading", levelID);
+                    StartCoroutine(ChangeScene("Loading"));
                 }
             }
             else if (hit.collider.tag == "background")

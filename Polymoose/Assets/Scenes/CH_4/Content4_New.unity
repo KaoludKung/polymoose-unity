@@ -4392,7 +4392,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.51890826
+  m_Size: 0.52735984
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9023,6 +9023,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 0
+  isContent: 0
 --- !u!1 &1166944572
 GameObject:
   m_ObjectHideFlags: 0
@@ -9842,7 +9844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 151355723}
   icon: {fileID: 0}
-  speechSource: {fileID: 1160097208}
+  speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 71d17bdc80d1eb947a56dabaa0d8c3b5, type: 3}
   sentences:
   - Available

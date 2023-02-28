@@ -7,6 +7,7 @@ using TMPro;
 public class ShopManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI coinText;
+    [SerializeField] private TextMeshProUGUI[] countText;
     [SerializeField] private Button itemButton1;
     [SerializeField] private Button itemButton2;
     [SerializeField] private Button itemButton3;
@@ -35,6 +36,9 @@ public class ShopManager : MonoBehaviour
         PlayerPrefs.SetInt("Coins", coinCount);*/
 
         coinText.text = coinCount.ToString();
+        countText[0].text = "OWNED: " + extraCount.ToString();
+        countText[1].text = "OWNED: " + freezeCount.ToString();
+        countText[2].text = "OWNED: " + hintCount.ToString();
         Debug.Log("Coin : " + coinCount);
 
         itemButton1.onClick.AddListener(BuyExtraTime);
@@ -46,6 +50,9 @@ public class ShopManager : MonoBehaviour
     void Update()
     {
         coinText.text = coinCount.ToString();
+        countText[0].text = "OWNED: " + extraCount.ToString();
+        countText[1].text = "OWNED: " + freezeCount.ToString();
+        countText[2].text = "OWNED: " + hintCount.ToString();
     }
     void BuyHint()
     {

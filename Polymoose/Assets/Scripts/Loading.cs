@@ -10,12 +10,15 @@ public class Loading : MonoBehaviour
     [SerializeField] private string sentence;
     [SerializeField] private string sceneName;
 
+    private int levelID;
+
     // Start is called before the first frame update
     void Start()
     {
+        levelID = PlayerPrefs.GetInt("Loading", levelID);
         loadingText.text = string.Empty;
+        LoadScene(levelID);
         StartCoroutine(TypeLine());
-        Invoke("LoadScene", 3.0f);
     }
 
     IEnumerator TypeLine()
@@ -31,8 +34,39 @@ public class Loading : MonoBehaviour
         StartCoroutine(TypeLine());
     }
 
-    void LoadScene()
+    void LoadScene(int id)
     {
-        SceneManager.LoadScene(sceneName);
+        switch (id)
+        {
+            case 1:
+                SceneManager.LoadSceneAsync("VisualQuiz1");
+                break;
+            case 3:
+                SceneManager.LoadSceneAsync("VisualQuiz3");
+                break;
+            case 4:
+                SceneManager.LoadSceneAsync("VisualQuiz4");
+                break;
+            case 5:
+                SceneManager.LoadSceneAsync("VisualQuiz5");
+                break;
+            case 6:
+                SceneManager.LoadSceneAsync("Content1");
+                break;
+            case 7:
+                SceneManager.LoadSceneAsync("Content2");
+                break;
+            case 8:
+                SceneManager.LoadSceneAsync("Content3");
+                break;
+            case 9:
+                SceneManager.LoadSceneAsync("Content4_New");
+                break;
+            case 10:
+                SceneManager.LoadSceneAsync("Content5");
+                break;
+
+        }
+
     }
 }

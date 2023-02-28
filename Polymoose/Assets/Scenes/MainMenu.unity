@@ -472,6 +472,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 7
+  isContent: 1
 --- !u!1 &128419437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,7 +1399,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Content1
+          m_StringArgument: Loading
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &591917253
@@ -1563,6 +1565,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 6
+  isContent: 1
 --- !u!1 &595894142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,7 +1968,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Content5
+          m_StringArgument: Loading
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &638976318
@@ -2018,6 +2022,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 10
+  isContent: 1
 --- !u!1 &646495219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,7 +2527,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Content3
+          m_StringArgument: Loading
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &726827569
@@ -2575,6 +2581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 8
+  isContent: 1
 --- !u!1 &737046138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2912,6 +2920,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 0
+  isContent: 0
 --- !u!1 &845973808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5462,6 +5472,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 0
+  isContent: 0
 --- !u!1 &1993289091
 GameObject:
   m_ObjectHideFlags: 0
@@ -5886,7 +5898,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Content4_New
+          m_StringArgument: Loading
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2073709173
@@ -5940,6 +5952,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 9
+  isContent: 1
 --- !u!224 &2120221031 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4059326922877290030, guid: a579f55bbf3da74438578e33e37e86b8, type: 3}
