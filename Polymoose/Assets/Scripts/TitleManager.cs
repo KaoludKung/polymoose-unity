@@ -7,17 +7,47 @@ using UnityEngine.UI;
 
 public class TitleManager : MonoBehaviour
 {
+    [SerializeField] GameObject tutorialPanel;
     [SerializeField] GameObject creditsPanel;
+    [SerializeField] Button tutorialButton;
     [SerializeField] Button creditButton;
-    [SerializeField] Button backButton;
+    [SerializeField] Button backButton1;
+    [SerializeField] Button backButton2;
 
     // Start is called before the first frame update
     void Start()
     {
+        tutorialButton.onClick.AddListener(OpenTutorial);
+        backButton1.onClick.AddListener(CloseTutorial);
+
         creditButton.onClick.AddListener(OpenCredits);
-        backButton.onClick.AddListener(CloseCredits);
+        backButton2.onClick.AddListener(CloseCredits);
     }
 
+    /// tutorial click
+    void OpenTutorial()
+    {
+        StartCoroutine(DelayOpenTutorial());
+    }
+
+    IEnumerator DelayOpenTutorial()
+    {
+        yield return new WaitForSeconds(0.3f);
+        tutorialPanel.SetActive(true);
+    }
+
+    void CloseTutorial()
+    {
+        StartCoroutine(DelayCloseTutorial());
+    }
+
+    IEnumerator DelayCloseTutorial()
+    {
+        yield return new WaitForSeconds(0.3f);
+        tutorialPanel.SetActive(false);
+    }
+
+    /// credits click
     void OpenCredits()
     {
         StartCoroutine(DelayOpenCredits());
@@ -40,12 +70,4 @@ public class TitleManager : MonoBehaviour
         creditsPanel.SetActive(false);
     }
 
-    private bool IsPointerOverUIObject()
-    {
-        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
-        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        List<RaycastResult> results = new List<RaycastResult>();
-        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
-        return results.Count > 0;
-    }
 }
