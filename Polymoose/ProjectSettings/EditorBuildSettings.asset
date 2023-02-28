@@ -33,9 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CH_2/Intro2.unity
     guid: eedbed515ba407f4f883556787ef5b5c
   - enabled: 1
-    path: Assets/Scenes/CH_2/Walk2.unity
-    guid: 29de8c1ad9aafaf48ab36ed84363b70b
-  - enabled: 1
     path: Assets/Scenes/CH_3/Intro3.unity
     guid: df3fe3736f425954290b44f79341b21f
   - enabled: 1
