@@ -28,6 +28,7 @@ public class ObjectiveShow : MonoBehaviour
 
     IEnumerator FadeAnimation()
     {
+        yield return new WaitForSeconds(1.0f);
         Objective.SetActive(true);
         objectiveText.CrossFadeAlpha(1.0f, 2.0f, false);
         tapText.CrossFadeAlpha(1.0f, 2.0f, false);

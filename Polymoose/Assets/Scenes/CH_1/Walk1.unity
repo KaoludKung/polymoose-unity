@@ -385,7 +385,7 @@ MonoBehaviour:
   moveSpeed: 3.5
   footStep: {fileID: 174079476}
   isInteract: 0
-  levelID: 4
+  levelID: 1
 --- !u!95 &174079482
 Animator:
   serializedVersion: 4
@@ -1638,7 +1638,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.429583, y: 0.8604822}
+  m_Offset: {x: -1.429583, y: 1.5193985}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1649,7 +1649,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0850074, y: 3.0837646}
+  m_Size: {x: 2.504319, y: 4.4015956}
   m_EdgeRadius: 0
 --- !u!4 &1767734366
 Transform:

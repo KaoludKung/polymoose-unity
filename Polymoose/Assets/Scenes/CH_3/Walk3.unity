@@ -363,7 +363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174079473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.59, z: 0}
+  m_LocalPosition: {x: -26.22, y: -1.59, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -385,7 +385,7 @@ MonoBehaviour:
   moveSpeed: 3.5
   footStep: {fileID: 174079476}
   isInteract: 0
-  levelID: 4
+  levelID: 3
 --- !u!95 &174079482
 Animator:
   serializedVersion: 4
@@ -611,7 +611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623248668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.05, y: -2, z: -331.048}
+  m_LocalPosition: {x: 2.3, y: -2, z: -331.048}
   m_LocalScale: {x: 1.5833334, y: 1.5833334, z: 1.5833334}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -632,7 +632,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.1149383, y: -0.93023586}
+  m_Offset: {x: -1.4015522, y: -0.93023586}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -643,7 +643,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6588763, y: 0.6967077}
+  m_Size: {x: 3.1791759, y: 0.6967077}
   m_EdgeRadius: 0
 --- !u!1 &717313275
 GameObject:
@@ -927,7 +927,7 @@ MonoBehaviour:
   arrow:
   - {fileID: 1185137173}
   - {fileID: 450363832}
-  message: Find a telephone
+  message: 'Find an available table '
 --- !u!1 &956798909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,11 +1204,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 68bcb2e3ffc7f4e449dc70220a5d8db7, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.03
+  m_Volume: 0.35
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1499,7 +1499,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6019a604339bd4940ad4343744d23193, type: 3}
-  m_Color: {r: 0.8000001, g: 0.6, b: 0.40000004, a: 1}
+  m_Color: {r: 0.6509804, g: 0.19607845, b: 0.27058825, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1549,7 +1549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659214403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.12, y: 1.845, z: 209.08295}
+  m_LocalPosition: {x: -1.44, y: 1.88, z: 209.08295}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1597,7 +1597,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ac121b58f41454740a6c44e01ad87e5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db5dd1267ffccb44f88cdb90765aab34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1638,7 +1638,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.1365827, y: 1.1396513}
+  m_Offset: {x: -1.429583, y: 0.8604822}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1649,7 +1649,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4990073, y: 2.5254264}
+  m_Size: {x: 2.0850074, y: 3.0837646}
   m_EdgeRadius: 0
 --- !u!4 &1767734366
 Transform:
@@ -1725,7 +1725,7 @@ SpriteRenderer:
   m_SortingLayerID: -1830641241
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a13f087ea20a5c147b784672f1dd65df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cf7acd1c0da5ded4caf57ba1be2d2e36, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

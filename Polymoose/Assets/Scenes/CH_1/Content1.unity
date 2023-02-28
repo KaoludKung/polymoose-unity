@@ -4392,7 +4392,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.51890826
+  m_Size: 0.52012646
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8873,7 +8873,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Intro4
+          m_StringArgument: Intro1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1160097206
@@ -9023,6 +9023,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 0
+  isContent: 0
 --- !u!1 &1166944572
 GameObject:
   m_ObjectHideFlags: 0
