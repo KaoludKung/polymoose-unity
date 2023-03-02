@@ -3757,7 +3757,7 @@ MonoBehaviour:
   textComponent: {fileID: 1079073764}
   icon: {fileID: 1001169175}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: fb4b5b8762b65f8438cec71cebe9a8a4, type: 3}
+  speechClip: {fileID: 8300000, guid: c7f1e1132bcfb8a408f00185a81219ce, type: 3}
   sentences: []
   isTyping: 0
   hasIcon: 0
@@ -4392,7 +4392,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.52012646
+  m_Size: 0.52141243
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5642,8 +5642,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: In this lesson, we look at vocabulary and useful phrases for handling business
-    calling situations.
+  m_text: 'If you do it right, you''ll be able to head into the interview feeling
+    relaxed and confident. And that will increase your chances of landing the job.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -6976,10 +6978,10 @@ MonoBehaviour:
   textComponent: {fileID: 1744052870}
   icon: {fileID: 1440147205}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 7e01854e710d00a4ba0c14dfc7236348, type: 3}
+  speechClip: {fileID: 8300000, guid: e9ebb545228e5f849b074b22a4bc0a25, type: 3}
   sentences:
-  - Imagine a scenario. When someone calls for a business purpose. How would you
-    handle this situation?
+  - 'In this lesson we talk about how to prepare for an interview in English. You
+    can anticipate what you''ll be asked and practice how to respond. '
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -9482,7 +9484,7 @@ MonoBehaviour:
   textComponent: {fileID: 397279677}
   icon: {fileID: 239271503}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 36a9c032206a7cf4a9fd4bd76e02304c, type: 3}
+  speechClip: {fileID: 8300000, guid: cdf3b5bc766896d439978cf45f83e4d6, type: 3}
   sentences: []
   isTyping: 0
   hasIcon: 0
@@ -9625,10 +9627,10 @@ MonoBehaviour:
   textComponent: {fileID: 780132312}
   icon: {fileID: 1282396132}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 91e80c6a39c7b1a4c8bcc0fe830efd07, type: 3}
+  speechClip: {fileID: 8300000, guid: bce65b68114aaec419e33eeecdab780e, type: 3}
   sentences:
-  - In this lesson, we look at vocabulary and useful phrases for handling business
-    calling situations.
+  - 'If you do it right, you''ll be able to head into the interview feeling relaxed
+    and confident. And that will increase your chances of landing the job. '
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -11419,7 +11421,7 @@ MonoBehaviour:
   textComponent: {fileID: 1309932526}
   icon: {fileID: 470432440}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 0a1f41f5739ae7f4b94255be0c818509, type: 3}
+  speechClip: {fileID: 8300000, guid: a06009967b3ce8945a2cc71ba006d36b, type: 3}
   sentences: []
   isTyping: 0
   hasIcon: 0
@@ -13025,7 +13027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 325.99997, y: 0}
+  m_AnchoredPosition: {x: 325.99997, y: -5}
   m_SizeDelta: {x: 548, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744052870
@@ -13048,8 +13050,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Imagine a scenario. When someone calls for a business purpose. How would
-    you handle this situation?
+  m_text: 'In this lesson we talk about how to prepare for an interview in English.
+    You can anticipate what you''ll be asked and practice how to respond.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -13112,7 +13116,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -18.039429, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
