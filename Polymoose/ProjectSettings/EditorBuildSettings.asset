@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading.unity
     guid: 5fc34254d0f0ca3478cca927631eacaa
   - enabled: 1
-    path: Assets/Scenes/CH_1/Content1.unity
+    path: Assets/Scenes/CH_2/Content2.unity
     guid: 9db785a2cb867464199bf975d7b6e5f8
   - enabled: 1
     path: Assets/Scenes/CH_1/Walk1.unity
@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/CH_1/VisualQuiz1.unity
     guid: 39ad8f4089d2c034f8eab852743baf2e
   - enabled: 1
-    path: Assets/Scenes/CH_2/Content2.unity
+    path: Assets/Scenes/CH_1/Content1.unity
     guid: 578842f5573e78b44bef497bd4d0609c
   - enabled: 1
     path: Assets/Scenes/CH_3/Content3.unity

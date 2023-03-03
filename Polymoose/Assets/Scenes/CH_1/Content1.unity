@@ -273,7 +273,7 @@ MonoBehaviour:
   textComponent: {fileID: 222794022}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: facc324070eae2f49ac7e3e4cd4119f7, type: 3}
+  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - handle
   - (v) to deal with, have responsibility for, or be in charge of
@@ -543,7 +543,7 @@ MonoBehaviour:
   textComponent: {fileID: 1805309836}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: e6739b8c877c6e14da7bbb53c5e15919, type: 3}
+  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - get cranking
   - (idiom) to start doing something quickly
@@ -1545,7 +1545,7 @@ MonoBehaviour:
   textComponent: {fileID: 955924394}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 5ba7db4a2e0885d44a3b9380c2332e93, type: 3}
+  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - passionate
   - (adj) having very strong feelings or emotions
@@ -2849,7 +2849,7 @@ MonoBehaviour:
   textComponent: {fileID: 712685706}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 3bc62173a144495418e7aba93db89969, type: 3}
+  speechClip: {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
   sentences:
   - 'In the next 5 years, I see myself becoming a true expert and master as (position)
     at this company. '
@@ -2911,7 +2911,7 @@ MonoBehaviour:
   textComponent: {fileID: 1197746388}
   icon: {fileID: 1817230275}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 5e40cd1c5c81511438b18ea5a1d7accb, type: 3}
+  speechClip: {fileID: 8300000, guid: 9f3501754bdce444e9747cdb83c6f045, type: 3}
   sentences:
   - 'Describing yourself '
   isTyping: 1
@@ -3682,79 +3682,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &574490497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 574490498}
-  - component: {fileID: 574490500}
-  - component: {fileID: 574490499}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &574490498
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574490497}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 897525856}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00024414062, y: -0.0017700195}
-  m_SizeDelta: {x: 0, y: -0.000061035156}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &574490499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574490497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 8400000, guid: b4906b190b0cf2d44a4df00c7ee8f393, type: 2}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &574490500
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574490497}
-  m_CullTransparentMesh: 1
 --- !u!1 &583300426
 GameObject:
   m_ObjectHideFlags: 0
@@ -6679,94 +6606,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &897525855
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 897525856}
-  - component: {fileID: 897525858}
-  - component: {fileID: 897525859}
-  m_Layer: 5
-  m_Name: Video
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &897525856
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897525855}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.20000003, y: 0.20000003, z: 0.20000003}
-  m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 574490498}
-  m_Father: {fileID: 1020950584}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 249.99997, y: 7.075053}
-  m_SizeDelta: {x: 2160, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!328 &897525858
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897525855}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: bb315276dd3d4234b9c555f9baa55b56, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: b4906b190b0cf2d44a4df00c7ee8f393, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 1
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
---- !u!114 &897525859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897525855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aca773350a68b249b5d0047656d5ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoImage: {fileID: 574490499}
-  time: 1.8
 --- !u!1001 &900220510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7873,7 +7712,7 @@ MonoBehaviour:
   textComponent: {fileID: 1573359030}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 1c67cb700ba505d47a3dc88a8c2b4850, type: 3}
+  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - opportunity
   - (n) an occasion or situation that makes it possible to do something that you
@@ -8381,7 +8220,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 933609668}
-  - {fileID: 897525856}
   - {fileID: 2057937748}
   - {fileID: 1120202270}
   - {fileID: 1228644476}
@@ -8734,7 +8572,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1020950584}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -9494,7 +9332,7 @@ RectTransform:
   - {fileID: 780132311}
   - {fileID: 1282396131}
   m_Father: {fileID: 1020950584}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -10072,8 +9910,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 139.37, y: 0}
-  m_SizeDelta: {x: 178.74, y: 50}
+  m_AnchoredPosition: {x: 231.67, y: 0}
+  m_SizeDelta: {x: 363.34, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309932526
 MonoBehaviour:
@@ -11342,8 +11180,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 114.37128, y: 0}
-  m_SizeDelta: {x: 228.7425, y: 50}
+  m_AnchoredPosition: {x: 206.66919, y: 0}
+  m_SizeDelta: {x: 413.3382, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481143218
 MonoBehaviour:
@@ -12208,7 +12046,7 @@ MonoBehaviour:
   textComponent: {fileID: 236403366}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d4cceebf9ba7a77408316eb4d59ca315, type: 3}
+  speechClip: {fileID: 8300000, guid: 35f37ea670efa044688c1b2e92dcb5b1, type: 3}
   sentences:
   - "In 5 years, I\u2019d like to be in a position where I know more about my longer-term
     career aspirations as (position). "
@@ -12669,10 +12507,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'In this lesson we talk about how to prepare for an interview in English.
-    You can anticipate what you''ll be asked and practice how to respond.
-
-'
+  m_text: In this lesson we talk about how to prepare for an interview in English.
+    You can anticipate what you'll be asked and practice how to respond.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -13747,7 +13583,7 @@ MonoBehaviour:
   textComponent: {fileID: 331026057}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: e481a1d4042157a46a6407dfbd196be3, type: 3}
+  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - still
   - (adj) continuing to happen or continuing to be done
@@ -14081,7 +13917,7 @@ MonoBehaviour:
   textComponent: {fileID: 1332779488}
   icon: {fileID: 1179575812}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: ea6bc87ff9e7daf4780a91ef80f01037, type: 3}
+  speechClip: {fileID: 8300000, guid: 42b92dd4d23ceb241be6ef9a055a4e92, type: 3}
   sentences:
   - 'Where do you see yourself in 5 years? '
   isTyping: 1
@@ -14292,7 +14128,7 @@ RectTransform:
   m_Children:
   - {fileID: 525264515}
   m_Father: {fileID: 1020950584}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14774,7 +14610,7 @@ MonoBehaviour:
   textComponent: {fileID: 1364539533}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 976afd1ee6864ef4fb1986a2a2246c7a, type: 3}
+  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
   sentences:
   - desirable
   - (adj) worth having and wanted by most people
@@ -15492,7 +15328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6394403755077765313, guid: 793bbb29c58957d4cb05423c4694763a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.0087357
+      value: -6.0087433
       objectReference: {fileID: 0}
     - target: {fileID: 6394403755077765313, guid: 793bbb29c58957d4cb05423c4694763a, type: 3}
       propertyPath: m_AnchoredPosition.y
