@@ -3538,17 +3538,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4059326922877290030, guid: a579f55bbf3da74438578e33e37e86b8, type: 3}
   m_PrefabInstance: {fileID: 525154307}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &525154310 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4059326922877290017, guid: a579f55bbf3da74438578e33e37e86b8, type: 3}
-  m_PrefabInstance: {fileID: 525154307}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &535597970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,7 +4147,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5220713
+  m_Size: 0.52459073
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4693,9 +4682,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df38ff91c553e334bacccdc2d73b6bf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorialPanel: {fileID: 0}
   creditsPanel: {fileID: 1707734388}
+  tutorialButton: {fileID: 0}
   creditButton: {fileID: 1160097205}
-  backButton: {fileID: 525154310}
+  backButton1: {fileID: 0}
+  backButton2: {fileID: 0}
 --- !u!4 &683751584
 Transform:
   m_ObjectHideFlags: 0
@@ -6881,6 +6873,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 0
+  isContent: 0
 --- !u!82 &866195742
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15016,6 +15010,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
+  levelID: 0
+  isContent: 0
 --- !u!82 &2141870363
 AudioSource:
   m_ObjectHideFlags: 0

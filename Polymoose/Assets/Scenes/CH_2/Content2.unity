@@ -10057,8 +10057,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 139.37, y: 0}
-  m_SizeDelta: {x: 178.74, y: 50}
+  m_AnchoredPosition: {x: 231.67, y: 0}
+  m_SizeDelta: {x: 363.34, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309932526
 MonoBehaviour:
@@ -10080,7 +10080,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Interview
+  m_text: Talking after work
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
@@ -11327,8 +11327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 114.37128, y: 0}
-  m_SizeDelta: {x: 228.7425, y: 50}
+  m_AnchoredPosition: {x: 206.66919, y: 0}
+  m_SizeDelta: {x: 413.3382, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481143218
 MonoBehaviour:
@@ -15477,7 +15477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6394403755077765313, guid: 793bbb29c58957d4cb05423c4694763a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.0087357
+      value: -6.0087433
       objectReference: {fileID: 0}
     - target: {fileID: 6394403755077765313, guid: 793bbb29c58957d4cb05423c4694763a, type: 3}
       propertyPath: m_AnchoredPosition.y
