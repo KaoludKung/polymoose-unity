@@ -273,7 +273,7 @@ MonoBehaviour:
   textComponent: {fileID: 222794022}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  speechClip: {fileID: 8300000, guid: facc324070eae2f49ac7e3e4cd4119f7, type: 3}
   sentences:
   - handle
   - (v) to deal with, have responsibility for, or be in charge of
@@ -543,7 +543,7 @@ MonoBehaviour:
   textComponent: {fileID: 1805309836}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  speechClip: {fileID: 8300000, guid: e6739b8c877c6e14da7bbb53c5e15919, type: 3}
   sentences:
   - get cranking
   - (idiom) to start doing something quickly
@@ -7712,7 +7712,7 @@ MonoBehaviour:
   textComponent: {fileID: 1573359030}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  speechClip: {fileID: 8300000, guid: 1c67cb700ba505d47a3dc88a8c2b4850, type: 3}
   sentences:
   - opportunity
   - (n) an occasion or situation that makes it possible to do something that you
@@ -13583,7 +13583,7 @@ MonoBehaviour:
   textComponent: {fileID: 331026057}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  speechClip: {fileID: 8300000, guid: e481a1d4042157a46a6407dfbd196be3, type: 3}
   sentences:
   - still
   - (adj) continuing to happen or continuing to be done
@@ -14610,7 +14610,7 @@ MonoBehaviour:
   textComponent: {fileID: 1364539533}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  speechClip: {fileID: 8300000, guid: 976afd1ee6864ef4fb1986a2a2246c7a, type: 3}
   sentences:
   - desirable
   - (adj) worth having and wanted by most people
