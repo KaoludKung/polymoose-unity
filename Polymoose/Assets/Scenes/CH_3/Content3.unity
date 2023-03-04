@@ -9058,8 +9058,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 223.25, y: 0}
-  m_SizeDelta: {x: 346.51, y: 50}
+  m_AnchoredPosition: {x: 195.38, y: 0}
+  m_SizeDelta: {x: 290.76, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309932526
 MonoBehaviour:
@@ -9081,7 +9081,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Talking after work
+  m_text: Business meals
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
@@ -10339,8 +10339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 198.25385, y: 0}
-  m_SizeDelta: {x: 396.5076, y: 50}
+  m_AnchoredPosition: {x: 170.37904, y: 0}
+  m_SizeDelta: {x: 340.758, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481143218
 MonoBehaviour:

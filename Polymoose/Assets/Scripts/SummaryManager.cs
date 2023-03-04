@@ -81,6 +81,7 @@ public class SummaryManager : MonoBehaviour
             levelSource.Play();
         }
 
+        PlayerPrefs.SetInt("Loading", level + 10);
         Debug.Log("End");
     }
 
