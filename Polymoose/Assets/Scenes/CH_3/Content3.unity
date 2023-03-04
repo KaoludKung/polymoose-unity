@@ -1951,7 +1951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 295, y: -1955.9043}
+  m_AnchoredPosition: {x: 295, y: -1967.3582}
   m_SizeDelta: {x: 540, y: 473.368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &463900802
@@ -2544,7 +2544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 174.49649, y: -10.691803}
+  m_AnchoredPosition: {x: 174.49649, y: -22.145828}
   m_SizeDelta: {x: 348.9929, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &566802720
@@ -3303,7 +3303,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.51832294
+  m_Size: 0.5393461
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5259,7 +5259,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 1748.4}
+  m_SizeDelta: {x: 100, y: 1371}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791505250
 MonoBehaviour:
@@ -8706,7 +8706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 295, y: -885.90436}
+  m_AnchoredPosition: {x: 295, y: -897.3584}
   m_SizeDelta: {x: 540, y: 473.368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1160097203
@@ -11305,7 +11305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 295, y: -1423.4719}
+  m_AnchoredPosition: {x: 295, y: -1434.9258}
   m_SizeDelta: {x: 540, y: 473.368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1461572971
@@ -12124,7 +12124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 295, y: -272.39078}
+  m_AnchoredPosition: {x: 295, y: -283.8448}
   m_SizeDelta: {x: 540, y: 473.368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1713146403
@@ -15349,7 +15349,7 @@ MonoBehaviour:
   m_text: 'well done (adj) (of meat) cooked so that it is firm and has a gray-brown
     color all the way through
 
-    
+
 
 '
   m_isRightToLeft: 0
