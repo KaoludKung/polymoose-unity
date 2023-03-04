@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Loading : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI loadingText;
+    [SerializeField] private Image imageLoading;
+    [SerializeField] private Sprite[] randomSprite;
     [SerializeField] private string sentence;
     [SerializeField] private string sceneName;
 
@@ -16,7 +19,9 @@ public class Loading : MonoBehaviour
     void Start()
     {
         levelID = PlayerPrefs.GetInt("Loading", levelID);
+        int val = Random.Range(0, randomSprite.Length);
         loadingText.text = string.Empty;
+        imageLoading.GetComponent<Image>().sprite = randomSprite[val];
         LoadScene(levelID);
         StartCoroutine(TypeLine());
     }

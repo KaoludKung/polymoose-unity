@@ -1545,7 +1545,7 @@ MonoBehaviour:
   textComponent: {fileID: 955924394}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 26de823f88c41da41b3cd9ba5f90b46c, type: 3}
+  speechClip: {fileID: 8300000, guid: 5ba7db4a2e0885d44a3b9380c2332e93, type: 3}
   sentences:
   - passionate
   - (adj) having very strong feelings or emotions
