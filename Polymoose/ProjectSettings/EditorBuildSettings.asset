@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CH_3/Walk3.unity
     guid: 953ba720fe61ac241a9c78c8239c6873
   - enabled: 1
+    path: Assets/Scenes/CH_3/VisualQuiz3.unity
+    guid: a95094fedda05fc4cb268bf044072aec
+  - enabled: 1
     path: Assets/Scenes/CH_4/Content4_New.unity
     guid: 549804e9a235c544ab540cdf4217b81a
   - enabled: 1

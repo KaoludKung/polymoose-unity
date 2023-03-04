@@ -411,9 +411,9 @@ MonoBehaviour:
   textComponent: {fileID: 1286207849}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 8ea9c9b69bdd46e4fb3dfcf29362a67e, type: 3}
+  speechClip: {fileID: 8300000, guid: 13d2c82702bf77649b9a3dfb6c90b169, type: 3}
   sentences:
-  - What is your favorite part of your job?
+  - Their dishes are top-notch.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -804,8 +804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 120.116, y: -25}
-  m_SizeDelta: {x: 240.2321, y: 50}
+  m_AnchoredPosition: {x: 157.63934, y: -25}
+  m_SizeDelta: {x: 315.2788, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141369973
 MonoBehaviour:
@@ -822,9 +822,9 @@ MonoBehaviour:
   textComponent: {fileID: 1242463238}
   icon: {fileID: 1754532882}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: 788fa011b2313cc45a7f07d4e17baa88, type: 3}
   sentences:
-  - Asking about work
+  - Asking for recommendation
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -1304,9 +1304,9 @@ MonoBehaviour:
   textComponent: {fileID: 829668698}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 8ea9c9b69bdd46e4fb3dfcf29362a67e, type: 3}
+  speechClip: {fileID: 8300000, guid: c72868b35ca4ab3449723fbdab7c5075, type: 3}
   sentences:
-  - What is your favorite part of your job?
+  - Food was dry and not cooked well.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -2124,8 +2124,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 187.76547, y: 0.12635803}
-  m_SizeDelta: {x: 271.6809, y: 50}
+  m_AnchoredPosition: {x: 134.83, y: 0.12635803}
+  m_SizeDelta: {x: 165.81, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493291329
 MonoBehaviour:
@@ -2149,8 +2149,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Giving feedback
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
-  m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
+  m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2902,9 +2902,9 @@ MonoBehaviour:
   textComponent: {fileID: 1754465971}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 8ea9c9b69bdd46e4fb3dfcf29362a67e, type: 3}
+  speechClip: {fileID: 8300000, guid: f651cfd3292fa8a4b9e597905b947327, type: 3}
   sentences:
-  - What is your favorite part of your job?
+  - I prefer rare steak.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -2983,8 +2983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 120.116, y: -25}
-  m_SizeDelta: {x: 240.2321, y: 50}
+  m_AnchoredPosition: {x: 108.869644, y: -25}
+  m_SizeDelta: {x: 217.7394, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599988222
 MonoBehaviour:
@@ -3001,9 +3001,9 @@ MonoBehaviour:
   textComponent: {fileID: 493291329}
   icon: {fileID: 1925028953}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: 4503471cf2cd9d64f8e35e07c685f9eb, type: 3}
   sentences:
-  - Asking about work
+  - Giving feedback
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -3213,9 +3213,9 @@ MonoBehaviour:
   textComponent: {fileID: 1387742969}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 9fb16342bc546e546addb19181b37b93, type: 3}
+  speechClip: {fileID: 8300000, guid: f7752c2fafe5f7040bf1d1dfe6f14638, type: 3}
   sentences:
-  - How is your first day?
+  - 'Are there any special? '
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -3303,7 +3303,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5393461
+  m_Size: 0.5386787
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3860,9 +3860,9 @@ MonoBehaviour:
   textComponent: {fileID: 2136433233}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 8ea9c9b69bdd46e4fb3dfcf29362a67e, type: 3}
+  speechClip: {fileID: 8300000, guid: 4e983206189aa8d439fa4492b27d9e92, type: 3}
   sentences:
-  - What is your favorite part of your job?
+  - 'Are there any dishes? '
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -4385,9 +4385,9 @@ MonoBehaviour:
   textComponent: {fileID: 87305349}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 9fb16342bc546e546addb19181b37b93, type: 3}
+  speechClip: {fileID: 8300000, guid: 5691afd2c3eed534f94b294e23583a4d, type: 3}
   sentences:
-  - How is your first day?
+  - The food is delicious.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -4541,9 +4541,9 @@ MonoBehaviour:
   textComponent: {fileID: 1407053992}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 8ea9c9b69bdd46e4fb3dfcf29362a67e, type: 3}
+  speechClip: {fileID: 8300000, guid: bdcd9130872ff2c42828a7a683405fc1, type: 3}
   sentences:
-  - What is your favorite part of your job?
+  - The food was not very good quality and was overpriced.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -4792,8 +4792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 120.116, y: -668.84607}
-  m_SizeDelta: {x: 240.2321, y: 50}
+  m_AnchoredPosition: {x: 95.12407, y: -668.84607}
+  m_SizeDelta: {x: 190.2483, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &770898490
 MonoBehaviour:
@@ -4810,9 +4810,9 @@ MonoBehaviour:
   textComponent: {fileID: 1320703639}
   icon: {fileID: 625204910}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: 6495cdd47b15e0144b5d88adea3482d8, type: 3}
   sentences:
-  - Asking about work
+  - Negative (-)
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -5324,8 +5324,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 120.116, y: -78.03526}
-  m_SizeDelta: {x: 240.2321, y: 50}
+  m_AnchoredPosition: {x: 87.20998, y: -78.03526}
+  m_SizeDelta: {x: 174.4201, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804249107
 MonoBehaviour:
@@ -5342,9 +5342,9 @@ MonoBehaviour:
   textComponent: {fileID: 1834201774}
   icon: {fileID: 1946603290}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: ba9b753ffc0847c4080070950edaee35, type: 3}
   sentences:
-  - Asking about work
+  - Positive (+)
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -5592,10 +5592,10 @@ MonoBehaviour:
   textComponent: {fileID: 39132472}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: c3313a5d323e8c547b9155e0456a9ffd, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - steak
+  - '(n) a thick, flat piece of meat or fish, especially meat from a cow '
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -5749,10 +5749,10 @@ MonoBehaviour:
   textComponent: {fileID: 442348458}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 7de4de9302250624b9d399e459103d3d, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - smoked
+  - '(adj) (food) preserved using smoke from burning wood '
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -6313,9 +6313,9 @@ MonoBehaviour:
   textComponent: {fileID: 993179764}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 0f69b7a623535f3499db630efc1c31ea, type: 3}
+  speechClip: {fileID: 8300000, guid: aa336cf620ba4f64f9afb00455df3d91, type: 3}
   sentences:
-  - What is the best thing about your job?
+  - Are there any signatures?
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -6778,11 +6778,9 @@ MonoBehaviour:
   textComponent: {fileID: 1744052870}
   icon: {fileID: 1440147205}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d1b774ee7b0ff1c40b79d7b201265355, type: 3}
+  speechClip: {fileID: 8300000, guid: dbe36323b6def1743b994177de4a6394, type: 3}
   sentences:
-  - "Small talk is important. It is not about exchanging information or having serious
-    discussion. It\u2019s a way to avoid uncomfortable silences and build stronger
-    relationships."
+  - Eating meals is a way of building a relationship or celebrating a partnership.
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -7293,9 +7291,9 @@ MonoBehaviour:
   textComponent: {fileID: 1982802135}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 9fb16342bc546e546addb19181b37b93, type: 3}
+  speechClip: {fileID: 8300000, guid: 99aaba6ec1bb69d4cadfcb6e6bffbda1, type: 3}
   sentences:
-  - How is your first day?
+  - I prefer medium rare steak.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -8040,9 +8038,9 @@ MonoBehaviour:
   textComponent: {fileID: 725088885}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: c3ceddfcab58f694595ba2430f8ef0f2, type: 3}
   sentences:
-  - How is your first day at work going?
+  - I prefer well done steak.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -8331,9 +8329,9 @@ MonoBehaviour:
   textComponent: {fileID: 983259040}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 8ea9c9b69bdd46e4fb3dfcf29362a67e, type: 3}
+  speechClip: {fileID: 8300000, guid: bfc61246f481bb54fa67804c860318b9, type: 3}
   sentences:
-  - What is your favorite part of your job?
+  - "I\u2019d like to have \u2026"
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -8525,9 +8523,9 @@ MonoBehaviour:
   textComponent: {fileID: 1215656950}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 9fb16342bc546e546addb19181b37b93, type: 3}
+  speechClip: {fileID: 8300000, guid: c295432f8ccc7894fab8a8daf460648e, type: 3}
   sentences:
-  - How is your first day?
+  - "Can I order \u2026"
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -8566,8 +8564,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 26.848675}
-  m_SizeDelta: {x: 470, y: 50}
+  m_AnchoredPosition: {x: 360.8083, y: 26.848675}
+  m_SizeDelta: {x: 491.6166, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098973314
 MonoBehaviour:
@@ -8965,7 +8963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
-  levelID: 12
+  levelID: 13
   isContent: 1
 --- !u!1 &1170540136
 GameObject:
@@ -9331,10 +9329,11 @@ MonoBehaviour:
   textComponent: {fileID: 1098973314}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 779cd85fbfc73194586e1114db4cf76a, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - recommend
+  - (v) to suggest that someone or something would be good or suitable for a particular
+    job or purpose, or to suggest that a particular action should be done
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -9644,10 +9643,10 @@ MonoBehaviour:
   textComponent: {fileID: 780132312}
   icon: {fileID: 1282396132}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: afe18655879eeda489944777a99c7868, type: 3}
+  speechClip: {fileID: 8300000, guid: 23272e13a6fd6e443baf932e684dd2dc, type: 3}
   sentences:
-  - "In this lesson, We\u2019ll look at different ways to initiate and respond to
-    small talk."
+  - It's important to be able to handle the basics of dining out. This includes ordering
+    food, recommending dishes, among other things.
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -9780,8 +9779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 187.76547, y: 0.12635803}
-  m_SizeDelta: {x: 271.6809, y: 50}
+  m_AnchoredPosition: {x: 183.6, y: 0.12635803}
+  m_SizeDelta: {x: 263.35, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1242463238
 MonoBehaviour:
@@ -9805,8 +9804,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Asking for recommendation
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
-  m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
+  m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10176,9 +10175,9 @@ MonoBehaviour:
   textComponent: {fileID: 184555056}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: 6b8c082d430c0594bb72fa5dbd2995c7, type: 3}
   sentences:
-  - How is your first day at work going?
+  - What would you recommend?
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -10427,8 +10426,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 187.76547, y: 0.12635803}
-  m_SizeDelta: {x: 271.6809, y: 50}
+  m_AnchoredPosition: {x: 121.09, y: 0.12635803}
+  m_SizeDelta: {x: 138.32, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1320703639
 MonoBehaviour:
@@ -10452,8 +10451,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Negative (-)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
-  m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
+  m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10547,10 +10546,10 @@ MonoBehaviour:
   textComponent: {fileID: 715963203}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 78acb31fbc5082b40ba4568875a740dd, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - chop
+  - (v) cut something into pieces with a sharp tool such as a knife
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -10704,9 +10703,9 @@ MonoBehaviour:
   textComponent: {fileID: 871008107}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: f348b6390dc08494694d7631ad2bbf40, type: 3}
   sentences:
-  - How is your first day at work going?
+  - The dish is wonderful.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -10747,8 +10746,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 120.116, y: -25}
-  m_SizeDelta: {x: 240.2321, y: 50}
+  m_AnchoredPosition: {x: 76.41925, y: -25}
+  m_SizeDelta: {x: 152.8386, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366835289
 MonoBehaviour:
@@ -10765,9 +10764,9 @@ MonoBehaviour:
   textComponent: {fileID: 1761044145}
   icon: {fileID: 1893220222}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: ca93731412933964bbd1bd1fb2f0a79a, type: 3}
   sentences:
-  - Asking about work
+  - Ordering
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -10977,9 +10976,9 @@ MonoBehaviour:
   textComponent: {fileID: 429922654}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: 29c7baf25e0601148978a0f5c0d6dba4, type: 3}
   sentences:
-  - How is your first day at work going?
+  - "Can I have \u2026"
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -11358,7 +11357,7 @@ GameObject:
   - component: {fileID: 1481143219}
   - component: {fileID: 1481143218}
   m_Layer: 5
-  m_Name: Talking after work
+  m_Name: Business meals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11401,7 +11400,7 @@ MonoBehaviour:
   textComponent: {fileID: 1309932526}
   icon: {fileID: 470432440}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 827b4fb20ecc69545be74c4a143589e4, type: 3}
+  speechClip: {fileID: 8300000, guid: a342609b9613c384090ff69f7ca56aa2, type: 3}
   sentences: []
   isTyping: 0
   hasIcon: 0
@@ -11612,10 +11611,10 @@ MonoBehaviour:
   textComponent: {fileID: 1897067228}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: f52aae0ca70c6f34c889307e2d2abe49, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - rare
+  - (adj) (of meat) not cooked for very long and still red
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -11769,9 +11768,9 @@ MonoBehaviour:
   textComponent: {fileID: 916073055}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 9fb16342bc546e546addb19181b37b93, type: 3}
+  speechClip: {fileID: 8300000, guid: 9658d16af452d71488e0ff57285702e4, type: 3}
   sentences:
-  - How is your first day?
+  - The meat is overcooked.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -12277,10 +12276,10 @@ MonoBehaviour:
   textComponent: {fileID: 633741584}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 6ba194c96d25e664eb557645d0059657, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - marinate
+  - (v) to pour a marinade over meat or fish; to be left in a marinade
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -12740,8 +12739,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 187.76547, y: 0.12635803}
-  m_SizeDelta: {x: 271.6809, y: 50}
+  m_AnchoredPosition: {x: 102.38, y: 0.12635803}
+  m_SizeDelta: {x: 100.91, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761044145
 MonoBehaviour:
@@ -12765,8 +12764,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ordering
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
-  m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
+  m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12971,9 +12970,9 @@ MonoBehaviour:
   textComponent: {fileID: 1844405928}
   icon: {fileID: 1592622321}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: f8212d0f96c71964ab51e9e4b5b8e036, type: 3}
   sentences:
-  - Asking about work
+  - Telling preferences
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -13259,9 +13258,9 @@ MonoBehaviour:
   textComponent: {fileID: 910867576}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: 5a7b5ca3b00fcaf43ae2d6bfa328ad49, type: 3}
   sentences:
-  - How is your first day at work going?
+  - The meat is stiff.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -13300,8 +13299,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 187.76547, y: 0.12635803}
-  m_SizeDelta: {x: 271.6809, y: 50}
+  m_AnchoredPosition: {x: 113.17, y: 0.12635803}
+  m_SizeDelta: {x: 122.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1834201774
 MonoBehaviour:
@@ -13325,8 +13324,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Positive (+)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
-  m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
+  m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13435,8 +13434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 187.76547, y: 0.12635803}
-  m_SizeDelta: {x: 271.6809, y: 50}
+  m_AnchoredPosition: {x: 146.08, y: 0.12635803}
+  m_SizeDelta: {x: 188.31, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844405928
 MonoBehaviour:
@@ -13460,8 +13459,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Telling preferences
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
-  m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
+  m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13973,10 +13972,10 @@ MonoBehaviour:
   textComponent: {fileID: 1171596776}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: e6ff5565f5841884aa67484e5d0f18a9, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - medium rare
+  - (adj) (of meat) cooked so that it is still slightly red in the middle
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -14643,10 +14642,11 @@ MonoBehaviour:
   textComponent: {fileID: 2081664448}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 899ec241c4ee58743abb8e254fce3dbc, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - well done
+  - (adj) (of meat) cooked so that it is firm and has a gray-brown color all the
+    way through
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -14898,9 +14898,9 @@ MonoBehaviour:
   textComponent: {fileID: 937194378}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 8ea9c9b69bdd46e4fb3dfcf29362a67e, type: 3}
+  speechClip: {fileID: 8300000, guid: 4850baca4773b584da105b32f9b633b0, type: 3}
   sentences:
-  - What is your favorite part of your job?
+  - Great food, great service.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -15281,10 +15281,10 @@ MonoBehaviour:
   textComponent: {fileID: 853272629}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: aeda9eb8163baa940827fb045e3792ec, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - order
+  - (n) a request to make, supply, or deliver food or goods
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -15654,10 +15654,10 @@ MonoBehaviour:
   textComponent: {fileID: 773262043}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: a69458ba5a4fa124cbb8260282d079c0, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - delicious/delectable
+  - '(adj) having a very pleasant taste or smell '
   isTyping: 0
   hasIcon: 0
   isVocab: 1
