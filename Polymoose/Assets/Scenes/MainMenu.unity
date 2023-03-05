@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 921748911}
   m_HandleRect: {fileID: 921748910}
   m_Direction: 0
-  m_Value: -0.00000013871626
+  m_Value: -0.00000027743252
   m_Size: 0.61403507
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2001,7 +2001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca21c87207a3e248876c182543f15dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelRequirement: 4
+  levelRequirement: 5
   titleName: {fileID: 1993289091}
   startext: {fileID: 1672637206}
   starImage: {fileID: 1565695658}
@@ -6023,7 +6023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca21c87207a3e248876c182543f15dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelRequirement: 0
+  levelRequirement: 4
   titleName: {fileID: 1495316391}
   startext: {fileID: 281990631}
   starImage: {fileID: 105316622}
