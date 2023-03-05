@@ -2394,7 +2394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1829021595}
-  time: 1.2
+  time: 1.8
 --- !u!222 &120344347
 CanvasRenderer:
   m_ObjectHideFlags: 0

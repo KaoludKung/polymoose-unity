@@ -3638,7 +3638,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5526549
+  m_Size: 0.55217564
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8044,7 +8044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0.3
-  levelID: 12
+  levelID: 15
   isContent: 1
 --- !u!1 &1170540136
 GameObject:
@@ -9058,8 +9058,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 223.25, y: 0}
-  m_SizeDelta: {x: 346.51, y: 50}
+  m_AnchoredPosition: {x: 341.01746, y: 0}
+  m_SizeDelta: {x: 582.0449, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309932526
 MonoBehaviour:
@@ -9081,7 +9081,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Talking after work
+  m_text: Dealing with an angry customer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
   m_sharedMaterial: {fileID: -3787678802004148529, guid: 3b660fc38ad19cd44b0cc8898ae79227, type: 2}
@@ -10314,7 +10314,7 @@ GameObject:
   - component: {fileID: 1481143219}
   - component: {fileID: 1481143218}
   m_Layer: 5
-  m_Name: Talking after work
+  m_Name: Dealing with angry customers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10339,8 +10339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 198.25385, y: 0}
-  m_SizeDelta: {x: 396.5076, y: 50}
+  m_AnchoredPosition: {x: 307, y: 0}
+  m_SizeDelta: {x: 624.6758, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481143218
 MonoBehaviour:
@@ -14100,7 +14100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6394403755077765313, guid: 793bbb29c58957d4cb05423c4694763a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.008728
+      value: -6.0086975
       objectReference: {fileID: 0}
     - target: {fileID: 6394403755077765313, guid: 793bbb29c58957d4cb05423c4694763a, type: 3}
       propertyPath: m_AnchoredPosition.y
