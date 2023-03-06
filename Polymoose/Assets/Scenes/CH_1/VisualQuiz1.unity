@@ -2184,7 +2184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2045594492}
-  time: 2
+  time: 1.4
 --- !u!222 &120344347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2262,7 +2262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoImage: {fileID: 275780447}
-  time: 2
+  time: 1.2
 --- !u!1 &131454197
 GameObject:
   m_ObjectHideFlags: 0

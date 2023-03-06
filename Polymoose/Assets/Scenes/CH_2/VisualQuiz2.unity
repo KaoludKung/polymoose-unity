@@ -1709,7 +1709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1146367814}
-  time: 1.5
+  time: 1.65
 --- !u!222 &120344347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2729,7 +2729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoImage: {fileID: 520795318}
-  time: 1.5
+  time: 1.7
 --- !u!114 &198572577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2743,7 +2743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 231858439}
-  time: 1.5
+  time: 1.85
 --- !u!114 &198572578
 MonoBehaviour:
   m_ObjectHideFlags: 0
