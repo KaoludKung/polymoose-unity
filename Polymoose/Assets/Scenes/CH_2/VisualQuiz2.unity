@@ -1787,7 +1787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoImage: {fileID: 275780447}
-  time: 1.5
+  time: 1.6
 --- !u!1 &156470862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,7 +2729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoImage: {fileID: 520795318}
-  time: 1.7
+  time: 1.75
 --- !u!114 &198572577
 MonoBehaviour:
   m_ObjectHideFlags: 0
