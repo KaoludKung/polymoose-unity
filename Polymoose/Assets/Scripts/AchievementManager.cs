@@ -19,11 +19,6 @@ public class AchievementManager : MonoBehaviour
         achievement[0] = PlayerPrefs.GetInt("Firstclear");
         achievement[1] = PlayerPrefs.GetInt("Level");
 
-        if(achievement[1] == 0)
-        {
-            PlayerPrefs.SetInt("Level", achievement[1] + 1);
-        }
-
         for (int i = 1; i < 6; i++)
         {
             achievement[2] += PlayerPrefs.GetInt("Stars" + i);

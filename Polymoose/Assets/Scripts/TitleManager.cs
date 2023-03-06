@@ -14,9 +14,18 @@ public class TitleManager : MonoBehaviour
     [SerializeField] Button backButton1;
     [SerializeField] Button backButton2;
 
+    private int level;
+
     // Start is called before the first frame update
     void Start()
     {
+        level = PlayerPrefs.GetInt("Level");
+
+        if (level == 0)
+        {
+            PlayerPrefs.SetInt("Level", level + 1);
+        }
+
         tutorialButton.onClick.AddListener(OpenTutorial);
         backButton1.onClick.AddListener(CloseTutorial);
 

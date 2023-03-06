@@ -2232,14 +2232,14 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: https://rr4---sn-5np5po4v-c33z6.googlevideo.com/videoplayback?expire=1678146089&ei=ySUGZJ6nE5bsgAeCorKgDA&ip=156.146.41.76&id=o-ANce1vbNt46QkWSdzHcWn4WeJKg19IeVzzDEM4fDzlKB&itag=22&source=youtube&requiressl=yes&spc=H3gIhjAhLve3YRWqiykZped8DOmzZvsQcUJZt8KUcPjvxIe71w&vprv=1&mime=video%2Fmp4&ns=QnZD6w4oYuTAIwYhWIDo2_AL&ratebypass=yes&dur=204.033&lmt=1611589828438149&fexp=24007246&c=WEB&txp=6216222&n=Q40sdluODnt2KQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIbWjwgY3UuLFuYJI3iG2GHw2V9GOTniCenJoqVnZCMUAiEAsUdk2lLFeSZl2_3KGfvDH8n0pZKnHRnXWnnpyFN5EGU%3D&title=Playing%20Video%20In%20Unity%20-%20Youtube%20Video%20-%20Texturing%20Objects%20With%20Video%20-%20Unity%202019&rm=sn-hpa6s7e&req_id=dc40dcac6fafa3ee&ipbypass=yes&redirect_counter=2&cm2rm=sn-5np5po4v-c33ss7l&cms_redirect=yes&cmsv=e&mh=JS&mip=2001:fb1:12:be38:7d42:f6d7:4512:87b6&mm=29&mn=sn-5np5po4v-c33z6&ms=rdu&mt=1678124250&mv=m&mvi=4&pl=48&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAKONLRlOxIAkYIwoeC4daCjIxMBNDb5Wz9-E1AAiymUXAiB36GABd9yx1peuj0-gP1xbV_H3nrr0pkRXhd5Ex3_Ffg%3D%3D
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -4242,7 +4242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
