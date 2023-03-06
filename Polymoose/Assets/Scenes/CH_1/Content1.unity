@@ -2849,7 +2849,7 @@ MonoBehaviour:
   textComponent: {fileID: 712685706}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 05150f320851ee84e95786ac2608efb2, type: 3}
+  speechClip: {fileID: 8300000, guid: 3bc62173a144495418e7aba93db89969, type: 3}
   sentences:
   - 'In the next 5 years, I see myself becoming a true expert and master as (position)
     at this company. '
@@ -4089,7 +4089,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5368266
+  m_Size: 0.53636104
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12046,7 +12046,7 @@ MonoBehaviour:
   textComponent: {fileID: 236403366}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 35f37ea670efa044688c1b2e92dcb5b1, type: 3}
+  speechClip: {fileID: 8300000, guid: d4cceebf9ba7a77408316eb4d59ca315, type: 3}
   sentences:
   - "In 5 years, I\u2019d like to be in a position where I know more about my longer-term
     career aspirations as (position). "
@@ -13917,7 +13917,7 @@ MonoBehaviour:
   textComponent: {fileID: 1332779488}
   icon: {fileID: 1179575812}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 42b92dd4d23ceb241be6ef9a055a4e92, type: 3}
+  speechClip: {fileID: 8300000, guid: ea6bc87ff9e7daf4780a91ef80f01037, type: 3}
   sentences:
   - 'Where do you see yourself in 5 years? '
   isTyping: 1
