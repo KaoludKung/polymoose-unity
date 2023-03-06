@@ -2262,7 +2262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoImage: {fileID: 275780447}
-  time: 1.4
+  time: 1.3
 --- !u!1 &131454197
 GameObject:
   m_ObjectHideFlags: 0
