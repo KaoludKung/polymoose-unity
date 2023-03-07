@@ -8,8 +8,6 @@ public class VideoAlpha : MonoBehaviour
 {
     [SerializeField] private RawImage videoImage;
     [SerializeField] private VideoPlayer videoPlayer;
-    [SerializeField] private float time;
-    
     public bool isPlay;
     private bool isStop = false;
 
