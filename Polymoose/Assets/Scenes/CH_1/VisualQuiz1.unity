@@ -2239,7 +2239,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://srv24.y2mate.is/download?file=b97abd06069a7510a3f92e47cb610b34299140
+  m_Url: https://dv243.video-sv2.xyz/download?file=ZjgyNDFjNDViNDJiNTlhNjhiNzZlNTFhYjE3ZDk2MzQ2OTZiOTQ4ZWQyNDAxNDZjNWM1NTUzODQ1NmJhNTMzZF8xMDgwcDYwLm1wNOKYr1NuYXBTYXZlLmlvLWludGVydmlldyAx4pivMTA4MHA2MA
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -2263,7 +2263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoImage: {fileID: 275780447}
   videoPlayer: {fileID: 120344349}
-  time: 0
   isPlay: 0
 --- !u!1 &131454197
 GameObject:

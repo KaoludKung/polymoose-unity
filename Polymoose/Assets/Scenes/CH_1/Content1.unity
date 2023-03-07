@@ -2849,7 +2849,7 @@ MonoBehaviour:
   textComponent: {fileID: 712685706}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 3bc62173a144495418e7aba93db89969, type: 3}
+  speechClip: {fileID: 8300000, guid: 5b31e078afabf734792ad2dcb3371fff, type: 3}
   sentences:
   - 'In the next 5 years, I see myself becoming a true expert and master as (position)
     at this company. '
@@ -4089,7 +4089,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 669766561}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.53636104
+  m_Size: 0.5375438
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
