@@ -16,6 +16,11 @@ public class TitleManager : MonoBehaviour
 
     private int level;
 
+    private void Awake()
+    {
+        Application.targetFrameRate = 120;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using UnityEngine.Networking;
+
+
 
 public class VideoAlpha : MonoBehaviour
 {
@@ -35,4 +38,6 @@ public class VideoAlpha : MonoBehaviour
             videoImage.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         }
     }
+
+    
 }
