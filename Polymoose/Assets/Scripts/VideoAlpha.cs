@@ -31,8 +31,8 @@ public class VideoAlpha : MonoBehaviour
     {
         if (!isStop)
         {
-            videoImage.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
             videoPlayer.Play();
+            videoImage.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         }
     }
 }
