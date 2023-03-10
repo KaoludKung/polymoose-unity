@@ -14,11 +14,10 @@ public class VideoAlpha : MonoBehaviour
     public bool isPlay;
     private bool isStop = false;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        videoPlayer.Prepare();
         videoImage.color = new Color(1.0f, 1.0f, 1.0f, 0f);
+        videoPlayer.Prepare();
     }
 
     void Update()
@@ -34,8 +33,8 @@ public class VideoAlpha : MonoBehaviour
     {
         if (!isStop)
         {
-            videoPlayer.Play();
             videoImage.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+            videoPlayer.Play();
         }
     }
 

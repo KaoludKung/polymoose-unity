@@ -1872,7 +1872,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ace99047d47136e4cb8be52b4499c8f8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.12
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3343,8 +3343,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Chanakan Kueaworakunchai, Mechanic Design/Programming
 
-    Patchadol
-    Vathanakamsang, Art Design/Visual Art'
+    Patchadol Vathanakamsang,
+    Art Design/Visual Art'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
