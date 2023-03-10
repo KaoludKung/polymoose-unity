@@ -198,8 +198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.92696, y: -25}
-  m_SizeDelta: {x: 365.854, y: 50}
+  m_AnchoredPosition: {x: 216.68356, y: -25}
+  m_SizeDelta: {x: 433.3672, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &10791660
 MonoBehaviour:
@@ -216,9 +216,9 @@ MonoBehaviour:
   textComponent: {fileID: 1585637124}
   icon: {fileID: 708272801}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: cd3a46c9d951f7742b48686323bf6930, type: 3}
+  speechClip: {fileID: 8300000, guid: 73baee2c6f4c44a4495f81a9e2e56922, type: 3}
   sentences:
-  - "Asking about others\u2019 preferences"
+  - How to admit mistakes to the customers
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -428,9 +428,9 @@ MonoBehaviour:
   textComponent: {fileID: 2068495056}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: 9cc1694fda94f1c44a00a7797f69bcb1, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - I am happy to help you, but your language makes it difficult.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -489,9 +489,10 @@ MonoBehaviour:
   textComponent: {fileID: 645442648}
   icon: {fileID: 1247923586}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: 2fb12c372415c724f88d458d42488b62, type: 3}
   sentences:
-  - Asking about work
+  - You probably received complaints from customers about their purchases or products,
+    like
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -1009,8 +1010,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 120.116, y: -25}
-  m_SizeDelta: {x: 240.2321, y: 50}
+  m_AnchoredPosition: {x: 94.8488, y: -25}
+  m_SizeDelta: {x: 189.6977, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141369973
 MonoBehaviour:
@@ -1027,9 +1028,9 @@ MonoBehaviour:
   textComponent: {fileID: 1242463238}
   icon: {fileID: 1754532882}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 343a68eb6f87bd64a94102f7d7235459, type: 3}
+  speechClip: {fileID: 8300000, guid: 768225a49a560b64387dbebcabc578ac, type: 3}
   sentences:
-  - Asking about work
+  - Complaining
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -1353,9 +1354,9 @@ MonoBehaviour:
   textComponent: {fileID: 1056012901}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: a916c7698e7239d40bea3cf8fb60a278, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - I see now that this is our responsibility, so we'll take care of it right away.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -1736,7 +1737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: inventory (n) = a detailed list of all the things in a place
+  m_text: inventory (n) a detailed list of all the things in a place
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -1963,10 +1964,11 @@ MonoBehaviour:
   textComponent: {fileID: 2131029757}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 3f14b66686dce0447986464f29fa6699, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - refund
+  - (n) an amount of money that is given back to you, especially because you are
+    not happy with a product or service that you have bought
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -2432,9 +2434,9 @@ MonoBehaviour:
   textComponent: {fileID: 1453426785}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: 989a9137fb31866419614339c51a1c5b, type: 3}
   sentences:
-  - How is your first day at work going?
+  - I ordered a pair of jeans. The item was damaged.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -3074,9 +3076,9 @@ MonoBehaviour:
   textComponent: {fileID: 2117815848}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: 7c11ddc0ac4c39b43a4e46fbd97f10ac, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - "I\u2019m sorry for that."
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -3230,10 +3232,10 @@ MonoBehaviour:
   textComponent: {fileID: 666441307}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 27584b336dc197e40b142a0827926373, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - unfortunate
+  - (adj) unlucky or having bad effects
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -3739,9 +3741,9 @@ MonoBehaviour:
   textComponent: {fileID: 1555291746}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: cdff93a64869e2e40ab29d5197a65e5b, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - Perhaps you'd like me to call you back when you're feeling calmer.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -3894,7 +3896,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: solution (n) = the answer to a problem
+  m_text: solution (n) the answer to a problem
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -4239,9 +4241,9 @@ MonoBehaviour:
   textComponent: {fileID: 1325605566}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: ab6bb4fdbdbf17e439661b225a72f41a, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - You're right, this is our mistake and we'll fix it as soon as possible.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -4589,9 +4591,9 @@ MonoBehaviour:
   textComponent: {fileID: 360161312}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: 2afd54ac75d9aa34ab5c1e7c8c1c4ebd, type: 3}
   sentences:
-  - How is your first day at work going?
+  - I ordered a pair of jeans. I was sold an inferior product.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -4653,7 +4655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: purchase (v) = to buy something
+  m_text: purchase (v) to buy something
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -5303,9 +5305,9 @@ MonoBehaviour:
   textComponent: {fileID: 1476433644}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 87c18a84d64aa404991a46745b344e06, type: 3}
+  speechClip: {fileID: 8300000, guid: 159a292d4a9188e4e8f53172ccfa5081, type: 3}
   sentences:
-  - What is your favorite moment in history?
+  - I do apologize to you for that.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -5655,7 +5657,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: damage (n) = [uncountable] physical harm caused to something which makes
+  m_text: damage (n) (uncountable) physical harm caused to something which makes
     it less attractive, useful or valuable
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -6082,8 +6084,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.92696, y: -25}
-  m_SizeDelta: {x: 365.854, y: 50}
+  m_AnchoredPosition: {x: 193.47159, y: -25}
+  m_SizeDelta: {x: 386.9433, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823614570
 MonoBehaviour:
@@ -6100,9 +6102,9 @@ MonoBehaviour:
   textComponent: {fileID: 923171554}
   icon: {fileID: 1272430864}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: cd3a46c9d951f7742b48686323bf6930, type: 3}
+  speechClip: {fileID: 8300000, guid: 935220a75efab5d49bcdda715c429d21, type: 3}
   sentences:
-  - "Asking about others\u2019 preferences"
+  - 'Sometimes customers can be harsh '
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -6199,8 +6201,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.92696, y: -70.69661}
-  m_SizeDelta: {x: 365.854, y: 50}
+  m_AnchoredPosition: {x: 221.45805, y: -70.69661}
+  m_SizeDelta: {x: 442.9163, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845528496
 MonoBehaviour:
@@ -6217,9 +6219,9 @@ MonoBehaviour:
   textComponent: {fileID: 2059229561}
   icon: {fileID: 1092540499}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: cd3a46c9d951f7742b48686323bf6930, type: 3}
+  speechClip: {fileID: 8300000, guid: 03624f82ea82d8d4eb0c5114d2b4f880, type: 3}
   sentences:
-  - "Asking about others\u2019 preferences"
+  - Start with how to apologize to customers
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -6420,8 +6422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 225.42961, y: 0.12635803}
-  m_SizeDelta: {x: 346.9991, y: 50}
+  m_AnchoredPosition: {x: 219.44, y: 0.12635803}
+  m_SizeDelta: {x: 335.01, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923171554
 MonoBehaviour:
@@ -6640,11 +6642,12 @@ MonoBehaviour:
   textComponent: {fileID: 1744052870}
   icon: {fileID: 1440147205}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d1b774ee7b0ff1c40b79d7b201265355, type: 3}
+  speechClip: {fileID: 8300000, guid: b1a10a9b4d4276a46a4d49143774e9c5, type: 3}
   sentences:
-  - "Small talk is important. It is not about exchanging information or having serious
-    discussion. It\u2019s a way to avoid uncomfortable silences and build stronger
-    relationships."
+  - "Successfully handling an angry caller is an important skill. Often, these callers
+    are customers and you don\u2019t want to lose their business. Satisfied customers
+    will return and recommend your company to others. Angry customers will do the
+    opposite."
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -6970,8 +6973,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 208.68884, y: 0.12635803}
-  m_SizeDelta: {x: 313.5176, y: 50}
+  m_AnchoredPosition: {x: 142.38, y: 0.12635803}
+  m_SizeDelta: {x: 180.89, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &979674569
 MonoBehaviour:
@@ -7482,7 +7485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I know you're upset, but yelling makes it harder for me To help you.
+  m_text: I know you're upset, but yelling makes it harder for me to help you.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7594,8 +7597,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 293.25018, y: 0.12635803}
-  m_SizeDelta: {x: 482.6403, y: 50}
+  m_AnchoredPosition: {x: 312.02, y: 0.12635803}
+  m_SizeDelta: {x: 520.17, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1067014930
 MonoBehaviour:
@@ -7846,9 +7849,9 @@ MonoBehaviour:
   textComponent: {fileID: 2041313543}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: 572bb0f41c3265c488960196bae2891a, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - Let me look up/ Find your order.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -8197,8 +8200,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: happen to (phrasal verb) = [transitive] happen to be/do something to do
-    or be something by chance
+  m_text: happen to (phrasal verb) (transitive) happen to be/do something to do or
+    be something by chance
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -8312,8 +8315,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.92696, y: -25}
-  m_SizeDelta: {x: 365.854, y: 50}
+  m_AnchoredPosition: {x: 139.12318, y: -25}
+  m_SizeDelta: {x: 278.2465, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127402526
 MonoBehaviour:
@@ -8330,9 +8333,9 @@ MonoBehaviour:
   textComponent: {fileID: 2084359954}
   icon: {fileID: 54691378}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: cd3a46c9d951f7742b48686323bf6930, type: 3}
+  speechClip: {fileID: 8300000, guid: 5a2925790fe3626499d37e848f00e792, type: 3}
   sentences:
-  - "Asking about others\u2019 preferences"
+  - Dealing with complaints
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -8582,9 +8585,9 @@ MonoBehaviour:
   textComponent: {fileID: 2087841374}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: 9a887c3c971316040a8d612fabc42e34, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - I am here to help you. I will do everything I can to find a solution.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -9017,10 +9020,10 @@ MonoBehaviour:
   textComponent: {fileID: 780132312}
   icon: {fileID: 1282396132}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: afe18655879eeda489944777a99c7868, type: 3}
+  speechClip: {fileID: 8300000, guid: 37da3fc0c03c76844804ea7d554ea6c0, type: 3}
   sentences:
-  - "In this lesson, We\u2019ll look at different ways to initiate and respond to
-    small talk."
+  - "So in today\u2019s lesson, we\u2019ll cover ways to calm down angry callers
+    and ways to solve problems."
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -9115,8 +9118,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 146.08, y: 0.12635803}
-  m_SizeDelta: {x: 188.31, y: 50}
+  m_AnchoredPosition: {x: 120.81, y: 0.12635803}
+  m_SizeDelta: {x: 137.77, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1242463238
 MonoBehaviour:
@@ -9591,9 +9594,9 @@ MonoBehaviour:
   textComponent: {fileID: 1065072992}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: 654d45ccd8a287340a6d2750136fd798, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - I know you're upset, but yelling makes it harder for me to help you.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -9872,9 +9875,9 @@ MonoBehaviour:
   textComponent: {fileID: 184555056}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: ef7fd28dda1ff8648adf135b5eaa5b6f, type: 3}
   sentences:
-  - How is your first day at work going?
+  - I ordered a new jacket. The item arrived late.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -10335,9 +10338,9 @@ MonoBehaviour:
   textComponent: {fileID: 1750290659}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: d9cb0a4689d2b1744a8259349a61a314, type: 3}
+  speechClip: {fileID: 8300000, guid: 7128760a37a579b41be4f4c8754c1990, type: 3}
   sentences:
-  - How is your first day at work going?
+  - I ordered a new TV. It arrived today and the screen is broken.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -10399,10 +10402,11 @@ MonoBehaviour:
   textComponent: {fileID: 715963203}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 495b24dbcb717244b9a8c79d7c2c185d, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - damage
+  - (n) (uncountable) physical harm caused to something which makes it less attractive,
+    useful or valuable
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -10556,10 +10560,11 @@ MonoBehaviour:
   textComponent: {fileID: 1111371167}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 63b4b4ca1733ea04c97dc5b9925ccc20, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - happen to
+  - (phrasal verb) (transitive) happen to be/do something to do or be something by
+    chance
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -10904,7 +10909,7 @@ MonoBehaviour:
   textComponent: {fileID: 1309932526}
   icon: {fileID: 470432440}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 827b4fb20ecc69545be74c4a143589e4, type: 3}
+  speechClip: {fileID: 8300000, guid: a549195e8db66c041bea017eb9c28eca, type: 3}
   sentences: []
   isTyping: 0
   hasIcon: 0
@@ -11336,8 +11341,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 246.14406, y: 0.12635803}
-  m_SizeDelta: {x: 388.428, y: 50}
+  m_AnchoredPosition: {x: 242.65, y: 0.12635803}
+  m_SizeDelta: {x: 381.44, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585637124
 MonoBehaviour:
@@ -11826,10 +11831,10 @@ MonoBehaviour:
   textComponent: {fileID: 588562808}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: e83a740b3e9cecd4d8065aef9fe814df, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - solution
+  - (n) the answer to a problem
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -11983,10 +11988,10 @@ MonoBehaviour:
   textComponent: {fileID: 338145754}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 8b4915fb667afdc4698a1237830654a8, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - inventory
+  - (n) a detailed list of all the things in a place
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -12101,8 +12106,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 325.99997, y: -42.84894}
-  m_SizeDelta: {x: 548, y: 50}
+  m_AnchoredPosition: {x: 329.88055, y: -42.84894}
+  m_SizeDelta: {x: 555.7612, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744052870
 MonoBehaviour:
@@ -12510,7 +12515,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: We can offer you a full refund/ a replacement.
+  m_text: We can offer you a full refund/ We can offer you a replacement.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -12737,9 +12742,9 @@ MonoBehaviour:
   textComponent: {fileID: 140897169}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 794dfd18fcc115642aeca871706400e8, type: 3}
+  speechClip: {fileID: 8300000, guid: 5b945df0841606c46ae74f1c4aef8029, type: 3}
   sentences:
-  - What kind of movies do you like to watch?
+  - We're truly sorry for this situation and we are committed to making things right.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -12856,8 +12861,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.92696, y: -70.69661}
-  m_SizeDelta: {x: 365.854, y: 50}
+  m_AnchoredPosition: {x: 286.05026, y: -70.69661}
+  m_SizeDelta: {x: 572.1007, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793858427
 MonoBehaviour:
@@ -12874,9 +12879,9 @@ MonoBehaviour:
   textComponent: {fileID: 1067014930}
   icon: {fileID: 465283808}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: cd3a46c9d951f7742b48686323bf6930, type: 3}
+  speechClip: {fileID: 8300000, guid: b73b885881673ff409dd8c36e5935f7b, type: 3}
   sentences:
-  - "Asking about others\u2019 preferences"
+  - These are example phrases to extinguish angry behavior from customers
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -13124,10 +13129,11 @@ MonoBehaviour:
   textComponent: {fileID: 1903832885}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: f068a8d33fe1d284da1961e58ac9b8c4, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - look up
+  - (phrasal verb) to try to find a piece of information by looking in a book or
+    on a computer
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -13370,8 +13376,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.92696, y: -25}
-  m_SizeDelta: {x: 365.854, y: 50}
+  m_AnchoredPosition: {x: 116.410126, y: -25}
+  m_SizeDelta: {x: 232.8203, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1923238539
 MonoBehaviour:
@@ -13388,9 +13394,9 @@ MonoBehaviour:
   textComponent: {fileID: 979674569}
   icon: {fileID: 604925081}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: cd3a46c9d951f7742b48686323bf6930, type: 3}
+  speechClip: {fileID: 8300000, guid: c8efaa4fdb855814e86655cebc24c2cc, type: 3}
   sentences:
-  - "Asking about others\u2019 preferences"
+  - Finding a solution
   isTyping: 1
   hasIcon: 1
   isVocab: 0
@@ -13698,9 +13704,9 @@ MonoBehaviour:
   textComponent: {fileID: 1767003173}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 87c18a84d64aa404991a46745b344e06, type: 3}
+  speechClip: {fileID: 8300000, guid: 586f45936e8b7c946bf3a6e539acb3e4, type: 3}
   sentences:
-  - What is your favorite moment in history?
+  - We can offer you a full refund/ We can offer you a replacement.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -13800,7 +13806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Let me look up/ find your order.
+  m_text: Let me look up/ Find your order.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -14027,10 +14033,10 @@ MonoBehaviour:
   textComponent: {fileID: 622323978}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
+  speechClip: {fileID: 8300000, guid: 439de38e32c180447879b976a062259e, type: 3}
   sentences:
-  - atmosphere
-  - '(n) (mood) the character, feeling, or mood of a place or situation '
+  - purchase
+  - (v) to buy something
   isTyping: 0
   hasIcon: 0
   isVocab: 1
@@ -14106,8 +14112,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 208.68884, y: 0.12635803}
-  m_SizeDelta: {x: 313.5176, y: 50}
+  m_AnchoredPosition: {x: 247.42, y: 0.12635803}
+  m_SizeDelta: {x: 390.99, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059229561
 MonoBehaviour:
@@ -14356,9 +14362,9 @@ MonoBehaviour:
   textComponent: {fileID: 1565743642}
   icon: {fileID: 0}
   speechSource: {fileID: 937142582}
-  speechClip: {fileID: 8300000, guid: 87c18a84d64aa404991a46745b344e06, type: 3}
+  speechClip: {fileID: 8300000, guid: 751259f1b84415a4c9e219d59509e6f5, type: 3}
   sentences:
-  - What is your favorite moment in history?
+  - We can have it repaired at no cost.
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -14420,7 +14426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I'm happy to help you, but your language makes it difficult.
+  m_text: I am happy to help you, but your language makes it difficult.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -14532,8 +14538,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 208.68884, y: 0.12635803}
-  m_SizeDelta: {x: 313.5176, y: 50}
+  m_AnchoredPosition: {x: 165.09, y: 0.12635803}
+  m_SizeDelta: {x: 226.32, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084359954
 MonoBehaviour:

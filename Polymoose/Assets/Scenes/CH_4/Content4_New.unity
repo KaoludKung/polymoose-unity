@@ -2117,7 +2117,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Can I leave a message?, May I leave a message?
+  m_text: Can I leave a message?/ May I leave a message?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -2259,7 +2259,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 4c6a3d369b74b0d498a2605c69dc72c8, type: 3}
   sentences:
-  - "Could you please tell me who\u2019s speaking, Could  you please tell me who\u2019s
+  - "Could you please tell me who\u2019s speaking/ Could  you please tell me who\u2019s
     calling? "
   isTyping: 1
   hasIcon: 0
@@ -2416,7 +2416,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 6611dd118f09c214fac2736b5a8acade, type: 3}
   sentences:
-  - Could I ask who's calling?, Could I ask who's telephoning?
+  - Could I ask who's calling?/ Could I ask who's telephoning?
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -8611,7 +8611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Could I ask who''s calling?, Could I ask who''s telephoning?
+  m_text: 'Could I ask who''s calling?/ Could I ask who''s telephoning?
 
 '
   m_isRightToLeft: 0
@@ -11283,7 +11283,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: e747e40d420c6e74eb9b73c041fd81d9, type: 3}
   sentences:
-  - Can I leave a message?, May I leave a message?
+  - Can I leave a message?/ May I leave a message?
   isTyping: 1
   hasIcon: 0
   isVocab: 0
@@ -11776,7 +11776,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 8940b9f61f55fc14c8c0881baf5b5598, type: 3}
   sentences:
-  - "I\u2019m calling to ask about, I\u2019m calling to discuss, I\u2019m calling
+  - "I\u2019m calling to ask about/ I\u2019m calling to discuss/ I\u2019m calling
     to clarify..."
   isTyping: 1
   hasIcon: 0
@@ -14414,7 +14414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Could you please tell me who\u2019s speaking, Could  you please tell me
+  m_text: "Could you please tell me who\u2019s speaking/ Could  you please tell me
     who\u2019s calling?\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -15790,7 +15790,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "I\u2019m calling to ask about, I\u2019m calling to discuss, I\u2019m calling
+  m_text: "I\u2019m calling to ask about/ I\u2019m calling to discuss/ I\u2019m calling
     to clarify..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
