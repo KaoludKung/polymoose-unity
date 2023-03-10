@@ -1350,6 +1350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1958233819}
   time: 0.3
+  isFalse: 0
 --- !u!114 &93377587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2032,6 +2033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 794146983}
   time: 1
+  isFalse: 0
 --- !u!1 &161990663
 GameObject:
   m_ObjectHideFlags: 0
@@ -4274,6 +4276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1778386800}
   time: 0.3
+  isFalse: 0
 --- !u!1 &351897928
 GameObject:
   m_ObjectHideFlags: 0
@@ -5294,6 +5297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1132492393}
   time: 0
+  isFalse: 0
 --- !u!1 &503649199
 GameObject:
   m_ObjectHideFlags: 0
@@ -6982,6 +6986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1504297714}
   time: 0.3
+  isFalse: 0
 --- !u!114 &667140951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11141,6 +11146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1622477167}
   time: 0.3
+  isFalse: 0
 --- !u!114 &1044186518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12780,6 +12786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1379411335}
   time: 0.3
+  isFalse: 0
 --- !u!114 &1132492398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14326,6 +14333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 548400413}
   time: 0.3
+  isFalse: 0
 --- !u!114 &1283963781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14671,7 +14679,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -32}
-  m_SizeDelta: {x: -550, y: 50}
+  m_SizeDelta: {x: -400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299024558
 MonoBehaviour:
@@ -16289,6 +16297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2032683264}
   time: 1
+  isFalse: 0
 --- !u!114 &1460031889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16660,6 +16669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 794146983}
   time: 1.7
+  isFalse: 0
 --- !u!114 &1482131579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20363,6 +20373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 667140948}
   time: 0
+  isFalse: 0
 --- !u!1 &1822152030
 GameObject:
   m_ObjectHideFlags: 0
@@ -20491,6 +20502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2003401510}
   time: 0.3
+  isFalse: 0
 --- !u!82 &1830287063
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22332,6 +22344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1426336515}
   time: 0.5
+  isFalse: 0
 --- !u!114 &2003401513
 MonoBehaviour:
   m_ObjectHideFlags: 0

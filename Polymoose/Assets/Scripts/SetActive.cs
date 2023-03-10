@@ -6,6 +6,7 @@ public class SetActive : MonoBehaviour
 {
     [SerializeField] GameObject target;
     [SerializeField] private float time;
+    [SerializeField] bool isFalse;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,15 @@ public class SetActive : MonoBehaviour
     IEnumerator Active()
     {
         yield return new WaitForSeconds(time);
-        target.SetActive(true);
+        
+        if (isFalse)
+        {
+            target.SetActive(false);
+        }
+        else
+        {
+            target.SetActive(true);
+        }
+        
     }
 }

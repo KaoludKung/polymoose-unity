@@ -1284,6 +1284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 168899725}
   time: 1.8
+  isFalse: 0
 --- !u!114 &59825489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2396,6 +2397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1829021595}
   time: 1.8
+  isFalse: 0
 --- !u!222 &120344347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3630,6 +3632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 81385114}
   time: 1.75
+  isFalse: 0
 --- !u!114 &198572578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4798,6 +4801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2137048059}
   time: 1.6
+  isFalse: 0
 --- !u!114 &345520864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4906,6 +4910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1778386800}
   time: 0.3
+  isFalse: 0
 --- !u!1001 &363308316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6509,6 +6514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2137048059}
   time: 1.5
+  isFalse: 0
 --- !u!1 &514154260
 GameObject:
   m_ObjectHideFlags: 0
@@ -14542,7 +14548,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 168899725}
-  time: 1.55
+  time: 2.8
+  isFalse: 0
 --- !u!1 &1160018770
 GameObject:
   m_ObjectHideFlags: 0
@@ -16262,8 +16269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00024414062, y: -32.000046}
-  m_SizeDelta: {x: -550, y: 50}
+  m_AnchoredPosition: {x: 0.00024414062, y: -32.00006}
+  m_SizeDelta: {x: -400.00037, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299024558
 MonoBehaviour:
@@ -16718,6 +16725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 333646118}
   time: 1.2
+  isFalse: 0
 --- !u!1 &1328736696
 GameObject:
   m_ObjectHideFlags: 0
@@ -16783,6 +16791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 81385114}
   time: 1.35
+  isFalse: 0
 --- !u!1 &1341872785
 GameObject:
   m_ObjectHideFlags: 0
@@ -17919,6 +17928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1829021595}
   time: 1.2
+  isFalse: 0
 --- !u!1 &1458597653
 GameObject:
   m_ObjectHideFlags: 0
@@ -18971,6 +18981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1341872785}
   time: 1.75
+  isFalse: 0
 --- !u!1 &1615328940
 GameObject:
   m_ObjectHideFlags: 0
@@ -20252,6 +20263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1341872785}
   time: 1.8
+  isFalse: 0
 --- !u!114 &1768166795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22365,6 +22377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2144357908}
   time: 0.8
+  isFalse: 0
 --- !u!114 &1999396068
 MonoBehaviour:
   m_ObjectHideFlags: 0
