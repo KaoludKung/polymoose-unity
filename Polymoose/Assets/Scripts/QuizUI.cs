@@ -59,7 +59,7 @@ public class QuizUI : MonoBehaviour
 
         if (quizManager.fillBlank)
         {
-            questionText.text = "<color=#3BF831>Fill the blank: </color>" + question.questionInfo;
+            questionText.text = "<color=#3BF831>Fill in the blank: </color>" + question.questionInfo;
         }
         else
         {
