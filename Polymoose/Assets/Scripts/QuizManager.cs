@@ -49,7 +49,6 @@ public class QuizManager : MonoBehaviour
     private bool isRunning = false;
     private bool isUsing = false;
     public bool timeOver = true;
-    public bool showHints = false;
 
     public GameObject currentObject;
     public GameObject nextObject;
@@ -69,7 +68,7 @@ public class QuizManager : MonoBehaviour
         //count = PlayerPrefs.GetInt("Count" + level, count);
         totalCorrect = PlayerPrefs.GetInt("Totalcorrect" + level, totalCorrect);
         
-        scoreText.text = "Score : " + score.ToString();
+        scoreText.text = "Score: " + score.ToString();
         //processbar.fillAmount = (count++) / 5f;
 
         hintCount = PlayerPrefs.GetInt("Hints", hintCount);
@@ -229,14 +228,14 @@ public class QuizManager : MonoBehaviour
                 itemSource.clip = itemClip[1];
                 itemSource.Play();
                 yield return new WaitForSeconds(0.5f);
-                showHints = true;
+                hintsText.SetActive(true);
 
                 hintCount--;
                 PlayerPrefs.SetInt("Hints", hintCount);
                 PlayerPrefs.Save();
 
                 yield return new WaitForSeconds(2.8f);
-                showHints = false;
+                hintsText.SetActive(false);
                 isUsing = false;
             }
         }

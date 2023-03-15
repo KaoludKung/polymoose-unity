@@ -12,6 +12,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject nextSet;
 
     [SerializeField] private string[] sentences;
+    [SerializeField] private GameObject iconNpc;
+    [SerializeField] private Sprite spriteNpc;
     [SerializeField] private AudioClip[] talkClip;
     [SerializeField] private AudioSource talkSource;
     
@@ -27,6 +29,7 @@ public class DialogueManager : MonoBehaviour
     {
         textComponent.text = string.Empty;
         nameNpc.GetComponent<TextMeshProUGUI>().text = Name;
+        iconNpc.GetComponent<Image>().sprite = spriteNpc;
         Invoke("StartDialogue", 0.3f);
     }
 
