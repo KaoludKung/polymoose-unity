@@ -22,6 +22,7 @@ public class IntroDialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        textComponent.color = Color.cyan;
         textComponent.text = string.Empty;
         Invoke("StartDialogue", 0.3f);
     }

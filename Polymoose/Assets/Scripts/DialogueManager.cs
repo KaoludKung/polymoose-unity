@@ -17,7 +17,7 @@ public class DialogueManager : MonoBehaviour
     
     [SerializeField] private string Name;
     [SerializeField] private float textSpeed;
-
+    
     private int index;
     private bool isTalking;
 

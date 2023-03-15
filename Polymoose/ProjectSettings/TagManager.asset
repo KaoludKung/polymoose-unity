@@ -8,6 +8,8 @@ TagManager:
   - background
   - object
   - speech
+  - Music Sound
+  - BG
   layers:
   - Default
   - TransparentFX

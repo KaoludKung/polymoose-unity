@@ -47,12 +47,12 @@ public class PauseManager : MonoBehaviour
         {
             sideScroller.enabled = true;
         }
-        
-        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
 
-        foreach (AudioSource audioS in allAudioSources)
+        GameObject[] allAudioSources = GameObject.FindGameObjectsWithTag("music");
+
+        foreach (GameObject audioS in allAudioSources)
         {
-            audioS.Play();
+            //audioS.GetComponent<AudioSource>.
         }
 
         showMenu = false;
