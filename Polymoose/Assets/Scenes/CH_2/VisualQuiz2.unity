@@ -15695,8 +15695,8 @@ MonoBehaviour:
   nextButton: {fileID: 515272793}
   nextSet: {fileID: 1426336515}
   sentences:
-  - While Moose is checking his phone in the middle of the corridor, Macaw waves
-    to him and starts a conversation.
+  - While Moose is checking his phone in the middle of the corridor, Macaw knock
+    his shoulder and starts a conversation.
   textSpeed: 0.05
 --- !u!1 &1781433870
 GameObject:
