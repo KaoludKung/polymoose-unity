@@ -8981,7 +8981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "select the correct answers to get points \r\nthe more points you can make,
+  m_text: "select the correct answer to get points \r\nthe more points you can make,
     the more stars you can earn"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
