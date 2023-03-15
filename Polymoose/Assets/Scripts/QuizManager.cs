@@ -49,6 +49,7 @@ public class QuizManager : MonoBehaviour
     private bool isRunning = false;
     private bool isUsing = false;
     public bool timeOver = true;
+    public bool showHints = false;
 
     public GameObject currentObject;
     public GameObject nextObject;
@@ -228,14 +229,14 @@ public class QuizManager : MonoBehaviour
                 itemSource.clip = itemClip[1];
                 itemSource.Play();
                 yield return new WaitForSeconds(0.5f);
-                hintsText.SetActive(true);
+                showHints = true;
 
                 hintCount--;
                 PlayerPrefs.SetInt("Hints", hintCount);
                 PlayerPrefs.Save();
 
                 yield return new WaitForSeconds(2.8f);
-                hintsText.SetActive(false);
+                showHints = false;
                 isUsing = false;
             }
         }

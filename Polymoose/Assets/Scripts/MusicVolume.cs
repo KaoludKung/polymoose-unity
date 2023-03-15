@@ -14,7 +14,7 @@ public class MusicVolume : MonoBehaviour
         if (!PlayerPrefs.HasKey("Music") && !PlayerPrefs.HasKey("Talking"))
         {
             PlayerPrefs.SetFloat("Music", 0.2f);
-            PlayerPrefs.SetFloat("Taling", 1.0f);
+            PlayerPrefs.SetFloat("Taling", 8.0f);
             Load(soundID);
         }
         else

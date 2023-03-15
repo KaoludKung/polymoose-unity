@@ -116,6 +116,11 @@ public class QuizUI : MonoBehaviour
             answered = true;
             bool val = quizManager.Answer(btn.name);
 
+            if (quizManager.showHints)
+            {
+                btn.image.color = new Color32(255, 51, 51, 255);
+            }
+
             if (val)
             {
                 btn.image.color = new Color32(70,202,78,255);
