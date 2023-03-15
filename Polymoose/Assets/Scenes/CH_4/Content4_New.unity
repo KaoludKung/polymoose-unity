@@ -633,7 +633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: available (adj) (of a person)  free to see or talk to people
+  m_text: Available (adj) (of a person)  free to see or talk to people
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -5506,7 +5506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: of course (idiom) used to emphasize that what you are saying is true or
+  m_text: Of course (idiom) used to emphasize that what you are saying is true or
     correct.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7343,7 +7343,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: purpose (n) the intention, aim or function of something; the thing that
+  m_text: Purpose (n) the intention, aim or function of something; the thing that
     something is supposed to achieve.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7658,7 +7658,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: leave a message (v) to leave information for someone you haven't been able
+  m_text: Leave a message (v) to leave information for someone you haven't been able
     to meet or talk to.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -9224,7 +9224,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f902638bc5dd29845a506ae8b5eda7dc, type: 3}
   sentences:
-  - purpose
+  - Purpose
   - (n) the intention, aim or function of something; the thing that something is
     supposed to achieve.
   isTyping: 0
@@ -9503,7 +9503,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 5205fa990a6394145ac1ba1de310e4a8, type: 3}
   sentences:
-  - leave a message
+  - Leave a message
   - (v) to leave information for someone you haven't been able to meet or talk to.
   isTyping: 0
   hasIcon: 0
@@ -9785,7 +9785,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 71d17bdc80d1eb947a56dabaa0d8c3b5, type: 3}
   sentences:
-  - available
+  - Available
   - (adj) (of a person)  free to see or talk to people
   isTyping: 0
   hasIcon: 0
@@ -13804,7 +13804,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 3ccafc7698bc9584787b66faeb1f7d30, type: 3}
   sentences:
-  - of course
+  - Of course
   - (idiom) used to emphasize that what you are saying is true or correct.
   isTyping: 0
   hasIcon: 0
