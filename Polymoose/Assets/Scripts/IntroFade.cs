@@ -54,7 +54,7 @@ public class IntroFade : MonoBehaviour
                 scene = "Walk4";
                 break;
             case 15:
-                chapterText.text = "Chapter 5 <space=10em> Dealing with an angry customer";
+                chapterText.text = "Chapter 5 <space=10em> Dealing with angry customers";
                 scene = "Walk5";
                 break;
         }
