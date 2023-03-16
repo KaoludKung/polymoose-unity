@@ -17,10 +17,11 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private bool firstQuestion;
     public bool fillBlank;
 
-    [SerializeField] private GameObject hintsText;
+    [SerializeField] private GameObject hintDialogue;
+    [SerializeField] private TextMeshProUGUI hintsText;
+    [SerializeField] private Image timeIcon;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
-    //[SerializeField] private Image processbar;
 
     [SerializeField] private TextMeshProUGUI hintCountText;
     [SerializeField] private TextMeshProUGUI freezeCountText;
@@ -31,6 +32,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Button extraButton;
     [SerializeField] private GameObject freezeBackground;
 
+    [SerializeField] private Sprite[] timeSprite;
     [SerializeField] private GameObject[] items;
     [SerializeField] private AudioSource itemSource;
     [SerializeField] private AudioClip[] itemClip;
@@ -75,7 +77,7 @@ public class QuizManager : MonoBehaviour
         freezeCount = PlayerPrefs.GetInt("Freezes", freezeCount);
         extraCount = PlayerPrefs.GetInt("Extratimes", extraCount);
 
-        hintsText.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
+        hintsText.text = "<color=#FF28BA>Answer is  </color>" + selectedQuestion.correctAnswer;
         hintCountText.text = hintCount.ToString();
         freezeCountText.text = freezeCount.ToString();
         extraCountText.text = extraCount.ToString();
@@ -108,7 +110,7 @@ public class QuizManager : MonoBehaviour
         if (isRunning)
         {
             //processbar.fillAmount = count / 5f;
-            hintsText.GetComponent<TextMeshProUGUI>().text = selectedQuestion.correctAnswer;
+            hintsText.text = selectedQuestion.correctAnswer;
 
             if (currentTime > 0)
             {
@@ -121,6 +123,7 @@ public class QuizManager : MonoBehaviour
                 timeOver = true;
                 itemSource.clip = itemClip[4];
                 itemSource.Play();
+                StartCoroutine(SwitchImage());
                 //PlayerPrefs.SetInt("Count" + level, count++);
                 Invoke("SelectQuestion", 3.0f);
             }
@@ -228,14 +231,14 @@ public class QuizManager : MonoBehaviour
                 itemSource.clip = itemClip[1];
                 itemSource.Play();
                 yield return new WaitForSeconds(0.5f);
-                hintsText.SetActive(true);
+                hintDialogue.SetActive(true);
 
                 hintCount--;
                 PlayerPrefs.SetInt("Hints", hintCount);
                 PlayerPrefs.Save();
 
-                yield return new WaitForSeconds(2.8f);
-                hintsText.SetActive(false);
+                yield return new WaitForSeconds(3.5f);
+                hintDialogue.SetActive(false);
                 isUsing = false;
             }
         }
@@ -306,7 +309,13 @@ public class QuizManager : MonoBehaviour
         }
     }
 
+    IEnumerator SwitchImage()
+    {
+        timeIcon.GetComponent<Image>().sprite = timeSprite[1];
+        yield return new WaitForSeconds(2.0f);
+        timeIcon.GetComponent<Image>().sprite = timeSprite[0];
 
+    }
 }
 
 [System.Serializable]
