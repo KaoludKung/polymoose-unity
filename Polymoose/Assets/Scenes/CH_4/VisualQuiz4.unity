@@ -408,6 +408,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1160018770}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 614fb59427459b249965b0718066a00c, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -961,6 +965,10 @@ PrefabInstance:
       propertyPath: nextSet
       value: 
       objectReference: {fileID: 1044186514}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: fb7b4bfdde9397844b4b714d66708ec4, type: 3}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
@@ -1712,6 +1720,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1061490014}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 614fb59427459b249965b0718066a00c, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -2081,6 +2093,10 @@ PrefabInstance:
       propertyPath: nextSet
       value: 
       objectReference: {fileID: 48537842}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: fb7b4bfdde9397844b4b714d66708ec4, type: 3}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
@@ -3205,6 +3221,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1524127519}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 614fb59427459b249965b0718066a00c, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -3990,6 +4010,10 @@ PrefabInstance:
       propertyPath: timeSprite.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
+      propertyPath: itemClip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: dc1386b6c234c9d45ac4a5fb03d04c1a, type: 3}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: timeSprite.Array.data[0]
       value: 
@@ -5317,6 +5341,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
+      propertyPath: itemClip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: dc1386b6c234c9d45ac4a5fb03d04c1a, type: 3}
+    - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: timeSprite.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: abbb7b1fce86a494386b54ec22150a26, type: 3}
@@ -5516,7 +5544,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d38bb9ee6b5b11e429dd174d8e7f31c4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.8
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6099,6 +6127,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1132021955}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: fb7b4bfdde9397844b4b714d66708ec4, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -6448,6 +6480,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1460031885}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 614fb59427459b249965b0718066a00c, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -6636,6 +6672,10 @@ PrefabInstance:
       propertyPath: nextSet
       value: 
       objectReference: {fileID: 1446462276}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: fb7b4bfdde9397844b4b714d66708ec4, type: 3}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
@@ -7099,6 +7139,10 @@ PrefabInstance:
       propertyPath: timeSprite.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
+      propertyPath: itemClip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: dc1386b6c234c9d45ac4a5fb03d04c1a, type: 3}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: timeSprite.Array.data[0]
       value: 
@@ -8309,6 +8353,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1998496710}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: fb7b4bfdde9397844b4b714d66708ec4, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -8464,6 +8512,10 @@ PrefabInstance:
       propertyPath: nextSet
       value: 
       objectReference: {fileID: 29650874}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 8afaff2cf8588a34581b06746a9b48e1, type: 3}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
@@ -9079,6 +9131,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 299430044}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 614fb59427459b249965b0718066a00c, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -9431,6 +9487,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 93377583}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 614fb59427459b249965b0718066a00c, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -9594,6 +9654,10 @@ PrefabInstance:
       propertyPath: nextSet
       value: 
       objectReference: {fileID: 1050461858}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: 614fb59427459b249965b0718066a00c, type: 3}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
@@ -10128,6 +10192,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1819807526}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: fb7b4bfdde9397844b4b714d66708ec4, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -10435,6 +10503,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
+      propertyPath: itemClip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: dc1386b6c234c9d45ac4a5fb03d04c1a, type: 3}
+    - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: timeSprite.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: abbb7b1fce86a494386b54ec22150a26, type: 3}
@@ -10684,6 +10756,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1283963778}
     - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
+      propertyPath: spriteNpc
+      value: 
+      objectReference: {fileID: 21300000, guid: fb7b4bfdde9397844b4b714d66708ec4, type: 3}
+    - target: {fileID: 7649276498955075879, guid: 7cf65b6ba9532e34ca735f85a0b50986, type: 3}
       propertyPath: talkSource
       value: 
       objectReference: {fileID: 1805864993}
@@ -10776,6 +10852,10 @@ PrefabInstance:
       propertyPath: timeSprite.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
+      propertyPath: itemClip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: dc1386b6c234c9d45ac4a5fb03d04c1a, type: 3}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: timeSprite.Array.data[0]
       value: 

@@ -124,7 +124,7 @@ public class QuizManager : MonoBehaviour
                 itemSource.Play();
                 timeOut.SetActive(true);
                 //PlayerPrefs.SetInt("Count" + level, count++);
-                Invoke("SelectQuestion", 4.5f);
+                Invoke("SelectQuestion", 3.5f);
             }
         }
     }
