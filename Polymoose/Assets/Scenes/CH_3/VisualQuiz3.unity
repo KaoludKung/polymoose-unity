@@ -1933,6 +1933,8 @@ MonoBehaviour:
   nextSet: {fileID: 513901991}
   sentences:
   - 'It sounds great, but I was actually hoping to try something a little lighter. '
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 3d4febcf4c3d84c458ebcdaeaf6fd00f, type: 3}
   talkSource: {fileID: 1805864993}
@@ -3048,6 +3050,8 @@ MonoBehaviour:
   nextSet: {fileID: 1082471591}
   sentences:
   - This is very good. How is your salmon? Moose.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: b54926d0d579fa04689ebd0cd62a65cf, type: 3}
   talkSource: {fileID: 1805864993}
@@ -4725,6 +4729,8 @@ MonoBehaviour:
   nextSet: {fileID: 29650874}
   sentences:
   - I can't make up my mind.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 718abf8ebf7e90142b14fd61929e78a3, type: 3}
   talkSource: {fileID: 1805864993}
@@ -9604,6 +9610,8 @@ MonoBehaviour:
   nextSet: {fileID: 748803255}
   sentences:
   - 'I''ll have the Nebraska corn fed sirloin steak. '
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 3e0cfa85e5507534095f27c0cde7c7e4, type: 3}
   talkSource: {fileID: 1805864993}
@@ -10109,6 +10117,8 @@ MonoBehaviour:
   nextSet: {fileID: 1255871820}
   sentences:
   - Good choice.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 0380954543ff4e944877793af6d2093a, type: 3}
   talkSource: {fileID: 1805864993}
@@ -13750,6 +13760,8 @@ MonoBehaviour:
   nextSet: {fileID: 1328736696}
   sentences:
   - It's finely chopped raw beef with egg and marinated in lime juice.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 5100cea344a360049a3b46b376f3bd34, type: 3}
   talkSource: {fileID: 1805864993}
@@ -14024,6 +14036,8 @@ MonoBehaviour:
   nextSet: {fileID: 1446462276}
   sentences:
   - Wonderful.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: b2b6abfe2f84abc449957ee711c74057, type: 3}
   talkSource: {fileID: 1805864993}
@@ -14926,6 +14940,8 @@ MonoBehaviour:
   nextSet: {fileID: 1063610006}
   sentences:
   - What exactly is it?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: a7fc0d8a157277b47b4c4b26b5af014a, type: 3}
   talkSource: {fileID: 1805864993}
@@ -15783,6 +15799,8 @@ MonoBehaviour:
   nextSet: {fileID: 749233999}
   sentences:
   - How would you like that cooked, Sir?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 6f943b406f137d14d9eae73a90c75d02, type: 3}
   talkSource: {fileID: 1805864993}
@@ -16850,6 +16868,8 @@ MonoBehaviour:
   nextSet: {fileID: 1979024574}
   sentences:
   - That sounds good.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 69365f1b2704e834f853baaa24fb501f, type: 3}
   talkSource: {fileID: 1805864993}
@@ -17393,6 +17413,8 @@ MonoBehaviour:
   nextSet: {fileID: 1147911787}
   sentences:
   - "Thank you, I\u2019ll be back with your order soon."
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 24bc25d2e4f47454ab35cc30e2d896cb, type: 3}
   talkSource: {fileID: 1805864993}
@@ -17735,6 +17757,8 @@ MonoBehaviour:
   nextSet: {fileID: 1312586914}
   sentences:
   - Shall we order now?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 2a39169305bbdde4d8333e5621282f65, type: 3}
   talkSource: {fileID: 1805864993}
@@ -20941,6 +20965,8 @@ MonoBehaviour:
   nextSet: {fileID: 1179062758}
   sentences:
   - Can I suggest the steak tartare?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 847a59cd09bf9cb45a58eaf91e707f4b, type: 3}
   talkSource: {fileID: 1805864993}
@@ -22018,6 +22044,8 @@ MonoBehaviour:
   nextSet: {fileID: 623876465}
   sentences:
   - Are you ready to order?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: a85b05ade54c6054eac8e54b4f65bd7c, type: 3}
   talkSource: {fileID: 1805864993}
@@ -24226,10 +24254,10 @@ RectTransform:
   m_Father: {fileID: 754417366}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -49.600006, y: 56.53244}
-  m_SizeDelta: {x: 480.27, y: 564}
+  m_AnchoredPosition: {x: 299.60126, y: 95}
+  m_SizeDelta: {x: -320.7975, y: 564}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134363649
 MonoBehaviour:
@@ -24327,6 +24355,8 @@ MonoBehaviour:
   nextSet: {fileID: 506787796}
   sentences:
   - How the yellowfin tuna then. It's delicious.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 7540485de503f914ba3aa86d6304fafe, type: 3}
   talkSource: {fileID: 1805864993}
@@ -24390,6 +24420,8 @@ MonoBehaviour:
   nextSet: {fileID: 717373439}
   sentences:
   - House Smoked salmon.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: b605893ff89f6a1488c508e7410f82a2, type: 3}
   talkSource: {fileID: 1805864993}

@@ -799,6 +799,8 @@ MonoBehaviour:
   nextSet: {fileID: 562062621}
   sentences:
   - Where do you see yourself in 5 years?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 274a61094db6f0b46aad3162a6f351bf, type: 3}
   talkSource: {fileID: 1805864993}
@@ -4324,6 +4326,8 @@ MonoBehaviour:
   nextSet: {fileID: 2100193671}
   sentences:
   - What are your strengths? Why should we hire you?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: d40c8fce417bdf0408a9754822d7e253, type: 3}
   talkSource: {fileID: 1805864993}
@@ -6160,6 +6164,8 @@ MonoBehaviour:
   nextSet: {fileID: 1262709388}
   sentences:
   - Why are you interested in this position?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: c6a4ed4a7e6beda44845b071f400d3d1, type: 3}
   talkSource: {fileID: 1805864993}
@@ -7771,6 +7777,8 @@ MonoBehaviour:
   sentences:
   - In the first 2-3 years, I see myself becoming a true expert and master as a pattern
     designer at this company.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 3babd8806814d414dafda3c84443be24, type: 3}
   talkSource: {fileID: 1805864993}
@@ -8834,6 +8842,8 @@ MonoBehaviour:
   sentences:
   - I did an internship at Binco as a pattern designer. My main roles are to create
     rough templates and design patterns.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: b8f3aca0e56505d4fb63fba4cd977124, type: 3}
   talkSource: {fileID: 1805864993}
@@ -15768,6 +15778,8 @@ MonoBehaviour:
   nextSet: {fileID: 2014652287}
   sentences:
   - Moose, nice meeting you. Thank you for coming.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 0a0e2b8f407a53e4fa80c47f37eaabcf, type: 3}
   talkSource: {fileID: 1805864993}
@@ -15898,6 +15910,8 @@ MonoBehaviour:
   nextSet: {fileID: 417564625}
   sentences:
   - "Let\u2019s start shall we. Please tell me about yourself."
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 4ad7d56d8db34bd439b9a86b904d8c56, type: 3}
   talkSource: {fileID: 1805864993}
@@ -16923,6 +16937,8 @@ MonoBehaviour:
   nextSet: {fileID: 804177788}
   sentences:
   - Do you work well under pressure?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 00c4da4cfc021924ebc00c9cb987d22e, type: 3}
   talkSource: {fileID: 1805864993}
@@ -17922,6 +17938,8 @@ MonoBehaviour:
   - 'No, I think I have a pretty good understanding of the job. '
   - I believe that I can handle it with ease, and I hope to have the opportunity
     to work for you.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 3e4818cf6ed810e4a8040ced58fc7c69, type: 3}
   - {fileID: 8300000, guid: 8d8e8cb70d9aab0409a4cbc9f708b948, type: 3}
@@ -20584,6 +20602,8 @@ MonoBehaviour:
   nextSet: {fileID: 1446462276}
   sentences:
   - Nice meeting you too. Thank you for seeing me.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 3cce2eec8c50ce0438d7ae41d4669ac4, type: 3}
   talkSource: {fileID: 1805864993}
@@ -20896,6 +20916,8 @@ MonoBehaviour:
   nextSet: {fileID: 1692339673}
   sentences:
   - Do you still have any questions for me?
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 55fd4a608f533c44f8717f0c3dba408b, type: 3}
   talkSource: {fileID: 1805864993}
@@ -20997,6 +21019,8 @@ MonoBehaviour:
   sentences:
   - Because I am really passionate about this type of work. It is something I very
     much enjoy doing.
+  iconNpc: {fileID: 0}
+  spriteNpc: {fileID: 0}
   talkClip:
   - {fileID: 8300000, guid: 96828370133b55c449b17698992a373e, type: 3}
   talkSource: {fileID: 1805864993}
@@ -21844,10 +21868,10 @@ RectTransform:
   m_Father: {fileID: 754417366}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -49.600006, y: 56.532455}
-  m_SizeDelta: {x: 480.27, y: 564}
+  m_AnchoredPosition: {x: 299.60126, y: 95}
+  m_SizeDelta: {x: -320.7975, y: 564}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134363649
 MonoBehaviour:

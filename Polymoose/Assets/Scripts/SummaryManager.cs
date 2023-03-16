@@ -52,7 +52,7 @@ public class SummaryManager : MonoBehaviour
 
         if (percent >= 30)
         {
-            summaryText.text = "LEVEL CLEAR!";
+            summaryText.text = "LEVEL CLEARED!";
 
             if (PlayerPrefs.GetInt("Level") == 0)
             {
