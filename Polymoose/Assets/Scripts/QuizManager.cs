@@ -123,7 +123,7 @@ public class QuizManager : MonoBehaviour
                 timeOver = true;
                 itemSource.clip = itemClip[4];
                 itemSource.Play();
-                StartCoroutine(SwitchImage());
+                timeIcon.GetComponent<Image>().sprite = timeSprite[1];
                 //PlayerPrefs.SetInt("Count" + level, count++);
                 Invoke("SelectQuestion", 3.0f);
             }
@@ -136,6 +136,7 @@ public class QuizManager : MonoBehaviour
         {
             int val = UnityEngine.Random.Range(0, questions.Count);
             currentTime = 15.0f;
+            timeIcon.GetComponent<Image>().sprite = timeSprite[0];
             timeOver = false;
             selectedQuestion = questions[val];
             quizUI.SetQuestion(selectedQuestion);
@@ -309,13 +310,6 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    IEnumerator SwitchImage()
-    {
-        timeIcon.GetComponent<Image>().sprite = timeSprite[1];
-        yield return new WaitForSeconds(2.0f);
-        timeIcon.GetComponent<Image>().sprite = timeSprite[0];
-
-    }
 }
 
 [System.Serializable]
