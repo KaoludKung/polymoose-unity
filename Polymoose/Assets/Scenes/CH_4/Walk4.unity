@@ -927,7 +927,7 @@ MonoBehaviour:
   arrow:
   - {fileID: 1185137173}
   - {fileID: 450363832}
-  message: Find a telephone
+  message: Find the telephone
 --- !u!1 &956798909
 GameObject:
   m_ObjectHideFlags: 0
