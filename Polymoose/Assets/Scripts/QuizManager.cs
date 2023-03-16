@@ -17,9 +17,9 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private bool firstQuestion;
     public bool fillBlank;
 
+    [SerializeField] private GameObject timeOut;
     [SerializeField] private GameObject hintDialogue;
     [SerializeField] private TextMeshProUGUI hintsText;
-    [SerializeField] private Image timeIcon;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
 
@@ -32,7 +32,6 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Button extraButton;
     [SerializeField] private GameObject freezeBackground;
 
-    [SerializeField] private Sprite[] timeSprite;
     [SerializeField] private GameObject[] items;
     [SerializeField] private AudioSource itemSource;
     [SerializeField] private AudioClip[] itemClip;
@@ -123,9 +122,9 @@ public class QuizManager : MonoBehaviour
                 timeOver = true;
                 itemSource.clip = itemClip[4];
                 itemSource.Play();
-                timeIcon.GetComponent<Image>().sprite = timeSprite[1];
+                timeOut.SetActive(true);
                 //PlayerPrefs.SetInt("Count" + level, count++);
-                Invoke("SelectQuestion", 3.0f);
+                Invoke("SelectQuestion", 4.5f);
             }
         }
     }
@@ -136,7 +135,7 @@ public class QuizManager : MonoBehaviour
         {
             int val = UnityEngine.Random.Range(0, questions.Count);
             currentTime = 15.0f;
-            timeIcon.GetComponent<Image>().sprite = timeSprite[0];
+            timeOut.SetActive(false);
             timeOver = false;
             selectedQuestion = questions[val];
             quizUI.SetQuestion(selectedQuestion);
