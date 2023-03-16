@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: inventory (n) a detailed list of all the things in a place
+  m_text: Inventory (n) a detailed list of all the things in a place
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -1966,7 +1966,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 3f14b66686dce0447986464f29fa6699, type: 3}
   sentences:
-  - refund
+  - Refund
   - (n) an amount of money that is given back to you, especially because you are
     not happy with a product or service that you have bought
   isTyping: 0
@@ -3234,7 +3234,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 27584b336dc197e40b142a0827926373, type: 3}
   sentences:
-  - unfortunate
+  - Unfortunate
   - (adj) unlucky or having bad effects
   isTyping: 0
   hasIcon: 0
@@ -3896,7 +3896,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: solution (n) the answer to a problem
+  m_text: Solution (n) the answer to a problem
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -4655,7 +4655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: purchase (v) to buy something
+  m_text: Purchase (v) to buy something
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -5002,7 +5002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: unfortunate (adj) unlucky or having bad effects
+  m_text: Unfortunate (adj) unlucky or having bad effects
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -5657,7 +5657,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: damage (n) (uncountable) physical harm caused to something which makes
+  m_text: Damage (n) (uncountable) physical harm caused to something which makes
     it less attractive, useful or valuable
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -8215,7 +8215,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: happen to (phrasal verb) (transitive) happen to be/do something to do or
+  m_text: Happen to (phrasal verb) (transitive) happen to be/do something to do or
     be something by chance
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -10419,7 +10419,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 495b24dbcb717244b9a8c79d7c2c185d, type: 3}
   sentences:
-  - damage
+  - Damage
   - (n) (uncountable) physical harm caused to something which makes it less attractive,
     useful or valuable
   isTyping: 0
@@ -10577,7 +10577,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 63b4b4ca1733ea04c97dc5b9925ccc20, type: 3}
   sentences:
-  - happen to
+  - Happen to
   - (phrasal verb) (transitive) happen to be/do something to do or be something by
     chance
   isTyping: 0
@@ -11848,7 +11848,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: e83a740b3e9cecd4d8065aef9fe814df, type: 3}
   sentences:
-  - solution
+  - Solution
   - (n) the answer to a problem
   isTyping: 0
   hasIcon: 0
@@ -12005,7 +12005,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 8b4915fb667afdc4698a1237830654a8, type: 3}
   sentences:
-  - inventory
+  - Inventory
   - (n) a detailed list of all the things in a place
   isTyping: 0
   hasIcon: 0
@@ -13146,7 +13146,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f068a8d33fe1d284da1961e58ac9b8c4, type: 3}
   sentences:
-  - look up
+  - Look up
   - (phrasal verb) to try to find a piece of information by looking in a book or
     on a computer
   isTyping: 0
@@ -13210,7 +13210,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: look up (phrasal verb) to try to find a piece of information by looking
+  m_text: Look up (phrasal verb) to try to find a piece of information by looking
     in a book or on a computer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -14050,7 +14050,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 439de38e32c180447879b976a062259e, type: 3}
   sentences:
-  - purchase
+  - Purchase
   - (v) to buy something
   isTyping: 0
   hasIcon: 0
@@ -15090,7 +15090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: refund (n) an amount of money that is given back to you, especially because
+  m_text: Refund (n) an amount of money that is given back to you, especially because
     you are not happy with a product or service that you have bought
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}

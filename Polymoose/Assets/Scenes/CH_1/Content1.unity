@@ -275,7 +275,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: facc324070eae2f49ac7e3e4cd4119f7, type: 3}
   sentences:
-  - handle
+  - Handle
   - (v) to deal with, have responsibility for, or be in charge of
   isTyping: 0
   hasIcon: 0
@@ -545,7 +545,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: e6739b8c877c6e14da7bbb53c5e15919, type: 3}
   sentences:
-  - get cranking
+  - Get cranking
   - (idiom) to start doing something quickly
   isTyping: 0
   hasIcon: 0
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'handle (v) to deal with, have responsibility for, or be in charge of
+  m_text: 'Handle (v) to deal with, have responsibility for, or be in charge of
 
 '
   m_isRightToLeft: 0
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 5ba7db4a2e0885d44a3b9380c2332e93, type: 3}
   sentences:
-  - passionate
+  - Passionate
   - (adj) having very strong feelings or emotions
   isTyping: 0
   hasIcon: 0
@@ -2027,7 +2027,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'still (adj) continuing to happen or continuing to be done
+  m_text: 'Still (adj) continuing to happen or continuing to be done
 
 '
   m_isRightToLeft: 0
@@ -4672,7 +4672,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: c8fc7eb280ddd7b41b6c8600b96a0187, type: 3}
   sentences:
-  - position
+  - Position
   - (n) a job
   isTyping: 0
   hasIcon: 0
@@ -5459,7 +5459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "graduate (n) a person who has finished their school, college, or university
+  m_text: "Graduate (n) a person who has finished their school, college, or university
     education\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7500,7 +7500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: passionate (adj) having very strong feelings or emotions
+  m_text: Passionate (adj) having very strong feelings or emotions
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7729,7 +7729,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 1c67cb700ba505d47a3dc88a8c2b4850, type: 3}
   sentences:
-  - opportunity
+  - Opportunity
   - (n) an occasion or situation that makes it possible to do something that you
     want to do or have to do
   isTyping: 0
@@ -10257,7 +10257,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 9a868f1a3c733bd489bb939d66183798, type: 3}
   sentences:
-  - graduate
+  - Graduate
   - '(n) a person who has finished their school, college, or university education '
   isTyping: 0
   hasIcon: 0
@@ -10320,7 +10320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'desirable (adj) worth having and wanted by most people
+  m_text: 'Desirable (adj) worth having and wanted by most people
 
 '
   m_isRightToLeft: 0
@@ -10630,7 +10630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'internship (n) a period of time during which someone works for a company
+  m_text: 'Internship (n) a period of time during which someone works for a company
     or organization in order to get experience of a particular type of work
 
 '
@@ -10768,7 +10768,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'interview (n) a meeting in which someone asks you questions to see if
+  m_text: 'Interview (n) a meeting in which someone asks you questions to see if
     you are suitable for a job or course
 
 '
@@ -11370,7 +11370,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'opportunity (n) an occasion or situation that makes it possible to do
+  m_text: 'Opportunity (n) an occasion or situation that makes it possible to do
     something that you want to do or have to do
 
 '
@@ -12030,7 +12030,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: ddd86ef9572ce3143b75cd76b7e288cc, type: 3}
   sentences:
-  - internship
+  - Internship
   - '(n) a period of time during which someone works for a company or organization
     in order to get experience of a particular type of work '
   isTyping: 0
@@ -12923,7 +12923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'get cranking (idiom) to start doing something quickly
+  m_text: 'Get cranking (idiom) to start doing something quickly
 
 '
   m_isRightToLeft: 0
@@ -13267,7 +13267,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: a06009967b3ce8945a2cc71ba006d36b, type: 3}
   sentences:
-  - interview
+  - Interview
   - (n) a meeting in which someone asks you questions to see if you are suitable
     for a job or course
   isTyping: 0
@@ -13331,7 +13331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'position (n) a job
+  m_text: 'Position (n) a job
 
 '
   m_isRightToLeft: 0
@@ -13600,7 +13600,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: e481a1d4042157a46a6407dfbd196be3, type: 3}
   sentences:
-  - still
+  - Still
   - (adj) continuing to happen or continuing to be done
   isTyping: 0
   hasIcon: 0
@@ -14627,7 +14627,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 976afd1ee6864ef4fb1986a2a2246c7a, type: 3}
   sentences:
-  - desirable
+  - Desirable
   - (adj) worth having and wanted by most people
   isTyping: 0
   hasIcon: 0

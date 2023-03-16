@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'steak (n) a thick, flat piece of meat or fish, especially meat from a
+  m_text: 'Steak (n) a thick, flat piece of meat or fish, especially meat from a
     cow
 
 '
@@ -1795,7 +1795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'smoked (adj) (food) preserved using smoke from burning wood
+  m_text: 'Smoked (adj) (food) preserved using smoke from burning wood
 
 '
   m_isRightToLeft: 0
@@ -3556,7 +3556,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'marinate (v) to pour a marinade over meat or fish; to be left in a marinade
+  m_text: 'Marinate (v) to pour a marinade over meat or fish; to be left in a marinade
 
 '
   m_isRightToLeft: 0
@@ -4022,7 +4022,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'chop (v) cut something into pieces with a sharp tool such as a knife
+  m_text: 'Chop (v) cut something into pieces with a sharp tool such as a knife
 
 '
   m_isRightToLeft: 0
@@ -4931,7 +4931,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'delicious/delectable (adj) having a very pleasant taste or smell
+  m_text: 'Delicious/Delectable (adj) having a very pleasant taste or smell
 
 '
   m_isRightToLeft: 0
@@ -5595,7 +5595,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: c3313a5d323e8c547b9155e0456a9ffd, type: 3}
   sentences:
-  - steak
+  - Steak
   - '(n) a thick, flat piece of meat or fish, especially meat from a cow '
   isTyping: 0
   hasIcon: 0
@@ -5752,7 +5752,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 7de4de9302250624b9d399e459103d3d, type: 3}
   sentences:
-  - smoked
+  - Smoked
   - '(adj) (food) preserved using smoke from burning wood '
   isTyping: 0
   hasIcon: 0
@@ -5950,7 +5950,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'order (n) a request to make, supply, or deliver food or goods
+  m_text: 'Order (n) a request to make, supply, or deliver food or goods
 
 '
   m_isRightToLeft: 0
@@ -8679,7 +8679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'recommend (v) to suggest that someone or something would be good or suitable
+  m_text: 'Recommend (v) to suggest that someone or something would be good or suitable
     for a particular job or purpose, or to suggest that a particular action should
     be done
 
@@ -9153,7 +9153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'medium rare (adj) (of meat) cooked so that it is still slightly red in
+  m_text: 'Medium rare (adj) (of meat) cooked so that it is still slightly red in
     the middle
 
 '
@@ -9423,7 +9423,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 779cd85fbfc73194586e1114db4cf76a, type: 3}
   sentences:
-  - recommend
+  - Recommend
   - (v) to suggest that someone or something would be good or suitable for a particular
     job or purpose, or to suggest that a particular action should be done
   isTyping: 0
@@ -10640,7 +10640,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 78acb31fbc5082b40ba4568875a740dd, type: 3}
   sentences:
-  - chop
+  - Chop
   - (v) cut something into pieces with a sharp tool such as a knife
   isTyping: 0
   hasIcon: 0
@@ -11705,7 +11705,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: f52aae0ca70c6f34c889307e2d2abe49, type: 3}
   sentences:
-  - rare
+  - Rare
   - (adj) (of meat) not cooked for very long and still red
   isTyping: 0
   hasIcon: 0
@@ -12370,7 +12370,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 6ba194c96d25e664eb557645d0059657, type: 3}
   sentences:
-  - marinate
+  - Marinate
   - (v) to pour a marinade over meat or fish; to be left in a marinade
   isTyping: 0
   hasIcon: 0
@@ -13835,7 +13835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'rare (adj) (of meat) not cooked for very long and still red
+  m_text: 'Rare (adj) (of meat) not cooked for very long and still red
 
 '
   m_isRightToLeft: 0
@@ -14066,7 +14066,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: e6ff5565f5841884aa67484e5d0f18a9, type: 3}
   sentences:
-  - medium rare
+  - Medium rare
   - (adj) (of meat) cooked so that it is still slightly red in the middle
   isTyping: 0
   hasIcon: 0
@@ -14736,7 +14736,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 899ec241c4ee58743abb8e254fce3dbc, type: 3}
   sentences:
-  - well done
+  - Well done
   - (adj) (of meat) cooked so that it is firm and has a gray-brown color all the
     way through
   isTyping: 0
@@ -15375,7 +15375,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: aeda9eb8163baa940827fb045e3792ec, type: 3}
   sentences:
-  - order
+  - Order
   - (n) a request to make, supply, or deliver food or goods
   isTyping: 0
   hasIcon: 0
@@ -15438,7 +15438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'well done (adj) (of meat) cooked so that it is firm and has a gray-brown
+  m_text: 'Well done (adj) (of meat) cooked so that it is firm and has a gray-brown
     color all the way through
 
 
@@ -15748,7 +15748,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: a69458ba5a4fa124cbb8260282d079c0, type: 3}
   sentences:
-  - delicious/delectable
+  - Delicious/Delectable
   - '(adj) having a very pleasant taste or smell '
   isTyping: 0
   hasIcon: 0

@@ -275,7 +275,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 2c7902b6b6297f24ea2aae9f86b1d69c, type: 3}
   sentences:
-  - energetic
+  - Energetic
   - (adj) having or involving a lot of energy
   isTyping: 0
   hasIcon: 0
@@ -947,7 +947,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'night owl (n) a person who prefers to be awake and active at night
+  m_text: 'Night owl (n) a person who prefers to be awake and active at night
 
 '
   m_isRightToLeft: 0
@@ -1611,7 +1611,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: ecae66b7bedc45742b44192a69d4e290, type: 3}
   sentences:
-  - night owl
+  - Night owl
   - (n) a person who prefers to be awake and active at night
   isTyping: 0
   hasIcon: 0
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: complain (v) to say that something is wrong or not satisfactory
+  m_text: Complain (v) to say that something is wrong or not satisfactory
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -2387,7 +2387,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: c39d9d905702a41428a3442638d31fd7, type: 3}
   sentences:
-  - sleep in
+  - Sleep in
   - (phrasal verb) to sleep until later in the morning than you usually do
   isTyping: 0
   hasIcon: 0
@@ -5001,7 +5001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: atmosphere (n) (mood) the character, feeling, or mood of a place or situation
+  m_text: Atmosphere (n) (mood) the character, feeling, or mood of a place or situation
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -7642,7 +7642,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 200a6ea7589d53545ba50f7c8362b264, type: 3}
   sentences:
-  - early bird
+  - Early bird
   - (n) a person who gets up or arrives early, or who does something before other
     people do
   isTyping: 0
@@ -8346,7 +8346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'go for a run (v) going outside to get some fresh air and get some exercise
+  m_text: 'Go for a run (v) going outside to get some fresh air and get some exercise
     done
 
 '
@@ -9405,7 +9405,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 2fecac59ac05f6242a8bb480e7b6e39b, type: 3}
   sentences:
-  - atmosphere
+  - Atmosphere
   - '(n) (mood) the character, feeling, or mood of a place or situation '
   isTyping: 0
   hasIcon: 0
@@ -9468,7 +9468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: co-workers/colleagues (n) one of a group of people who work together
+  m_text: Co-workers/Colleagues (n) one of a group of people who work together
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
   m_sharedMaterial: {fileID: -1175667987797633966, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -10177,7 +10177,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 65e9d492ecad12a4281fca15878247ba, type: 3}
   sentences:
-  - co-workers/colleagues
+  - Co-workers/Colleagues
   - '(n) one of a group of people who work together '
   isTyping: 0
   hasIcon: 0
@@ -11129,7 +11129,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 70e99bae3c6352b479021e7ac96c5ed4, type: 3}
   sentences:
-  - go for a run
+  - Go for a run
   - (v) going outside to get some fresh air and get some exercise done
   isTyping: 0
   hasIcon: 0
@@ -11549,7 +11549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: sleep in (phrasal verb) to sleep until later in the morning than you usually
+  m_text: Sleep in (phrasal verb) to sleep until later in the morning than you usually
     do
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03028b968d472d744aa6feb521222db0, type: 2}
@@ -12470,7 +12470,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'early bird (n) a person who gets up or arrives early, or who does something
+  m_text: 'Early bird (n) a person who gets up or arrives early, or who does something
     before other people do
 
 '
@@ -12743,7 +12743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'energetic (adj) having or involving a lot of energy
+  m_text: 'Energetic (adj) having or involving a lot of energy
 
 '
   m_isRightToLeft: 0
@@ -13110,7 +13110,7 @@ MonoBehaviour:
   speechSource: {fileID: 937142582}
   speechClip: {fileID: 8300000, guid: 2f1733111640d7a4b8f39c6198515730, type: 3}
   sentences:
-  - complain
+  - Complain
   - (v) to say that something is wrong or not satisfactory
   isTyping: 0
   hasIcon: 0
