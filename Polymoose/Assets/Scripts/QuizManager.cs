@@ -124,7 +124,7 @@ public class QuizManager : MonoBehaviour
                 itemSource.Play();
                 timeOut.SetActive(true);
                 //PlayerPrefs.SetInt("Count" + level, count++);
-                Invoke("SelectQuestion", 3.5f);
+                Invoke("SelectQuestion", 3.2f);
             }
         }
     }
@@ -136,6 +136,7 @@ public class QuizManager : MonoBehaviour
             int val = UnityEngine.Random.Range(0, questions.Count);
             currentTime = 15.0f;
             timeOut.SetActive(false);
+            freezeBackground.SetActive(false);
             timeOver = false;
             selectedQuestion = questions[val];
             quizUI.SetQuestion(selectedQuestion);
@@ -165,6 +166,7 @@ public class QuizManager : MonoBehaviour
             items[i].SetActive(false);
         }
 
+        freezeBackground.SetActive(false);
         nextObject.SetActive(true);
         Debug.Log("Next Object");
     }
