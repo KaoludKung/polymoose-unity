@@ -9,6 +9,8 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private Button settingsButton;
     [SerializeField] private Button backButton;
     [SerializeField] AudioSource[] allAudioSources;
+    [SerializeField] private Player player;
+    [SerializeField] private bool isWalk;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,15 @@ public class PauseManager : MonoBehaviour
   
     void Resume()
     {
-        Time.timeScale = 1;
+        if (isWalk)
+        {
+            player.enabled = true;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
+
         StartCoroutine(GameResume());
     }
 
@@ -43,7 +53,17 @@ public class PauseManager : MonoBehaviour
     IEnumerator GamePause()
     {
         yield return new WaitForSeconds(0.3f);
-        Time.timeScale = 0;
+        
+        if (isWalk)
+        {
+            player.enabled = false;
+        }
+        else
+        {
+            Time.timeScale = 0;
+
+        }
+
         allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
 
         for (int i = 0; i < allAudioSources.Length; i++)

@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
                    StartCoroutine(ChangeScene("Loading"));
                 }
             }
-            else if(hit.collider.tag == "background" && !IsPointerOverUIObject())
+            else if(hit.collider.tag == "background")
             {
                 target = new Vector2(CurrentPosition.x, transform.position.y);
                 isMoving = true;
@@ -92,7 +92,7 @@ public class Player : MonoBehaviour
 
     void ToMove()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && !IsPointerOverUI("Settings"))
         {
             Touch touch = Input.GetTouch(0);
             Vector2 CurrentPosition = Camera.main.ScreenToWorldPoint(touch.position);
@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
                     StartCoroutine(ChangeScene("Loading"));
                 }
             }
-            else if (hit.collider.tag == "background" && !IsPointerOverUIObject())
+            else if (hit.collider.tag == "background")
             {
                 target = new Vector2(CurrentPosition.x, transform.position.y);
                 isMoving = true;
@@ -148,12 +148,20 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene(sceneID);
     }
 
-    private bool IsPointerOverUIObject()
+    public static bool IsPointerOverUI(string tag)
     {
-        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
-        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        List<RaycastResult> results = new List<RaycastResult>();
-        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
-        return results.Count > 0;
+        PointerEventData eventData = new PointerEventData(EventSystem.current);
+        eventData.position = Input.mousePosition;
+        List<RaycastResult> raysastResults = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, raysastResults);
+
+        foreach (RaycastResult raysastResult in raysastResults)
+        {
+            if (raysastResult.gameObject.CompareTag(tag))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
