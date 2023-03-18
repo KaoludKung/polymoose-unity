@@ -17,8 +17,6 @@ public class TitleManager : MonoBehaviour
     [SerializeField] Button backButton2;
     [SerializeField] Button backButton3;
 
-    private int level;
-
     private void Awake()
     {
         Application.targetFrameRate = 60;
@@ -27,12 +25,6 @@ public class TitleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        level = PlayerPrefs.GetInt("Level");
-        if (level == 0)
-        {
-            PlayerPrefs.SetInt("Level", level + 1);
-        }
-
         settingButton.onClick.AddListener(OpenSetting);
         backButton1.onClick.AddListener(CloseSetting);
 
@@ -41,7 +33,6 @@ public class TitleManager : MonoBehaviour
 
         creditButton.onClick.AddListener(OpenCredits);
         backButton3.onClick.AddListener(CloseCredits);
-
     }
 
     /// setting click

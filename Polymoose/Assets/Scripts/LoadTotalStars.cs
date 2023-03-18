@@ -11,12 +11,12 @@ public class LoadTotalStars : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 1; i < 6; i++)
+        for (int i = 1; i < 7; i++)
         {
             totalStars += PlayerPrefs.GetInt("Stars" + i);
         }
         
-        starText.GetComponent<TextMeshProUGUI>().text = totalStars.ToString() + "/15";
+        starText.GetComponent<TextMeshProUGUI>().text = totalStars.ToString() + "/16";
         Debug.Log("TotalStar: " + totalStars);
     }
    

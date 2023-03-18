@@ -43,6 +43,9 @@ public class Loading : MonoBehaviour
     {
         switch (id)
         {
+            case 0:
+                SceneManager.LoadSceneAsync("Pretest");
+                break;
             case 1:
                 SceneManager.LoadSceneAsync("VisualQuiz1");
                 break;
@@ -69,6 +72,9 @@ public class Loading : MonoBehaviour
                 break;
             case 10:
                 SceneManager.LoadSceneAsync("Content5");
+                break;
+            case 11:
+                SceneManager.LoadSceneAsync("Posttest");
                 break;
 
         }

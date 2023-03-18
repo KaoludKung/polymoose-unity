@@ -10,7 +10,6 @@ public class LevelUnlock : MonoBehaviour
     [SerializeField] GameObject titleName;
     [SerializeField] GameObject startext;
     [SerializeField] GameObject starImage;
-    
 
     // Start is called before the first frame update
     void Start()

@@ -38,7 +38,7 @@ public class AchievementPopup : MonoBehaviour
         achievement[0] = PlayerPrefs.GetInt("Firstclear");
         achievement[1] = PlayerPrefs.GetInt("Level");
 
-        for (int i = 1; i < 6; i++)
+        for (int i = 1; i < 7; i++)
         {
             achievement[2] += PlayerPrefs.GetInt("Stars" + i);
         }

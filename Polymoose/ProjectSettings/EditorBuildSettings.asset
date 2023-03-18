@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CH_5/VisualQuiz5.unity
     guid: acccd5e59d3f8214a803890b0932a9ea
+  - enabled: 1
+    path: Assets/Scenes/Test/Pretest.unity
+    guid: 5b4ca53f09f9810449c5dfc7466148b3
   m_configObjects: {}
