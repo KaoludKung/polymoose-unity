@@ -18,8 +18,6 @@ public class TestUI : MonoBehaviour
 
     private QuestionTest question;
     private bool answered;
-    private float audioLength;
-
 
     void Awake()
     {
@@ -48,14 +46,22 @@ public class TestUI : MonoBehaviour
                 break;
         }
 
-        if (testManager.fillBlanks)
+        questionText.text = question.questionInfo;
+
+        
+        if(testManager.respone)
         {
-            questionText.text = "<color=#3BF831>Fill in the blank: </color>" + question.questionInfo;
+            questionText.text = "<align=center>Choose the correct response</align><br>" + question.questionInfo;
+        }
+        else if(testManager.blanks)
+        {
+            questionText.text = "<align=center>Complete the dialogue</align><br>" + question.questionInfo;
         }
         else
         {
-            questionText.text = "<color=#3BF831>Question: </color>" + question.questionInfo;
+            questionText.text = question.questionInfo;
         }
+        
 
         List<string> answerList = ShuffleList.ShuffleListItems<string>(question.options);
 
@@ -63,8 +69,12 @@ public class TestUI : MonoBehaviour
         {
             options[i].GetComponentInChildren<TextMeshProUGUI>().text = answerList[i];
             options[i].name = answerList[i];
-            options[i].image.color = Color.white;
         }
+
+        options[0].image.color = new Color32(18, 179, 125, 255);
+        options[1].image.color = new Color32(20, 143, 204, 255);
+        options[2].image.color = new Color32(221, 141, 52, 255);
+        options[3].image.color = new Color32(118, 86, 191, 255);
         answered = false;
     }
 

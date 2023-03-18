@@ -65,7 +65,7 @@ public class TestSummary : MonoBehaviour
             summaryText.text = "LEVEL CLEARED!";
             OpenCanvas();
             yield return new WaitForSeconds(0.8f);
-            levelSource.clip = levelClip[1];
+            levelSource.clip = levelClip[0];
             levelSource.Play();
         }
         else

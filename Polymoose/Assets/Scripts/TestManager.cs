@@ -17,7 +17,8 @@ public class TestManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreText;
     public GameObject currentObject;
     public GameObject nextObject;
-    public bool fillBlanks;
+    public bool respone;
+    public bool blanks;
 
     private int index = 0;
     private int score;
@@ -26,7 +27,6 @@ public class TestManager : MonoBehaviour
 
     private void Awake()
     {
-        MusicPlay.instance.GetComponent<AudioSource>().Pause();
 
         if (firstQuestion)
         {
