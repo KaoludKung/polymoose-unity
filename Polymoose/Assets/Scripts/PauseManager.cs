@@ -6,109 +6,50 @@ using UnityEngine;
 
 public class PauseManager : MonoBehaviour
 {
-    [SerializeField] private Button pauseButton;
-    [SerializeField] private Button resumeButton;
-    [SerializeField] private Button mainButton;
-    [SerializeField] private GameObject pauseCanvas;
-    [SerializeField] private GameObject menuCanvas;
-    [SerializeField] private SideScroller sideScroller;
-    
-    [SerializeField] private float time;
-    [SerializeField] private bool isWalk;
-
-    private AudioSource[] allAudioSources;
-    private bool showMenu;
+    [SerializeField] private Button settingsButton;
+    [SerializeField] private Button backButton;
+    [SerializeField] AudioSource[] allAudioSources;
 
     // Start is called before the first frame update
     void Start()
     {
-        pauseButton.onClick.AddListener(Pause);
-        resumeButton.onClick.AddListener(Resume);
-        mainButton.onClick.AddListener(MainMenu);
+        settingsButton.onClick.AddListener(Pause);
+        backButton.onClick.AddListener(Resume);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        ShowMenu();
-    }
-
+  
     void Resume()
     {
         Time.timeScale = 1;
-        StartCoroutine(ResumeGame());
+        StartCoroutine(GameResume());
     }
 
-    IEnumerator ResumeGame()
+    IEnumerator GameResume()
     {
-        yield return new WaitForSeconds(time);
-        
-        if (isWalk)
+        yield return new WaitForSeconds(0.3f);
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+
+        for (int i = 0; i < allAudioSources.Length; i++)
         {
-            sideScroller.enabled = true;
+            allAudioSources[i].UnPause();
         }
-
-        GameObject[] allAudioSources = GameObject.FindGameObjectsWithTag("music");
-
-        foreach (GameObject audioS in allAudioSources)
-        {
-            //audioS.GetComponent<AudioSource>.
-        }
-
-        showMenu = false;
-        Debug.Log("Game Running");
     }
 
     void Pause()
     {
-        StartCoroutine(PauseGame());
+        StartCoroutine(GamePause());
     }
 
-    IEnumerator PauseGame()
+    IEnumerator GamePause()
     {
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(0.3f);
         Time.timeScale = 0;
-
-        if (isWalk)
-        {
-            sideScroller.enabled = false;
-        }
-
         allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
 
-        foreach (AudioSource audios in allAudioSources)
+        for (int i = 0; i < allAudioSources.Length; i++)
         {
-            audios.Stop();
-        }
-
-        showMenu = true;
-        Debug.Log("Pause Game");
-    }
-
-    void MainMenu()
-    {
-        Time.timeScale = 1;
-        StartCoroutine(BackMainMenu());
-    }
-
-    IEnumerator BackMainMenu()
-    {
-        yield return new WaitForSeconds(time);
-        SceneManager.LoadScene(0);
-    }
-
-    void ShowMenu()
-    {
-        if (showMenu)
-        {
-            pauseCanvas.SetActive(false);
-            menuCanvas.SetActive(true);
-        }
-        else
-        {
-            menuCanvas.SetActive(false);
-            pauseCanvas.SetActive(true);
+            allAudioSources[i].Pause();
         }
     }
- 
+
 }

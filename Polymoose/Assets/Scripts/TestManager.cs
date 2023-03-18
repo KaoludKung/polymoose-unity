@@ -26,11 +26,12 @@ public class TestManager : MonoBehaviour
 
     private void Awake()
     {
+        MusicPlay.instance.GetComponent<AudioSource>().Pause();
+
         if (firstQuestion)
         {
             PlayerPrefs.SetInt("Score" + level, 0);
             PlayerPrefs.SetInt("Count" + level, 0);
-            PlayerPrefs.SetInt("Totalcorrect" + level, 1);
         }
 
         score = PlayerPrefs.GetInt("Score" + level, score);

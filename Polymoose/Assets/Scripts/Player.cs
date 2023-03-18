@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
                    StartCoroutine(ChangeScene("Loading"));
                 }
             }
-            else if(hit.collider.tag == "background")
+            else if(hit.collider.tag == "background" && !IsPointerOverUIObject())
             {
                 target = new Vector2(CurrentPosition.x, transform.position.y);
                 isMoving = true;
@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
                     StartCoroutine(ChangeScene("Loading"));
                 }
             }
-            else if (hit.collider.tag == "background")
+            else if (hit.collider.tag == "background" && !IsPointerOverUIObject())
             {
                 target = new Vector2(CurrentPosition.x, transform.position.y);
                 isMoving = true;

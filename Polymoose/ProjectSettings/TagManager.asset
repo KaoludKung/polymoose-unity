@@ -10,6 +10,7 @@ TagManager:
   - speech
   - Music Sound
   - BG
+  - Settings
   layers:
   - Default
   - TransparentFX
