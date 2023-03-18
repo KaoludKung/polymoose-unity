@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class PauseManager : MonoBehaviour
 {
     [SerializeField] private Button settingsButton;
     [SerializeField] private Button backButton;
     [SerializeField] AudioSource[] allAudioSources;
+    [SerializeField] VideoPlayer[] allVideoPlayer;
     [SerializeField] private Player player;
     [SerializeField] private bool isWalk;
 
@@ -38,10 +40,16 @@ public class PauseManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        allVideoPlayer = FindObjectsOfType(typeof(VideoPlayer)) as VideoPlayer[];
 
         for (int i = 0; i < allAudioSources.Length; i++)
         {
             allAudioSources[i].UnPause();
+        }
+
+        for(int i = 0; i < allVideoPlayer.Length; i++)
+        {
+            allVideoPlayer[i].playbackSpeed = 1;
         }
     }
 
@@ -65,10 +73,16 @@ public class PauseManager : MonoBehaviour
         }
 
         allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        allVideoPlayer = FindObjectsOfType(typeof(VideoPlayer)) as VideoPlayer[];
 
         for (int i = 0; i < allAudioSources.Length; i++)
         {
             allAudioSources[i].Pause();
+        }
+
+        for (int i = 0; i < allVideoPlayer.Length; i++)
+        {
+            allVideoPlayer[i].playbackSpeed = 0;
         }
     }
 
