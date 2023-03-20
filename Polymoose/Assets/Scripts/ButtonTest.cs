@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class ButtonTest : MonoBehaviour
 {
-    [SerializeField] private AudioSource speechSource;
 
-    public void StopSound()
+    public void OpenURL()
     {
-        speechSource.Stop();
+        Application.OpenURL("https://forms.gle/P5j6TkdNYXoRSoao9");
     }
 }
