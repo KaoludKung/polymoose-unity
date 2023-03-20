@@ -26,6 +26,7 @@ public class SummaryManager : MonoBehaviour
     private int score;
     private int combo;
     private int totalCorrect;
+    private int round;
     
     private int coinCount;
     private int totalCoin;
@@ -41,6 +42,7 @@ public class SummaryManager : MonoBehaviour
         totalCorrect = PlayerPrefs.GetInt("Totalcorrect" + level, totalCorrect);
         coinCount = PlayerPrefs.GetInt("Coins", coinCount);
         totalCoin = PlayerPrefs.GetInt("Totalcoin", totalCoin);
+        round = PlayerPrefs.GetInt("Round", round);
 
         StartCoroutine(EndLevel());
     }
@@ -149,6 +151,7 @@ public class SummaryManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("Coins", coinCount + (20 * totalCorrect));
         PlayerPrefs.SetInt("Totalcoin", totalCoin + (20 * totalCorrect));
+        PlayerPrefs.SetInt("Round" + level, round++);
        
         if (score > PlayerPrefs.GetInt("Highscore" + level))
         {

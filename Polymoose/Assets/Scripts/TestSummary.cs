@@ -24,7 +24,9 @@ public class TestSummary : MonoBehaviour
     private int percent;
     private int highScore;
     private int score;
-  
+    private int round;
+    private int pass;
+
     private int coinCount;
     private int totalCoin;
     private int stars;
@@ -37,7 +39,8 @@ public class TestSummary : MonoBehaviour
         score = PlayerPrefs.GetInt("Score" + level, score);
         coinCount = PlayerPrefs.GetInt("Coins", coinCount);
         totalCoin = PlayerPrefs.GetInt("Totalcoin", totalCoin);
-
+        round = PlayerPrefs.GetInt("Round", round);
+        pass = PlayerPrefs.GetInt("Pass", pass);
         StartCoroutine(EndLevel());
     }
 
@@ -56,14 +59,16 @@ public class TestSummary : MonoBehaviour
             }
 
             OpenCanvas();
+            PlayerPrefs.SetInt("Pass", pass++);
             yield return new WaitForSeconds(0.8f);
             levelSource.clip = levelClip[0];
             levelSource.Play();
         }
         else if (percent < 70 && postTest)
         {
-            summaryText.text = "LEVEL CLEARED!";
+            summaryText.text = "LEVEL FAILED!";
             OpenCanvas();
+            PlayerPrefs.SetInt("Pass", pass++);
             yield return new WaitForSeconds(0.8f);
             levelSource.clip = levelClip[0];
             levelSource.Play();
@@ -135,6 +140,7 @@ public class TestSummary : MonoBehaviour
     {
         PlayerPrefs.SetInt("Coins", coinCount + (20 * score));
         PlayerPrefs.SetInt("Totalcoin", totalCoin + (20 * score));
+        PlayerPrefs.SetInt("Round" + level, round++);
 
         if (score > PlayerPrefs.GetInt("Highscore" + level))
         {
