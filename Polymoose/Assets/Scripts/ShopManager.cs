@@ -50,9 +50,9 @@ public class ShopManager : MonoBehaviour
     void Update()
     {
         coinText.text = coinCount.ToString();
-        countText[0].text = "OWNED: " + extraCount.ToString();
-        countText[1].text = "OWNED: " + freezeCount.ToString();
-        countText[2].text = "OWNED: " + hintCount.ToString();
+        countText[0].text = "Owned: " + extraCount.ToString();
+        countText[1].text = "Owned: " + freezeCount.ToString();
+        countText[2].text = "Owned: " + hintCount.ToString();
     }
     void BuyHint()
     {
