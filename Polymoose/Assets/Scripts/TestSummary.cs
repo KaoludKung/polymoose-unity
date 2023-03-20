@@ -25,7 +25,7 @@ public class TestSummary : MonoBehaviour
     private int highScore;
     private int score;
     private int round;
-    private int pass;
+
 
     private int coinCount;
     private int totalCoin;
@@ -40,7 +40,6 @@ public class TestSummary : MonoBehaviour
         coinCount = PlayerPrefs.GetInt("Coins", coinCount);
         totalCoin = PlayerPrefs.GetInt("Totalcoin", totalCoin);
         round = PlayerPrefs.GetInt("Round", round);
-        pass = PlayerPrefs.GetInt("Pass", pass);
         StartCoroutine(EndLevel());
     }
 
@@ -59,7 +58,6 @@ public class TestSummary : MonoBehaviour
             }
 
             OpenCanvas();
-            PlayerPrefs.SetInt("Pass", pass++);
             yield return new WaitForSeconds(0.8f);
             levelSource.clip = levelClip[0];
             levelSource.Play();
@@ -68,7 +66,6 @@ public class TestSummary : MonoBehaviour
         {
             summaryText.text = "LEVEL FAILED!";
             OpenCanvas();
-            PlayerPrefs.SetInt("Pass", pass++);
             yield return new WaitForSeconds(0.8f);
             levelSource.clip = levelClip[0];
             levelSource.Play();
