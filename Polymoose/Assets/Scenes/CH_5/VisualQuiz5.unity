@@ -6730,7 +6730,7 @@ PrefabInstance:
       objectReference: {fileID: 442345980}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.data[0].questionInfo
@@ -6743,6 +6743,11 @@ PrefabInstance:
         is _____.
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
+      propertyPath: questions.Array.data[2].questionInfo
+      value: The customer said the jacket has a large hole. That means the jacket
+        is _____.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.data[0].correctAnswer
       value: damaged
       objectReference: {fileID: 0}
@@ -6751,12 +6756,16 @@ PrefabInstance:
       value: damaged
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
+      propertyPath: questions.Array.data[2].correctAnswer
+      value: damaged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[0]
       value: damaged
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[1]
-      value: purchased
+      value: old
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[0]
@@ -6764,7 +6773,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[1]
-      value: refunded
+      value: brand new
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
+      propertyPath: questions.Array.data[2].options.Array.data[0]
+      value: damaged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
+      propertyPath: questions.Array.data[2].options.Array.data[1]
+      value: unique
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015190, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: m_Pivot.x
@@ -9982,7 +9999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[1]
-      value: damage
+      value: 'solution '
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[2]
@@ -9990,7 +10007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[3]
-      value: company
+      value: money
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[0]
@@ -9998,7 +10015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[1]
-      value: 'purchase '
+      value: damage
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[2]
@@ -10006,7 +10023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[3]
-      value: look up
+      value: 'solution '
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039540, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: m_Pivot.x

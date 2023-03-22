@@ -67,7 +67,7 @@ public class TestSummary : MonoBehaviour
             summaryText.text = "LEVEL FAILED!";
             OpenCanvas();
             yield return new WaitForSeconds(0.8f);
-            levelSource.clip = levelClip[0];
+            levelSource.clip = levelClip[1];
             levelSource.Play();
         }
         else
@@ -81,7 +81,7 @@ public class TestSummary : MonoBehaviour
             }
 
             yield return new WaitForSeconds(0.8f);
-            levelSource.clip = levelClip[1];
+            levelSource.clip = levelClip[0];
             levelSource.Play();
         }
 
@@ -90,7 +90,7 @@ public class TestSummary : MonoBehaviour
 
     void OpenCanvas()
     {
-        scoreText.text = score.ToString();
+        scoreText.text = score.ToString() + "/10";
         coinText.text = (20 * score).ToString();
         
         if (postTest)

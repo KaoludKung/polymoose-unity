@@ -3854,7 +3854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015185, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[1]
-      value: an angry bird
+      value: an lazy person
       objectReference: {fileID: 0}
     - target: {fileID: 7175359655381015190, guid: d5793c69b0d8fd2439c7c646f3e77b41, type: 3}
       propertyPath: m_Pivot.x

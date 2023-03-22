@@ -37,6 +37,10 @@ public class IntroFade : MonoBehaviour
     {
         switch (id)
         {
+            case 0:
+                chapterText.text = "Pre-test";
+                scene = "Pretest";
+                break;
             case 11:
                 chapterText.text = "Chapter 1 <space=8em> Interview";
                 scene = "Walk1";
@@ -56,6 +60,10 @@ public class IntroFade : MonoBehaviour
             case 15:
                 chapterText.text = "Chapter 5 <space=10em> Dealing with angry customers";
                 scene = "Walk5";
+                break;
+            case 20:
+                chapterText.text = "Post-test";
+                scene = "Posttest";
                 break;
         }
     }
