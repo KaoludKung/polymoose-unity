@@ -137,7 +137,7 @@ public class TestSummary : MonoBehaviour
     {
         PlayerPrefs.SetInt("Coins", coinCount + (20 * score));
         PlayerPrefs.SetInt("Totalcoin", totalCoin + (20 * score));
-        PlayerPrefs.SetInt("Round" + level, round++);
+        PlayerPrefs.SetInt("Round" + level, round += 1);
 
         if (score > PlayerPrefs.GetInt("Highscore" + level))
         {
