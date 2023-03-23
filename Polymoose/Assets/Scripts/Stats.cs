@@ -11,18 +11,23 @@ public class Stats : MonoBehaviour
     [SerializeField] TextMeshProUGUI[] playedText;
     [SerializeField] Button[] buttons;
 
+    private void Awake()
+    {
+        SetStats();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         buttons[0].onClick.AddListener(OpenStats);
         buttons[1].onClick.AddListener(CloseStats);
-        SetStats();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        SetStats();
     }
 
     void SetStats()
@@ -35,7 +40,10 @@ public class Stats : MonoBehaviour
         for (int j = 0; j < playedText.Length; j++)
         {
             playedText[j].text = PlayerPrefs.GetInt("Round" + j).ToString();
+            //Debug.Log("Game Played" + j + ": " + PlayerPrefs.GetInt("Round" + j).ToString());
         }
+
+        //Debug.Log("Game played: " + PlayerPrefs.GetInt("Round" + 0).ToString());
     }
 
     void OpenStats()
