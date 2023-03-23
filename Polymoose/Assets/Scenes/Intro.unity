@@ -153,7 +153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chapterText: {fileID: 1625350625}
-  scene: Walk1
 --- !u!4 &799566178
 Transform:
   m_ObjectHideFlags: 0
@@ -645,6 +644,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2127897238526552116, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
+      propertyPath: Delete
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2362030837830392373, guid: c673ae6607f59244fa2864940d33f9b7, type: 3}
       propertyPath: m_RootOrder
       value: 4
