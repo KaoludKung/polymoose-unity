@@ -13,7 +13,6 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private Button menuButton;
     [SerializeField] AudioSource[] allAudioSources;
     [SerializeField] VideoPlayer[] allVideoPlayer;
-    [SerializeField] private int level;
     [SerializeField] private Player player;
     [SerializeField] private bool isWalk;
 
