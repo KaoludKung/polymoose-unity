@@ -103,7 +103,7 @@ public class TestManager : MonoBehaviour
 
         PlayerPrefs.SetInt("Count" + level, count);
         PlayerPrefs.SetInt("Score" + level, score);
-        Invoke("SelectQuestion", 4.0f);
+        Invoke("SelectQuestion", 5.0f);
         return correctAnswer;
     }
 }

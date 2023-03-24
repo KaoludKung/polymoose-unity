@@ -69,6 +69,7 @@ public class TestUI : MonoBehaviour
         {
             options[i].GetComponentInChildren<TextMeshProUGUI>().text = answerList[i];
             options[i].name = answerList[i];
+            //options[i].interactable = true;
         }
 
         options[0].image.color = new Color32(18, 179, 125, 255);
@@ -96,6 +97,7 @@ public class TestUI : MonoBehaviour
             if (val)
             {
                 //btn.image.color = new Color32(70, 202, 78, 255);
+                //btn.interactable = false;
                 testManager.panelResult[0].SetActive(true);
                 correctClip.Play();
                 Debug.Log("Corret!");
@@ -104,6 +106,7 @@ public class TestUI : MonoBehaviour
             {
                 //btn.image.color = new Color32(255, 51, 51, 255);
                 testManager.panelResult[1].SetActive(true);
+                //btn.interactable = false;
                 wrongClip.Play();
                 Debug.Log("Wrong!");
             }

@@ -3837,7 +3837,6 @@ MonoBehaviour:
   menuButton: {fileID: 1865823830}
   allAudioSources: []
   allVideoPlayer: []
-  level: 0
   player: {fileID: 0}
   isWalk: 0
 --- !u!114 &417217986
