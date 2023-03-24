@@ -2057,7 +2057,6 @@ MonoBehaviour:
   tapText: {fileID: 1525836523}
   arrow:
   - {fileID: 1185137173}
-  - {fileID: 450363832}
   message: Find the telephone
 --- !u!1 &852888101
 GameObject:

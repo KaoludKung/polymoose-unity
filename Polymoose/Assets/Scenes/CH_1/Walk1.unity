@@ -1839,7 +1839,6 @@ MonoBehaviour:
   menuButton: {fileID: 232846836}
   allAudioSources: []
   allVideoPlayer: []
-  level: 0
   player: {fileID: 174079481}
   isWalk: 1
 --- !u!114 &694070888
@@ -2342,7 +2341,6 @@ MonoBehaviour:
   tapText: {fileID: 1525836523}
   arrow:
   - {fileID: 1185137173}
-  - {fileID: 450363832}
   message: Head to the interview room
 --- !u!1 &940783898
 GameObject:

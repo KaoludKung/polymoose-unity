@@ -395,7 +395,6 @@ MonoBehaviour:
   menuButton: {fileID: 686398027}
   allAudioSources: []
   allVideoPlayer: []
-  level: 0
   player: {fileID: 174079481}
   isWalk: 1
 --- !u!114 &100306562
@@ -2609,7 +2608,6 @@ MonoBehaviour:
   objectiveText: {fileID: 956798911}
   tapText: {fileID: 1525836523}
   arrow:
-  - {fileID: 1185137173}
   - {fileID: 450363832}
   message: 'Find an available table '
 --- !u!1 &817476691

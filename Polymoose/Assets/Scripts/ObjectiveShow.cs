@@ -48,10 +48,10 @@ public class ObjectiveShow : MonoBehaviour
         {
             yield return new WaitForSeconds(1.5f);
             arrow[0].SetActive(true);
-            arrow[1].SetActive(true);
+            //arrow[1].SetActive(true);
             yield return new WaitForSeconds(2.5f);
             arrow[0].SetActive(false);
-            arrow[1].SetActive(false);
+            //arrow[1].SetActive(false);
             
         }
     }
