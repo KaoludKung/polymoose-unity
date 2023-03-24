@@ -90,7 +90,7 @@ public class TestSummary : MonoBehaviour
 
     void OpenCanvas()
     {
-        scoreText.text = score.ToString() + "/10";
+        scoreText.text = score.ToString();
         coinText.text = (20 * score).ToString();
         
         if (postTest)

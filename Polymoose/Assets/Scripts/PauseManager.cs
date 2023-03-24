@@ -10,7 +10,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private Button settingsButton;
     [SerializeField] private Button backButton;
     [SerializeField] private Button retryButton;
-    [SerializeField] private Button menuBttuon;
+    [SerializeField] private Button menuButton;
     [SerializeField] AudioSource[] allAudioSources;
     [SerializeField] VideoPlayer[] allVideoPlayer;
     [SerializeField] private int level;
@@ -23,7 +23,7 @@ public class PauseManager : MonoBehaviour
         settingsButton.onClick.AddListener(Pause);
         backButton.onClick.AddListener(Resume);
         retryButton.onClick.AddListener(SetTime);
-        menuBttuon.onClick.AddListener(SetTime);
+        menuButton.onClick.AddListener(SetTime2);
     }
 
 
@@ -43,7 +43,7 @@ public class PauseManager : MonoBehaviour
 
     IEnumerator GameResume()
     {
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.0f);
         allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
         allVideoPlayer = FindObjectsOfType(typeof(VideoPlayer)) as VideoPlayer[];
 
@@ -94,8 +94,11 @@ public class PauseManager : MonoBehaviour
     void SetTime()
     {
         Time.timeScale = 1;
-        MusicPlay.instance.GetComponent<AudioSource>().UnPause();
     }
 
-
+    void SetTime2()
+    {
+        PlayerPrefs.SetInt("IsPlayed", 1);
+        Time.timeScale = 1;
+    }
 }

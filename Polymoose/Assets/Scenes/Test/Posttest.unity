@@ -656,7 +656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2386521596255778196, guid: 0fdf45376cc32634cbb55febfe636c0d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -688
+      value: -699.8556
       objectReference: {fileID: 0}
     - target: {fileID: 2386521596255778196, guid: 0fdf45376cc32634cbb55febfe636c0d, type: 3}
       propertyPath: m_SizeDelta.y
@@ -692,7 +692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2386521596255778196, guid: 0fdf45376cc32634cbb55febfe636c0d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 281.00003
+      value: 286.9278
       objectReference: {fileID: 0}
     - target: {fileID: 2386521596255778196, guid: 0fdf45376cc32634cbb55febfe636c0d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2699,6 +2699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc672f8e2ce8294788ca0d4f657e10b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlay: 0
 --- !u!1 &261589204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3834,7 +3835,7 @@ MonoBehaviour:
   settingsButton: {fileID: 417217989}
   backButton: {fileID: 1935918062}
   retryButton: {fileID: 766977673}
-  menuBttuon: {fileID: 1865823830}
+  menuButton: {fileID: 1865823830}
   allAudioSources: []
   allVideoPlayer: []
   level: 0
@@ -11504,6 +11505,7 @@ GameObject:
   - component: {fileID: 1865823830}
   - component: {fileID: 1865823829}
   - component: {fileID: 1865823828}
+  - component: {fileID: 1865823833}
   - component: {fileID: 1865823827}
   m_Layer: 5
   m_Name: menu_button
@@ -11640,6 +11642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc672f8e2ce8294788ca0d4f657e10b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlay: 0
 --- !u!114 &1865823829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11723,18 +11726,6 @@ MonoBehaviour:
           m_StringArgument: MainMenu
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1865823828}
-        m_TargetAssemblyTypeName: ResumeMusic, Assembly-CSharp
-        m_MethodName: PlayMusic
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1865823831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11773,6 +11764,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865823825}
   m_CullTransparentMesh: 1
+--- !u!114 &1865823833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865823825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc672f8e2ce8294788ca0d4f657e10b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlay: 0
 --- !u!114 &1898966549 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2386521594989989439, guid: 0fdf45376cc32634cbb55febfe636c0d, type: 3}

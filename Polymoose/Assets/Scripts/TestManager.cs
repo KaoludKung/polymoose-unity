@@ -29,7 +29,6 @@ public class TestManager : MonoBehaviour
 
     private void Awake()
     {
-
         if (firstQuestion)
         {
             PlayerPrefs.SetInt("Score" + level, 0);
@@ -40,6 +39,7 @@ public class TestManager : MonoBehaviour
         score = PlayerPrefs.GetInt("Score" + level, score);
         count = PlayerPrefs.GetInt("Count" + level, count);
 
+        countText.text = "Question " + count + " of " + "10";
         scoreText.text = "Score: " + score.ToString();
         //processbar.fillAmount = (count++) / 10f;
 
@@ -99,7 +99,9 @@ public class TestManager : MonoBehaviour
             scoreText.text = "Score: " + score.ToString();
         }
 
-        PlayerPrefs.SetInt("Count" + level, count++);
+        count += 1;
+
+        PlayerPrefs.SetInt("Count" + level, count);
         PlayerPrefs.SetInt("Score" + level, score);
         Invoke("SelectQuestion", 4.0f);
         return correctAnswer;
