@@ -33,7 +33,7 @@ public class ObjectiveShow : MonoBehaviour
         objectiveText.CrossFadeAlpha(1.0f, 2.0f, false);
         tapText.CrossFadeAlpha(1.0f, 2.0f, false);
 
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(5.0f);
         objectiveText.CrossFadeAlpha(0.0f, 2.0f, false);
         tapText.CrossFadeAlpha(0.0f, 2.0f, false);
         
