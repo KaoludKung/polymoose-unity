@@ -8294,11 +8294,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[1]
-      value: a diploma
+      value: a supervisor
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[2]
-      value: honours
+      value: a janitor
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[0].options.Array.data[3]
@@ -8310,11 +8310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[1]
-      value: a diploma
+      value: a supervisor
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[2]
-      value: honours
+      value: a janitor
       objectReference: {fileID: 0}
     - target: {fileID: 8574657129130039538, guid: c3734ce3c18323940b841a43606252e7, type: 3}
       propertyPath: questions.Array.data[1].options.Array.data[3]

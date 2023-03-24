@@ -134,7 +134,7 @@ public class QuizManager : MonoBehaviour
         if(index < questionNum)
         {
             int val = UnityEngine.Random.Range(0, questions.Count);
-            currentTime = 15.0f;
+            currentTime = 30.0f;
             timeOut.SetActive(false);
             freezeBackground.SetActive(false);
             timeOver = false;
@@ -153,7 +153,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            Invoke("EndQuiz", 1.5f);
+            Invoke("EndQuiz", 2.5f);
         }
     }
 
