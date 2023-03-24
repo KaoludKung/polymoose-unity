@@ -15,6 +15,8 @@ public class TestManager : MonoBehaviour
     [SerializeField] private int questionNum;
     [SerializeField] private bool firstQuestion;
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI countText;
+    public GameObject[] panelResult;
     public GameObject currentObject;
     public GameObject nextObject;
     public bool respone;
@@ -22,7 +24,7 @@ public class TestManager : MonoBehaviour
 
     private int index = 0;
     private int score;
-    //private int count;
+    private int count;
 
 
     private void Awake()
@@ -32,12 +34,13 @@ public class TestManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Score" + level, 0);
             PlayerPrefs.SetInt("Count" + level, 0);
+            PlayerPrefs.SetInt("Count" + level, 1);
         }
 
         score = PlayerPrefs.GetInt("Score" + level, score);
-        //count = PlayerPrefs.GetInt("Count" + level, count);
+        count = PlayerPrefs.GetInt("Count" + level, count);
 
-        scoreText.text = "Score: " + score.ToString() + "/10";
+        scoreText.text = "Score: " + score.ToString();
         //processbar.fillAmount = (count++) / 10f;
 
     }
@@ -55,7 +58,7 @@ public class TestManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+        
     }
 
 
@@ -63,6 +66,9 @@ public class TestManager : MonoBehaviour
     {
         if (index < questionNum)
         {
+            panelResult[0].SetActive(false);
+            panelResult[1].SetActive(false);
+            countText.text = "Question " + count + " of " + "10";
             int val = Random.Range(0, questions.Count);
             selectedQuestion = questions[val];
             testUI.SetQuestion(selectedQuestion);
@@ -71,7 +77,7 @@ public class TestManager : MonoBehaviour
         }
         else
         {
-            Invoke("EndQuiz", 1.5f);
+            Invoke("EndQuiz", 2.5f);
         }
     }
 
@@ -90,12 +96,12 @@ public class TestManager : MonoBehaviour
         {
             correctAnswer = true;
             score += 1;
-            scoreText.text = "Score: " + score.ToString() + "/10";
+            scoreText.text = "Score: " + score.ToString();
         }
 
+        PlayerPrefs.SetInt("Count" + level, count++);
         PlayerPrefs.SetInt("Score" + level, score);
-        //PlayerPrefs.SetInt("Count" + level, count++);
-        Invoke("SelectQuestion", 3.0f);
+        Invoke("SelectQuestion", 4.0f);
         return correctAnswer;
     }
 }

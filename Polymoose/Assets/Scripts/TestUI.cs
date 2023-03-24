@@ -95,13 +95,15 @@ public class TestUI : MonoBehaviour
 
             if (val)
             {
-                btn.image.color = new Color32(70, 202, 78, 255);
+                //btn.image.color = new Color32(70, 202, 78, 255);
+                testManager.panelResult[0].SetActive(true);
                 correctClip.Play();
                 Debug.Log("Corret!");
             }
             else
             {
-                btn.image.color = new Color32(255, 51, 51, 255);
+                //btn.image.color = new Color32(255, 51, 51, 255);
+                testManager.panelResult[1].SetActive(true);
                 wrongClip.Play();
                 Debug.Log("Wrong!");
             }
