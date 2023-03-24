@@ -9,8 +9,11 @@ public class PauseManager : MonoBehaviour
 {
     [SerializeField] private Button settingsButton;
     [SerializeField] private Button backButton;
+    [SerializeField] private Button retryButton;
+    [SerializeField] private Button menuBttuon;
     [SerializeField] AudioSource[] allAudioSources;
     [SerializeField] VideoPlayer[] allVideoPlayer;
+    [SerializeField] private int level;
     [SerializeField] private Player player;
     [SerializeField] private bool isWalk;
 
@@ -19,9 +22,11 @@ public class PauseManager : MonoBehaviour
     {
         settingsButton.onClick.AddListener(Pause);
         backButton.onClick.AddListener(Resume);
+        retryButton.onClick.AddListener(SetTime);
+        menuBttuon.onClick.AddListener(SetTime);
     }
 
-  
+
     void Resume()
     {
         if (isWalk)
@@ -85,5 +90,11 @@ public class PauseManager : MonoBehaviour
             allVideoPlayer[i].playbackSpeed = 0;
         }
     }
+
+    void SetTime()
+    {
+        Time.timeScale = 1;
+    }
+
 
 }
