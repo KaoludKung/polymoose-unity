@@ -94,6 +94,7 @@ public class PauseManager : MonoBehaviour
     void SetTime()
     {
         Time.timeScale = 1;
+        MusicPlay.instance.GetComponent<AudioSource>().UnPause();
     }
 
 
