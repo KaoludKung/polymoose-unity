@@ -124,7 +124,7 @@ public class QuizManager : MonoBehaviour
                 itemSource.Play();
                 timeOut.SetActive(true);
                 //PlayerPrefs.SetInt("Count" + level, count++);
-                Invoke("SelectQuestion", 3.2f);
+                Invoke("SelectQuestion", 2.5f);
             }
         }
     }
@@ -200,7 +200,7 @@ public class QuizManager : MonoBehaviour
         PlayerPrefs.SetInt("Combo" + level, combo);
         //PlayerPrefs.SetInt("Count" + level, count++);
         PlayerPrefs.SetInt("Totalcorrect" + level, totalCorrect);
-        Invoke("SelectQuestion", 3.0f);
+        Invoke("SelectQuestion", 2.5f);
         return correctAnswer;
     }
 
